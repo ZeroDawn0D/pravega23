@@ -22,6 +22,9 @@ export default{
 				<router-link to = "/scitech/exhibitions">
 					<Card link = "/img/scitech/Exhibitions.jpg" size = "300px"/>
 				</router-link>
+				<router-link to = "/scitech/PIS">
+					<Card link = "/img/scitech/PIS.jpg" size = "300px"/>
+			    </router-link>
 			</div>
 		</div>
 	</div>
