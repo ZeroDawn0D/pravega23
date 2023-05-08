@@ -19,7 +19,9 @@ export default{
 				<Card link = "/img/scitech/Quadsparks.jpg" size = "300px"/>
 				<Card link = "/img/scitech/BAH.jpg" size = "300px"/>
 				<Card link = "/img/scitech/PIS.jpg" size = "300px"/>
-				<Card link = "/img/scitech/Exhibitions.jpg" size = "300px"/>
+				<router-link to = "/scitech/exhibitions">
+					<Card link = "/img/scitech/Exhibitions.jpg" size = "300px"/>
+				</router-link>
 			</div>
 		</div>
 	</div>
