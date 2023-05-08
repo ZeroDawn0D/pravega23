@@ -18,10 +18,13 @@ export default{
 				<Card link = "/img/scitech/Enumeration.jpg" size = "300px"/>
 				<Card link = "/img/scitech/Quadsparks.jpg" size = "300px"/>
 				<Card link = "/img/scitech/BAH.jpg" size = "300px"/>
+				<Card link = "/img/scitech/PIS.jpg" size = "300px"/>
+				<router-link to = "/scitech/exhibitions">
+					<Card link = "/img/scitech/Exhibitions.jpg" size = "300px"/>
+				</router-link>
 				<router-link to = "/scitech/PIS">
 					<Card link = "/img/scitech/PIS.jpg" size = "300px"/>
 			    </router-link>
-				<Card link = "/img/scitech/Exhibitions.jpg" size = "300px"/>
 			</div>
 		</div>
 	</div>
