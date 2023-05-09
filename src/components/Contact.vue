@@ -341,11 +341,7 @@ export default{
 	align-items: center;
 	flex-wrap: wrap;
 	display: flex;
-}
-.contact{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	justify-content: center;
 }
 
 .description{

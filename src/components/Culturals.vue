@@ -22,7 +22,12 @@ export default{
 				<router-link to = "/carvaan/cities">
 					<Card link = "/img/culturals/Lasya V1.jpg" size = "300px"/>
 				</router-link>
-				
+				<router-link to = "/carvaan/cities">
+					<Card link = "/img/culturals/Alekhya V2.jpg" size = "300px"/>
+				</router-link>
+				<router-link to = "/carvaan/cities">
+					<Card link = "/img/culturals/Proscencium V1.jpg" size = "300px"/>
+				</router-link>
 				
 				
 				
