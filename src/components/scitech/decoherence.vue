@@ -18,7 +18,7 @@
                 <p>Don’t miss out on IISc’s premier Physics extravaganza!</p>
             </div>
             <div class="intro-image">
-                <img src="/img/scitech/deco-pic-2.jfif" alt="scitech" width="100%">
+                <img src="/img/scitech/deco-pic-2.jfif" alt="scitech" width="80%">
             </div>
         </div>
 
@@ -68,8 +68,8 @@
         <div class="coords" id="coords">
             <div class="coord">
                 <div class="coord-img">
-                    <img src="/img/scitech/Samanway_Deco.jpeg" alt="scitech" height="120%" width="35%">
-                </div>
+                    <img src="/img/scitech/Samanway_Deco.jpeg" alt="scitech" height="300px" width="250px">
+                </div><br>
                 <div class="coord-text">
                     <h1>Samanway</h1>
                     <p>samanway2021[at]iisc[at]ac[at]in</p>
@@ -77,8 +77,8 @@
             </div>
             <div class="coord">
                 <div class="coord-img">
-                    <img src="/img/scitech/Vinayaka_Deco.jpeg" alt="scitech" height="100%" width="45%">
-                </div>
+                    <img src="/img/scitech/Vinayaka_Deco.jpeg" alt="scitech" height="300px" width="250px">
+                </div><br>
                 <div class="coord-text">
                     <h1>Vinayaka M</h1>
                     <p>vinayakam[at]iisc[dot]ac[dot]in</p>
@@ -86,10 +86,10 @@
             </div>
             <div class="coord">
                 <div class="coord-img">
-                    <img src="/img/scitech/Gaurav_Deco.jpeg" alt="scitech" height="100%" width="45%">
-                </div>
+                    <img src="/img/scitech/Gaurav_Deco.jpeg" alt="scitech" height="300px" width="250px">
+                </div><br>
                 <div class="coord-text">
-                    <h1>Gaurav Ranchh</h1>
+                    <h1>Gaurav Rachh</h1>
                     <p>gauravrachh[at]iisc[dot]ac[dot]in</p>
                 </div>
             </div>
@@ -200,6 +200,14 @@ li a {
     background-color: #ffffff;
     align-items: center;
     text-align: center;
+    padding: 10px;
+}
+
+.intro-content p{
+    font-size: 2rem;
+}
+.intro-content h1{
+    font-size: 3rem;
 }
 
 .intro-image {
@@ -332,6 +340,11 @@ li a {
     text-align: center;
 }
 
+.coord-img img{
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+}
+
 .content {
     display: flex;
     flex-direction: row;
@@ -389,11 +402,17 @@ li a {
         width: 100vw;
     }
 
-    .big-text,
-    .big-text-2 {
+    .big-text {
         margin-top: 2vh;
         margin-bottom: 5vh;
         margin-left: 8vw;
+        padding-top: 75px;
+        width: 90vw;
+        height: auto;
+    }
+    .big-text-2 {
+        margin-top: 2vh;
+        margin-bottom: 5vh;
         padding-top: 75px;
         width: 90vw;
         height: auto;
@@ -426,6 +445,7 @@ li a {
         background-color: beige;
         margin-top: 3vh;
         border-radius: 10px;
+        height: auto;
     }
 
     .coord-intro {
@@ -439,7 +459,7 @@ li a {
 
     .coords {
         position: relative;
-        top: 32%;
+        top: 40%;
         flex-direction: column;
         justify-content: center;
     }
@@ -453,11 +473,13 @@ li a {
     .coord-img img {
         width: 45vw;
         height: auto;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px grey;
     }
 
     .hof {
         position: relative;
-        top: 53%;
+        top: 72%;
         height: auto;
         text-align: center;
         width: 100vw;
