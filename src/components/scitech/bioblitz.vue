@@ -17,7 +17,10 @@
             <div class="intro-content">
                 <br><br>
                 <h1>Bioblitz</h1><br>
-                <p>The Biology Blitzkreig</p>
+                <p>The Biology Blitzkreig</p><br>
+                <router-link to = "/scitech/bioblitz_register">
+                    <button type="button">Get Started!</button>
+                </router-link>
             </div>
             <div class="intro-image">
                 <img src="/img/scitech/sample1.png" alt="scitech" width="100%">

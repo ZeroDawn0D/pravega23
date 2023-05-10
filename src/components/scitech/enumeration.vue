@@ -17,7 +17,10 @@
             <div class="intro-content">
                 <br><br>
                 <h1>Enumeration</h1><br>
-                <p>To Infinity and beyond</p>
+                <p>To Infinity and beyond</p><br>
+                <router-link to = "/scitech/enumeration_register">
+                    <button type="button">Get Started!</button>
+                </router-link>
             </div>
             <div class="intro-image">
                 <img src="/img/scitech/sample1.png" alt="scitech" width="100%">

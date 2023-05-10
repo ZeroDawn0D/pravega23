@@ -16,7 +16,10 @@
             <div class="intro-content">
                 <br><br>
                 <h1>Chemenigma</h1><br>
-                <p>Some Explosive Brain-wacking Chemistry</p>
+                <p>Some Explosive Brain-wacking Chemistry</p><br>
+                <router-link to = "/scitech/chemenigma_register">
+                    <button type="button">Get Started!</button>
+                </router-link>
             </div>
             <div class="intro-image">
                 <img src="/img/scitech/sample1.png" alt="scitech" width="100%">

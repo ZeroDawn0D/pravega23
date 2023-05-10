@@ -19,7 +19,10 @@
     <div class = "intro-content">
         <br><br>
         <h1>Bad AdHoc Hypothesis</h1><br>
-        <p>Some stuff to look out for</p>
+        <p>Some stuff to look out for</p><br>
+        <router-link to = "/scitech/bah_register">
+                    <button type="button">Get Started!</button>
+        </router-link>
     </div>
     <div class = "intro-image">
         <img src = "/img/scitech/sample1.png" alt = "scitech" width = "100%">

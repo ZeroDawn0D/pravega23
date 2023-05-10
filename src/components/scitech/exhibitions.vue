@@ -20,9 +20,13 @@
         <br><br>
         <h1>Exhibitions</h1><br>
         <p>Some stuff to look out for</p>
+        <router-link to = "/scitech/exhibitions_register">
+                    <button type="button">Get Started!</button>
+        </router-link>
+
     </div>
     <div class = "intro-image">
-        <img src = "/img/scitech/Exhibitions.jpg" alt = "scitech" width = "100%">
+        <img src = "/img/scitech/Exhibitions.jpg" alt = "scitech" width = "80%">
     </div>
 </div>
     
