@@ -22,7 +22,7 @@
                 </router-link>
             </div>
             <div class="intro-image">
-                <img src="/img/scitech/sample1.png" alt="scitech" width="100%">
+                <img src="/img/scitech/sample1.png" alt="scitech">
             </div>
         </div>
 
@@ -81,20 +81,20 @@
 
             <div class="coord">
                 <div class="coord-img">
-                    <img src="/img/scitech/camelia_photo_chemenigma.jpg" alt="scitech" height="120%" width="35%">
-                </div>
+                    <img src="/img/scitech/camelia_photo_chemenigma.jpg" alt="scitech">
+                </div><br>
                 <div class="coord-text">
                     <h1>Camelia Roy</h1>
-                    <p>Mail: chemenigma[dotpravegax[at]gmail[dot]com</p>
+                    <p>Mail: chemenigma[dot]pravegax[at]gmail[dot]com</p>
                 </div>
             </div>
             <div class="coord">
                 <div class="coord-img">
-                    <img src="/img/scitech/priyanshu_photo_chemenigma.jpeg.jpg" alt="scitech" height="100%" width="45%">
-                </div>
+                    <img src="/img/scitech/priyanshu_photo_chemenigma.jpeg.jpg" alt="scitech">
+                </div><br>
                 <div class="coord-text">
                     <h1>Priyanshu Gupta</h1>
-                    <p>Mail: chemenigma[dotpravegax[at]gmail[dot]com</p>
+                    <p>Mail: chemenigma[dot]pravegax[at]gmail[dot]com</p>
                 </div>
             </div>
         </div>
@@ -221,6 +221,13 @@ li a {
     text-align: center;
 }
 
+.intro-image img {
+    width: 80%;
+    background-color: #ffffff;
+    align-items: center;
+    text-align: center;
+}
+
 .declaration {
     display: flex;
     flex-direction: row;
@@ -342,6 +349,13 @@ li a {
     text-align: center;
 }
 
+.coord-img img{
+    width:250px;
+    height:300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+}
+
 .content {
     display: flex;
     flex-direction: row;
@@ -395,15 +409,26 @@ li a {
         width: 100vw;
     }
 
+    .intro-image img {
+        width: 100%;
+    }
+
     .intro-content {
         width: 100vw;
     }
 
-    .big-text,
-    .big-text-2 {
+    .big-text{
         margin-top: 2vh;
         margin-bottom: 5vh;
         margin-left: 8vw;
+        padding-top: 75px;
+        width: 90vw;
+        height: auto;
+    }
+
+    .big-text-2 {
+        margin-top: 2vh;
+        margin-bottom: 5vh;
         padding-top: 75px;
         width: 90vw;
         height: auto;
@@ -429,7 +454,7 @@ li a {
     .prizes {
         padding: 30px;
         text-align: center;
-        margin: 0%;
+        margin: -1%;
     }
 
     .text {
@@ -449,7 +474,7 @@ li a {
 
     .coords {
         position: relative;
-        top: 32%;
+        top: 20%;
         flex-direction: column;
         justify-content: center;
     }
@@ -462,12 +487,12 @@ li a {
 
     .coord-img img {
         width: 45vw;
-        height: auto;
+        height: 60vw;
     }
 
     .hof {
         position: relative;
-        top: 53%;
+        top: 40%;
         height: auto;
         text-align: center;
         width: 100vw;
@@ -476,6 +501,13 @@ li a {
 
     .hof .big-text {
         padding-top: 30px;
+        margin: auto;
+    }
+
+    .quote{
+        position: relative;
+        top: 40%;
+        height: auto;
         margin: auto;
     }
 }</style>

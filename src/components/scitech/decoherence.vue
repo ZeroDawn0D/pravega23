@@ -2,8 +2,8 @@
 </script>
 <template>
     <div class="content-stuff">
-        <div class = "empty">
-        </div>
+        <!--<div class = "empty">
+        </div>-->
         <div class="scitech-navbar">
             <ul>
                 <li><a href="/pdf/DECOHERENCE RULES.docx">Rules</a></li>
@@ -31,7 +31,7 @@
 
 
             <div class="intro-image">
-                <img src="/img/scitech/deco-pic-2.jfif" alt="scitech" width="80%">
+                <img src="/img/scitech/deco-pic-2.jfif" alt="scitech">
             </div>
 
         </div>
@@ -90,14 +90,14 @@
         </div>
 
 
-        <div class="coord-intro">
+        <div class="coord-intro" id="coords">
             <h1>Our Coordinators</h1><br>
             <p> Meet our amazing coordinators. For any query regarding the event, they are your first point of contact! 
         Don't hesistate to mail them at any time of the day, and they will try to reply as soon as possible.</p><br>
         </div>
 
 
-        <div class="coords" id="coords">
+        <div class="coords">
             <div class="coord">
                 <div class="coord-img">
                     <img src="/img/scitech/Samanway_Deco.jpeg" alt="scitech" height="300px" width="250px">
@@ -132,7 +132,7 @@
         <div class="hof" id="hof">
             <br><br>
             <div class="big-text-2" style="width:100vw">
-                <h1>Hall of Fame</h1>
+                <h1>Hall of Fame</h1><br>
             </div>
             <div class="small-text" style="width:100vw">
                 <table>
@@ -170,6 +170,34 @@ Parth Agarwal: Periwal Global School</td>
 </template>
 
 <style scoped>
+
+.content-stuff {
+    position: relative;
+    top: 10vh;
+    height: 90vh;
+    background-color: #ffffff;
+
+    border-top-left-radius: 25px;
+    border-top-right-radius: 30px;
+    overflow-y: scroll;
+}
+ul {
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    padding: 20px;
+    background-color: #ffffff;
+    text-decoration: none;
+}
     .empty{
         height: 10vh;
         width: 100vw;
@@ -177,18 +205,10 @@ Parth Agarwal: Periwal Global School</td>
 
     .scitech-navbar{
         background-color: #ffffff;
+        width: 70vw;
     }
 
-    .scitech-navbar ul{
-        display: flex;
-        flex-direction: row-reverse;
-        gap: 20px;
-        padding-right: 40px;
-    }
-    .scitech-navbar a{
-
-        text-decoration: none;
-    }
+    
     .intro{
         display: flex;
         background-color: #ffffff;
@@ -196,12 +216,16 @@ Parth Agarwal: Periwal Global School</td>
     .intro-content{
         width: 50vw;
         text-align: center;
+        margin-right: 50px;
+        padding: 20px;
     }
     .intro-image{
         width: 50vw;
+        justify-content: center;
+        align-items: center;
     }
     .intro-image img{
-        width: 50vw;
+        width: 40vw;
         height: auto;
     }
 
@@ -232,27 +256,48 @@ Parth Agarwal: Periwal Global School</td>
     .details-1 img{
         width: 50vw;
     }
+
+    .timeline,
+.eligibility,
+.prizes {
+    margin-bottom: 7vh;
+    padding-right: 2vw;
+}
     .coord-intro{
+        position: relative;
+        top: 10%;
         background-color: #ffffff;
         text-align: center;
         padding-left: 20vw;
         padding-right: 20vw;
+        padding-bottom: 10vh ;
+        padding-top: 10vh;
     }
 
     .coords{
+        position: relative;
+        top: 10%;
         display: flex;
         background-color: #ffffff;
         justify-content: space-evenly;
     }
-    .coords img{
-        width: 20vw;
-        height: 20vw;
-        object-fit: cover;
-    }
+    .coord-img img{
+    width:250px;
+    height:300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.coord-text{
+    text-align: center
+}
 
     .hof{
+        position: relative;
+        top:10%;
         background-color: #ffffff;
         text-align: center;
+        padding-bottom: 10vh;
     }
     table {
     font-family: arial, sans-serif;
@@ -268,10 +313,28 @@ th {
     padding: 8px;
 }
 
+.big-text-2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
+
 tr:nth-child(even) {
     background-color: #dddddd;
 }
     @media screen and (max-width:1024px) {
+
+        .scitech-navbar {
+        width: 87vw;
+        justify-content: center;
+    }
+
+    .scitech-navbar li {
+        float: right;
+    }
         .intro-content{
             width: 100vw;
                         padding: 8px;
@@ -280,9 +343,27 @@ tr:nth-child(even) {
         .intro-image{
             width: 100vw;
         }
+        .intro-image img{
+            width: 100vw;
+        }
         .intro{
             flex-direction: column;
         }
+
+        .text,
+    .timeline,
+    .eligibility,
+    .prizes {
+        padding: 30px;
+        text-align: center;
+        margin: -1%;
+    }
+
+    .details-2 {
+        background-color: beige;
+        margin-top: 3vh;
+        border-radius: 10px;
+    }
 
         .declaration{
             flex-direction: column;
@@ -310,11 +391,19 @@ tr:nth-child(even) {
             text-align: center;
             width: 100vw;
         }
+        .coord-intro,.coords,.hof{
+            top:0%;
+        }
         .coords{
             flex-direction: column;
+            gap: 9vh;
             justify-content: center;
             align-items: center;
             text-align: center;
+        }
+        .big-text-2{
+            font-size: 1.5rem;
+            margin-top: 5vh;
         }
     }
 
