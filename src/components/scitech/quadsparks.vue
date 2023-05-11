@@ -93,8 +93,7 @@
         </div>
         <div class="quote">
             <div class="quote-text" style="font-family: 'Times New Roman', Times, serif;">
-                <p> 'Take a step back from the seriousness of science and engage in some light-hearted logical
-discussions'
+                <p> 'Quizzical musings, and a dash of science'
 
                 </p>
             </div>
