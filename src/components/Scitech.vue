@@ -22,7 +22,7 @@ export default {
 				<router-link to="/scitech/enumeration">
 					<Card link="/img/scitech/Enumeration.jpg" size="300px" />
 				</router-link>
-				<router-link to="/scitech/template">
+				<router-link to="/scitech/quadsparks">
 					<Card link="/img/scitech/Quadsparks.jpg" size="300px" />
 				</router-link>
 				<router-link to="/scitech/bah">

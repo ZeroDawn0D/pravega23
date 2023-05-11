@@ -23,7 +23,7 @@
                 </router-link>
             </div>
             <div class="intro-image">
-                <img src="/img/scitech/sample1.png" alt="scitech" width="100%">
+                <img src="/img/scitech/Enumeration.jpg" alt="scitech">
             </div>
         </div>
 
@@ -73,8 +73,8 @@
 
             <div class="coord">
                 <div class="coord-img">
-                    <img src="/img/scitech/rahul_enum_photo.jpeg" alt="scitech" height="120%" width="45%">
-                </div>
+                    <img src="/img/scitech/rahul_enum_photo.jpeg" alt="scitech">
+                </div><br>
                 <div class="coord-text">
                     <h1>Rahul Adhikari</h1>
                     <p>rahuladhikar[dot]iisc[dot]ac[dot]in</p>
@@ -82,8 +82,8 @@
             </div>
             <div class="coord">
                 <div class="coord-img">
-                    <img src="/img/scitech/aryan_photo_enum.jpg" alt="scitech" height="100%" width="45%">
-                </div>
+                    <img src="/img/scitech/aryan_photo_enum.jpg" alt="scitech">
+                </div><br>
                 <div class="coord-text">
                     <h1>Aryan Amin Kazi</h1>
                     <p>aryanamin[at]iisc[dot]ac[dot]in</p>
@@ -113,9 +113,19 @@
                         <th>College</th>
                     </tr>
                     <tr>
-                        <td>To be Updated later</td>
-                        <td>To be Updated later</td>
-                        <td>To be Updated later.</td>
+                        <td>1st</td>
+                        <td>Shantanu Nene and Madhur Agarwal</td>
+                        <td>IIT Bombay</td>
+                    </tr>
+                    <tr>
+                        <td>2nd</td>
+                        <td>Rohan Goyal and Atul Shatavart Nadig  </td>
+                        <td>Chennai Mathematical Institute (CMI)</td>
+                    </tr>
+                    <tr>
+                        <td>3rd</td>
+                        <td>Arindam Bhattacharya and Hrishikesh Saikia </td>
+                        <td>Chennai Mathematical Institute (CMI)</td>
                     </tr>
                 </table>
             </div>
@@ -207,6 +217,13 @@ li a {
     text-align: center;
 }
 
+.intro-content h1{
+    font-size: 5rem;
+}
+.intro-content p{
+    font-size: 3rem;
+}
+
 .intro-image {
     position: relative;
     height: 90vh;
@@ -214,6 +231,9 @@ li a {
     background-color: #ffffff;
     align-items: center;
     text-align: center;
+}
+.intro-image img{
+    width:80%;
 }
 
 .declaration {
@@ -337,6 +357,13 @@ li a {
     text-align: center;
 }
 
+.coord-img img{
+    width:250px;
+    height:300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+}
+
 .content {
     display: flex;
     flex-direction: row;
@@ -369,7 +396,7 @@ li a {
     }
 
     .scitech-navbar {
-        width: 87vw;
+        width: 100vw;
         justify-content: center;
     }
 
@@ -393,12 +420,24 @@ li a {
     .intro-content {
         width: 100vw;
     }
+    .intro-content h1{
+        font-size: 3rem;
+    }
+    .intro-content p{
+        font-size: 2rem;
+    }
 
-    .big-text,
-    .big-text-2 {
+    .big-text{
         margin-top: 2vh;
         margin-bottom: 5vh;
         margin-left: 8vw;
+        padding-top: 75px;
+        width: 90vw;
+        height: auto;
+    }
+    .big-text-2 {
+        margin-top: 2vh;
+        margin-bottom: 5vh;
         padding-top: 75px;
         width: 90vw;
         height: auto;
@@ -457,12 +496,12 @@ li a {
 
     .coord-img img {
         width: 45vw;
-        height: auto;
+        height: 60vw;
     }
 
     .hof {
         position: relative;
-        top: 53%;
+        top: 45%;
         height: auto;
         text-align: center;
         width: 100vw;
@@ -472,6 +511,10 @@ li a {
     .hof .big-text {
         padding-top: 30px;
         margin: auto;
+    }
+    .quote{
+        position: relative;
+        top:50%;
     }
 }
 </style>

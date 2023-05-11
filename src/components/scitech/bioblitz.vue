@@ -23,7 +23,7 @@
                 </router-link>
             </div>
             <div class="intro-image">
-                <img src="/img/scitech/sample1.png" alt="scitech" width="100%">
+                <img src="/img/scitech/sample1.png" alt="scitech">
             </div>
         </div>
 
@@ -68,16 +68,16 @@
                 </div>
             </div>
         </div>
-        <div class="coord-intro">
+        <div class="coord-intro" id="coords">
             <h1>Our Coordinators</h1><br>
             <p> Meet our amazing coordinators. For any query regarding the event, they are your first point of contact!
                 Don't hesistate to mail them at any time of the day, and they will try to reply as soon as possible.</p><br>
         </div>
-        <div class="coords" id="coords">
+        <div class="coords">
             <div class="coord">
                 <div class="coord-img">
-                    <img src="/img/scitech/Anu.jpg" alt="scitech" height="120%" width="35%">
-                </div>
+                    <img src="/img/scitech/Anu.jpg" alt="scitech">
+                </div><br>
                 <div class="coord-text">
                     <h1>Anurag Chittawar</h1>
                     <p>bioblitz[dot]pravega[at]gmail[dot]com</p>
@@ -85,8 +85,8 @@
             </div>
             <div class="coord">
                 <div class="coord-img">
-                    <img src="/img/scitech/Shinjini.jpg" alt="scitech" height="100%" width="45%">
-                </div>
+                    <img src="/img/scitech/Shinjini.jpg" alt="scitech">
+                </div><br>
                 <div class="coord-text">
                     <h1>Shinjini Mandal</h1>
                     <p>bioblitz[dot]pravega[at]gmail[dot]com</p>
@@ -177,6 +177,7 @@ table {
     border-collapse: collapse;
     width: 80%;
     margin: auto;
+    padding-bottom: 50px;
 }
 
 td,
@@ -263,6 +264,9 @@ li a {
     align-items: center;
     text-align: center;
 }
+.intro-image img {
+    width: 80%;
+}
 
 .declaration {
     display: flex;
@@ -318,6 +322,13 @@ li a {
     text-align: center;
 }
 
+.intro-content h1{
+    font-size: 5rem;
+}
+.intro-content p{
+    font-size: 3rem;
+}
+
 .small-text {
     font-size: 1.2vw;
     position: relative;
@@ -344,7 +355,7 @@ li a {
 .text {
     display: flex;
     flex-direction: column;
-    height: 90vh;
+    height: auto;
     width: 50vw;
     padding-top: 5vw;
     background-color: #ffffff;
@@ -383,6 +394,12 @@ li a {
     background-color: #ffffff;
     align-items: right;
     text-align: center;
+}
+.coord-img img{
+    width:250px;
+    height:300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
 }
 
 .content {
@@ -442,12 +459,28 @@ li a {
         width: 100vw;
     }
 
-    .big-text,
-    .big-text-2 {
+    .intro-content h1{
+        font-size: 3rem;
+    }
+
+    
+    .intro-content p{
+        font-size: 2rem;
+    }
+
+    .big-text {
         margin-top: 2vh;
         margin-bottom: 5vh;
         margin-left: 8vw;
         padding-top: 75px;
+        width: 90vw;
+        height: auto;
+    }
+
+    .big-text-2 {
+        margin-top: 2vh;
+        margin-bottom: 5vh;
+        padding-top: 20px;
         width: 90vw;
         height: auto;
     }
@@ -492,7 +525,7 @@ li a {
 
     .coords {
         position: relative;
-        top: 32%;
+        top: 25%;
         flex-direction: column;
         justify-content: center;
     }
@@ -505,12 +538,12 @@ li a {
 
     .coord-img img {
         width: 45vw;
-        height: auto;
+        height: 60vw;
     }
 
     .hof {
         position: relative;
-        top: 53%;
+        top: 36%;
         height: auto;
         text-align: center;
         width: 100vw;

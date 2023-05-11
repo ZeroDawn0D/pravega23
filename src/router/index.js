@@ -31,6 +31,8 @@ import enumeration from "../components/scitech/enumeration.vue"
 import exhibitions from "../components/scitech/exhibitions.vue"
 import ideathon from "../components/scitech/Ideathon.vue"
 import pis from "../components/scitech/PIS.vue"
+import quadsparks from "../components/scitech/quadsparks.vue"
+import hoco from "../components/scitech/hoco.vue"
 /*import Delhi from "../components/carvaan/Delhi.vue"
 
 
@@ -80,6 +82,8 @@ const routes = [
 	{path: "/scitech/exhibitions", name:"exhibitions",component:exhibitions},
 	{path: "/scitech/ideathon", name:"ideathon",component:ideathon},
 	{path: "/scitech/pis", name:"pis",component:pis},
+	{path: "/scitech/quadsparks", name:"quadsparks",component:quadsparks},
+	{path: "/scitech/hoco", name:"hoco",component:hoco},
 	
 	
 	

@@ -118,9 +118,24 @@
                         <th>College</th>
                     </tr>
                     <tr>
-                        <td>To be Updated later</td>
-                        <td>To be Updated later</td>
-                        <td>To be Updated later.</td>
+                        <td>1st</td>
+                        <td>Priyanshu Jaseja and Sahil Yadav </td>
+                        <td>MAMC,Delhi and AIIMS,Delhi </td>
+                    </tr>
+                    <tr>
+                        <td>2nd</td>
+                        <td>Supratik Ghosh</td>
+                        <td>RM Vidyamandira Belur</td>
+                    </tr>
+                    <tr>
+                        <td>3rd</td>
+                        <td>Subhajit Chakraborty and Sayantan Khan  </td>
+                        <td>IISER Kolkata</td>
+                    </tr>
+                    <tr>
+                        <td>4th</td>
+                        <td>Snehadeep Gayen and Yeshwanth Narayana </td>
+                        <td>IIT Madras</td>
                     </tr>
                 </table>
             </div>
@@ -210,6 +225,12 @@ li a {
     background-color: #ffffff;
     align-items: center;
     text-align: center;
+}
+.intro-content h1{
+    font-size: 5rem;
+}
+.intro-content p{
+    font-size: 3rem;
 }
 
 .intro-image {
@@ -415,6 +436,12 @@ li a {
 
     .intro-content {
         width: 100vw;
+    }
+    .intro-content h1{
+        font-size: 3rem;
+    }
+    .intro-content p{
+        font-size: 2rem;
     }
 
     .big-text{

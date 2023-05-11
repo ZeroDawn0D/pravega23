@@ -6,8 +6,8 @@
 
         <div class="scitech-navbar">
             <ul>
-                <li><a href="/pdf/Exhibitions Rules.pdf">Rules</a></li>
-                <li><a href="#coords">Contact</a></li>
+                <li><a href="\pdf\Quadsparks_rules and regulations.pdf">Rules</a></li>
+                <li><a href="\pdf\sample questions.pdf">Sample Questions</a></li>
                 <li><a href="#hof">Hall of Fame</a></li>
             </ul>
         </div>
@@ -15,26 +15,26 @@
         <div class="intro">
             <div class="intro-content">
                 <br><br>
-                <h1>Exhibitons</h1><br>
-                <p>From the book to the lab</p><br>
-                <router-link to = "/scitech/exhibitions_register">
+                <h1>Quadsparks</h1><br>
+                <p>For the Quizzically Inclined</p><br>
+                <!--<router-link to = "/scitech/bah_register">
                     <button type="button">Get Started!</button>
-                </router-link>
+                </router-link>-->
             </div>
             <div class="intro-image">
-                <img src="/img/scitech/Exhibitions.jpg" alt="scitech">
+                <img src="/img/scitech/Quadsparks.jpg" alt="scitech">
             </div>
         </div>
 
         <div class="declaration">
             <div class="big-text" style="background-color: #ebf234;">
-                <h1>Don't miss out on <br> IISc's marquee exhibitions event</h1>
+                <h1>Don't miss out on <br> IISc's Premier Quizzing Event</h1>
             </div>
             <div class="small-text" style="background-color: #ebf234;">
-                <p>Here is a chance to challenge your practical skills. Time to have fun playing around and experimenting with ideas, and trying to implement them!
+                <p>
+                    The premier high school quiz contest of Pravega, Quadsparks, calls upon young, bright minds of the country to compete in a clash of wits. Covering a broad base of science-related themes, ranging from basic science and contemporary research, to pop culture and technology, Quadsparks promises to test your prowess in critical thinking, aptitude and quizzing simultaneously.
 
-IISc Exhibitions here at Pravega brings to you a one-of-its-kind of contest that would poke your curiosity and make you whack your brains. Identify a real-world problem. , use YOUR brains to think of ideas to solve it and try to realise them! 
-</p>
+                </p>
             </div>
         </div>
 
@@ -45,22 +45,22 @@ IISc Exhibitions here at Pravega brings to you a one-of-its-kind of contest that
             <div class="text">
                 <div class="timeline">
                     <h1>Timeline</h1><br>
-                    <p> Will be updated soon.
+                    <p> Prelims 1: 24th June
                     </p><br>
                 </div>
                 <div class="eligibility">
                     <h1>Eligibility</h1><br>
-                    <p> Please refer to the rules and regulations document for this.
+                    <p> 9th-12th High School
                     </p><br>
                 </div>
                 <div class="prizes">
                     <h1>Prizes</h1><br>
-                    <p> The event will have Prizes of up to 20k.
+                    <p> The event will have Prizes of up to 1 lakh.
                     </p>
                 </div>
             </div>
         </div>
-        <div class="coord-intro" id="coords">
+        <div class="coord-intro" id ="coords">
             <h1>Our Coordinators</h1><br>
 
             <p> Meet our amazing coordinators. For any query regarding the event, they are your first point of contact!
@@ -74,26 +74,28 @@ IISc Exhibitions here at Pravega brings to you a one-of-its-kind of contest that
 
             <div class="coord">
                 <div class="coord-img">
-                    <img src="\img\scitech\Deep_Exhibitions.jpeg" alt="scitech">
+                    <img src="\img\scitech\chethana.jpg" alt="scitech">
                 </div><br>
                 <div class="coord-text">
-                    <h1>Deep Bhowmik</h1>
-                    <p>Mail: deepbhowmik[at]iisc[dot]ac[dot]in</p>
+                    <h1>Chethana Nair</h1>
+                    <p>Mail: pravega[dot]quadsparks[at]gmail[dot]com</p>
                 </div>
             </div>
             <div class="coord">
                 <div class="coord-img">
-                    <img src="\img\scitech\HVD_Exhibitions.jpeg" alt="scitech">
+                    <img src="\img\scitech\amrit.jpg" alt="scitech">
                 </div><br>
                 <div class="coord-text">
-                    <h1>Harsh Vardhan Dewangan</h1>
-                    <p>Mail: vardhand[at]iisc[dot]ac[dot]in</p>
+                    <h1>Amrit M Joseph</h1>
+                    <p>Mail: pravega[dot]quadsparks[at]gmail[dot]com</p>
                 </div>
             </div>
         </div>
-       <!-- <div class="quote">
+        <div class="quote">
             <div class="quote-text" style="font-family: 'Times New Roman', Times, serif;">
-                <p> Understanding reaction intermediates give ideas to new reactions...
+                <p> 'Take a step back from the seriousness of science and engage in some light-hearted logical
+discussions'
+
                 </p>
             </div>
         </div>
@@ -111,28 +113,23 @@ IISc Exhibitions here at Pravega brings to you a one-of-its-kind of contest that
                         <th>College</th>
                     </tr>
                     <tr>
-                        <td>1st</td>
-                        <td>Priyanshu Jaseja and Sahil Yadav </td>
-                        <td>MAMC,Delhi and AIIMS,Delhi </td>
+                        <td>Winner</td>
+                        <td>Shruto Kalyan Dey, Siddhartha Bondopadhyay </td>
+                        <td>The Heritage School, Kolkata</td>
                     </tr>
                     <tr>
-                        <td>2nd</td>
-                        <td>Supratik Ghosh</td>
-                        <td>RM Vidyamandira Belur</td>
+                        <td>1st Runner Up</td>
+                        <td>Varun Sinha, Soham Pednekar  </td>
+                        <td>Pewar Public School, Mumbai</td>
                     </tr>
                     <tr>
-                        <td>3rd</td>
-                        <td>Subhajit Chakraborty and Sayantan Khan  </td>
-                        <td>IISER Kolkata</td>
-                    </tr>
-                    <tr>
-                        <td>4th</td>
-                        <td>Snehadeep Gayen and Yeshwanth Narayana </td>
-                        <td>IIT Madras</td>
+                        <td>2nd Runner Up</td>
+                        <td>Nidhish Palanikumar, Darshana Ambulkar </td>
+                        <td>St. Paul’s English School, Bengaluru</td>
                     </tr>
                 </table>
             </div>
-        </div>-->
+        </div>
     </div>
 </template>
 

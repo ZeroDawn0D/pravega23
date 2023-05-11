@@ -6,7 +6,7 @@
 
         <div class="scitech-navbar">
             <ul>
-                <li><a href="/pdf/Exhibitions Rules.pdf">Rules</a></li>
+                <li><a href="/pdf/honourcode_rules.docx">Rules</a></li>
                 <li><a href="#coords">Contact</a></li>
                 <li><a href="#hof">Hall of Fame</a></li>
             </ul>
@@ -15,26 +15,28 @@
         <div class="intro">
             <div class="intro-content">
                 <br><br>
-                <h1>Exhibitons</h1><br>
-                <p>From the book to the lab</p><br>
-                <router-link to = "/scitech/exhibitions_register">
+                <h1>Honour Code</h1><br>
+                <p>Code and Smack Thy Keyboard</p><br>
+                <router-link to = "/scitech/bah_register">
                     <button type="button">Get Started!</button>
                 </router-link>
             </div>
             <div class="intro-image">
-                <img src="/img/scitech/Exhibitions.jpg" alt="scitech">
+                <img src="/img/scitech/BAH.jpg" alt="scitech">
             </div>
         </div>
 
         <div class="declaration">
             <div class="big-text" style="background-color: #ebf234;">
-                <h1>Don't miss out on <br> IISc's marquee exhibitions event</h1>
+                <h1>Don't miss out on <br> IISc's Premier Coding Event</h1>
             </div>
             <div class="small-text" style="background-color: #ebf234;">
-                <p>Here is a chance to challenge your practical skills. Time to have fun playing around and experimenting with ideas, and trying to implement them!
+                <p>
+                    Honor Code is Pravega's very own competitive programming contest. 
+                    Get ready to face vicious time and memory restrictions to solve fascinating computational tasks and stand a chance to win amazing games!<br>
+                    The competition will be organised on the CodeChef Platform. For more details, please check the Rules and Regulations documents. Registered participants will be given instructions through email.
 
-IISc Exhibitions here at Pravega brings to you a one-of-its-kind of contest that would poke your curiosity and make you whack your brains. Identify a real-world problem. , use YOUR brains to think of ideas to solve it and try to realise them! 
-</p>
+                </p>
             </div>
         </div>
 
@@ -45,22 +47,22 @@ IISc Exhibitions here at Pravega brings to you a one-of-its-kind of contest that
             <div class="text">
                 <div class="timeline">
                     <h1>Timeline</h1><br>
-                    <p> Will be updated soon.
+                    <p> Prelims 1: 26th Aug
                     </p><br>
                 </div>
                 <div class="eligibility">
                     <h1>Eligibility</h1><br>
-                    <p> Please refer to the rules and regulations document for this.
+                    <p> 10-12th high school, 1st and 2nd Year Undergrads
                     </p><br>
                 </div>
                 <div class="prizes">
                     <h1>Prizes</h1><br>
-                    <p> The event will have Prizes of up to 20k.
+                    <p> The event will have Prizes of up to 35k.
                     </p>
                 </div>
             </div>
         </div>
-        <div class="coord-intro" id="coords">
+        <div class="coord-intro" id ="coords">
             <h1>Our Coordinators</h1><br>
 
             <p> Meet our amazing coordinators. For any query regarding the event, they are your first point of contact!
@@ -74,29 +76,22 @@ IISc Exhibitions here at Pravega brings to you a one-of-its-kind of contest that
 
             <div class="coord">
                 <div class="coord-img">
-                    <img src="\img\scitech\Deep_Exhibitions.jpeg" alt="scitech">
+                    <img src="\img\scitech\Snehasish.jpg" alt="scitech">
                 </div><br>
                 <div class="coord-text">
-                    <h1>Deep Bhowmik</h1>
-                    <p>Mail: deepbhowmik[at]iisc[dot]ac[dot]in</p>
-                </div>
-            </div>
-            <div class="coord">
-                <div class="coord-img">
-                    <img src="\img\scitech\HVD_Exhibitions.jpeg" alt="scitech">
-                </div><br>
-                <div class="coord-text">
-                    <h1>Harsh Vardhan Dewangan</h1>
-                    <p>Mail: vardhand[at]iisc[dot]ac[dot]in</p>
+                    <h1>Snehashish Ghosh</h1>
+                    <p>Mail: praveha[dot]hcode[at]gmail[dot]com</p>
                 </div>
             </div>
         </div>
-       <!-- <div class="quote">
+        <!--<div class="quote">
             <div class="quote-text" style="font-family: 'Times New Roman', Times, serif;">
-                <p> Understanding reaction intermediates give ideas to new reactions...
+                <p> 'Take a step back from the seriousness of science and engage in some light-hearted logical
+discussions'
+
                 </p>
             </div>
-        </div>
+        </div>-->
 
         <div class="hof" id="hof">
             <br><br>
@@ -108,31 +103,26 @@ IISc Exhibitions here at Pravega brings to you a one-of-its-kind of contest that
                     <tr>
                         <th>Position</th>
                         <th>Names of the winners</th>
-                        <th>College</th>
                     </tr>
                     <tr>
                         <td>1st</td>
-                        <td>Priyanshu Jaseja and Sahil Yadav </td>
-                        <td>MAMC,Delhi and AIIMS,Delhi </td>
+                        <td>Takuki Kurokawa</td>
                     </tr>
                     <tr>
                         <td>2nd</td>
-                        <td>Supratik Ghosh</td>
-                        <td>RM Vidyamandira Belur</td>
+                        <td>Utkarsh Darolia</td>
                     </tr>
                     <tr>
                         <td>3rd</td>
-                        <td>Subhajit Chakraborty and Sayantan Khan  </td>
-                        <td>IISER Kolkata</td>
+                        <td>Aryan Agarwala</td>
                     </tr>
                     <tr>
                         <td>4th</td>
-                        <td>Snehadeep Gayen and Yeshwanth Narayana </td>
-                        <td>IIT Madras</td>
+                        <td>Tanmay Gangwar</td>
                     </tr>
                 </table>
             </div>
-        </div>-->
+        </div>
     </div>
 </template>
 
