@@ -16,7 +16,7 @@
             <div class="intro-content">
                 <br><br>
                 <h1>Pravega Innovation summit</h1><br>
-                <p>Some Explosive Brain-wacking Chemistry</p><br>
+                <p>From Idea to Impact</p><br>
                 <router-link to = "/scitech/pis_register">
                     <button type="button">Get Started!</button>
                 </router-link>

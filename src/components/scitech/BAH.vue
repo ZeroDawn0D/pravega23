@@ -28,7 +28,7 @@
 
         <div class="declaration">
             <div class="big-text" style="background-color: #ebf234;">
-                <h1>Don't miss out on <br> IISc's Premier Chemistry Event</h1>
+                <h1>Don't miss out on <br> IISc's Premier AdHoc Event</h1>
             </div>
             <div class="small-text" style="background-color: #ebf234;">
                 <p>
@@ -81,7 +81,7 @@ In the prelims, contestants have to submit a concise alpha presentation, a rough
                 </div><br>
                 <div class="coord-text">
                     <h1>Paravathy S Kumplayil</h1>
-                    <p>Mail: bah[dot]pravegax[at]gmail[dot]com</p>
+                    <p>Mail: bah[dot]pravega[at]gmail[dot]com</p>
                 </div>
             </div>
             <div class="coord">
@@ -90,7 +90,7 @@ In the prelims, contestants have to submit a concise alpha presentation, a rough
                 </div><br>
                 <div class="coord-text">
                     <h1>Diya Sarkar</h1>
-                    <p>Mail: bah[dot]pravegax[at]gmail[dot]com</p>
+                    <p>Mail: bah[dot]pravega[at]gmail[dot]com</p>
                 </div>
             </div>
         </div>

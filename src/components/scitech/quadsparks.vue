@@ -16,10 +16,13 @@
             <div class="intro-content">
                 <br><br>
                 <h1>Quadsparks</h1><br>
-                <p>For the Quizzically Inclined</p><br>
-                <!--<router-link to = "/scitech/bah_register">
+                <p>Quizzical musings, and a dash of science</p><br>
+                <router-link to = "/scitech/quadsparks_register">
                     <button type="button">Get Started!</button>
-                </router-link>-->
+                </router-link>
+                <br>
+                <br><br>
+                <p>PS: The discount coupon registrations will begin soon, fret not!</p>
             </div>
             <div class="intro-image">
                 <img src="/img/scitech/Quadsparks.jpg" alt="scitech">
@@ -91,19 +94,20 @@
                 </div>
             </div>
         </div>
-        <div class="quote">
+       <!-- <div class="quote">
             <div class="quote-text" style="font-family: 'Times New Roman', Times, serif;">
-                <p> 'Quizzical musings, and a dash of science'
+                <p> 
 
                 </p>
             </div>
-        </div>
+        </div> -->
 
         <div class="hof" id="hof">
             <br><br>
             <div class="big-text-2" style="width:100vw">
                 <h1>Hall of Fame</h1>
             </div>
+            <h2>Year 2022</h2><br>
             <div class="small-text" style="width:100vw">
                 <table>
                     <tr>

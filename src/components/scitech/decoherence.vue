@@ -134,6 +134,7 @@
             <div class="big-text-2" style="width:100vw">
                 <h1>Hall of Fame</h1><br>
             </div>
+            <h2>Year 2022</h2><br>
             <div class="small-text" style="width:100vw">
                 <table>
                     <tr>

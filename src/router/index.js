@@ -18,6 +18,7 @@ import scitech_template from "../components/scitech/template.vue"
 import deco_register from "../components/scitech/deco_register.vue"
 import chemenigma_register from "../components/scitech/chemenigma_register.vue"
 import bioblitz_register from "../components/scitech/bioblitz_register.vue"
+import quadsparks_register from "../components/scitech/quadsparks_register.vue"
 import bah_register from "../components/scitech/bah_register.vue"
 import enumeration_register from "../components/scitech/enumeration_register.vue"
 import exhibitions_register from "../components/scitech/exhibitions_register.vue"
@@ -69,6 +70,7 @@ const routes = [
 	{path: "/scitech/deco_register", name:"deco_register",component:deco_register},
 	{path: "/scitech/chemenigma_register", name:"chemenigma_register",component:chemenigma_register},
 	{path: "/scitech/bioblitz_register", name:"bioblitz_register",component:bioblitz_register},
+	{path: "/scitech/quadsparks_register", name:"quadsparks_register",component:quadsparks_register},
 	{path: "/scitech/bah_register", name:"bah_register",component:bah_register},
 	{path: "/scitech/enumeration_register", name:"enumeration_register",component:enumeration_register},
 	{path: "/scitech/exhibitions_register", name:"exhibitions_register",component:exhibitions_register},
