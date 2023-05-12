@@ -141,7 +141,7 @@ export default{
 				</div>
 				<div class ="flex">
 					<Card2 
-					dataImage="/img/people/Naman.jpeg"
+					dataImage="/img/people/unknown.jpeg"
 					size = "250px"
 					title = "Satyadarshi"
 					hover = "9709997353
