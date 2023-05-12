@@ -22,7 +22,7 @@
                 </router-link>
                 <br>
                 <br><br>
-                <p>PS: The discount coupon registrations will begin soon, fret not!</p>
+                <h3>PS: The discount coupon registrations will begin soon, fret not!</h3>
             </div>
             <div class="intro-image">
                 <img src="/img/scitech/Quadsparks.jpg" alt="scitech">
@@ -368,6 +368,7 @@ li a {
     height:300px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px grey;
+    object-fit: cover;
 }
 
 .content {

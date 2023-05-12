@@ -8,7 +8,6 @@ import Workshop from "../components/Workshop.vue"
 import Merchandise from "../components/Merchandise.vue"
 import Sponsors from "../components/Sponsors.vue"
 import Contact from "../components/Contact.vue"
-import Carvaan_registrations from "../components/carvaan/carvaan_register.vue"
 import Register from "../components/carvaan/Register.vue"
 import Register2 from "../components/aaghaz/aaghaaz_register.vue"
 import Cities from "../components/carvaan/Cities.vue"
@@ -30,7 +29,6 @@ import bioblitz from "../components/scitech/bioblitz.vue"
 import bah from "../components/scitech/BAH.vue"
 import enumeration from "../components/scitech/enumeration.vue"
 import exhibitions from "../components/scitech/exhibitions.vue"
-import ideathon from "../components/scitech/Ideathon.vue"
 import pis from "../components/scitech/PIS.vue"
 import quadsparks from "../components/scitech/quadsparks.vue"
 import hoco from "../components/scitech/hoco.vue"
@@ -83,7 +81,6 @@ const routes = [
 	{path: "/scitech/bah", name:"bah",component:bah},
 	{path: "/scitech/enumeration", name:"enumeration",component:enumeration},
 	{path: "/scitech/exhibitions", name:"exhibitions",component:exhibitions},
-	{path: "/scitech/ideathon", name:"ideathon",component:ideathon},
 	{path: "/scitech/pis", name:"pis",component:pis},
 	{path: "/scitech/quadsparks", name:"quadsparks",component:quadsparks},
 	{path: "/scitech/hoco", name:"hoco",component:hoco},

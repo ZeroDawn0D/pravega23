@@ -28,12 +28,12 @@
 
         <div class="declaration">
             <div class="big-text" style="background-color: #ebf234;">
-                <h1>Don't miss out on <br> IISc's Premier AdHoc Event</h1>
+                <h1>Don't miss out on <br> one of Pravega's most quirky and fun events!</h1>
             </div>
             <div class="small-text" style="background-color: #ebf234;">
                 <p>
                     Bad Ad Hoc Hypotheses is a celebration of clear logical thinking and creativity. Join us for a fun, refreshing event and present your whacky ideas and stand a chance to win
-exciting prizes.and working in the labs.  <br>
+exciting prizes.<br>
 In the prelims, contestants have to submit a concise alpha presentation, a rough sketch of their concept as well as a teaser trailer via email. Participants are encouraged to have a look at the BAH Youtube channel for an idea.
  The finals will involve some out-of-the-box, funky presentations at the IISc Campus. See ya there!
 
@@ -53,7 +53,7 @@ In the prelims, contestants have to submit a concise alpha presentation, a rough
                 </div>
                 <div class="eligibility">
                     <h1>Eligibility</h1><br>
-                    <p> Anyone.
+                    <p> Anyone (with proper mention of it, if option not present in the registration forms)
                     </p><br>
                 </div>
                 <div class="prizes">
@@ -363,6 +363,7 @@ li a {
     height:300px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px grey;
+    object-fit: cover;
 }
 
 .content {

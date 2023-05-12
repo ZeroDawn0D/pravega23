@@ -98,6 +98,7 @@ discussions'
             <div class="big-text-2" style="width:100vw">
                 <h1>Hall of Fame</h1>
             </div>
+            <h2>Year 2022</h2><br>
             <div class="small-text" style="width:100vw">
                 <table>
                     <tr>
@@ -358,6 +359,7 @@ li a {
     height:300px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px grey;
+    object-fit: cover;
 }
 
 .content {

@@ -127,7 +127,35 @@
                     <p>gauravrachh[at]iisc[dot]ac[dot]in</p>
                 </div>
             </div>
+        </div><br><br>
+
+        <div class="coord-intro" id="coords">
+            <h1>Heads of Question Making Committee</h1><br>
+            <p>The true brains behind the most wacky, creative, and tear-inducing questions! Our QMC Heads deserve all the recognition and praise for their continuous hardwork</p><br>
         </div>
+
+
+        <div class="coords">
+            <div class="coord">
+                <div class="coord-img">
+                    <img src="/img/scitech/Anindya_STEMposium.jpeg" alt="scitech" height="300px" width="250px">
+                </div><br>
+                <div class="coord-text">
+                    <h1>Anindya Guria</h1>
+                    <p>Mail: anindyaguria[at]iisc[dot]ac[dot]in</p>
+                </div>
+            </div>
+
+            <div class="coord">
+                <div class="coord-img">
+                    <img src="/img/scitech/Vinayaka_Deco.jpeg" alt="scitech" height="300px" width="250px">
+                </div><br>
+                <div class="coord-text">
+                    <h1>Anubhav Srivastava</h1>
+                    <p>Mail: </p>
+                </div>
+            </div>
+        </div>    
 
         <div class="hof" id="hof">
             <br><br>
@@ -287,6 +315,7 @@ li a {
     height:300px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px grey;
+    object-fit: cover;
 }
 
 .coord-text{

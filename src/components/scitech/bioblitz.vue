@@ -401,6 +401,7 @@ li a {
     height:300px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px grey;
+    object-fit: cover;
 }
 
 .content {
