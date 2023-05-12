@@ -80,7 +80,7 @@
                 </div><br>
                 <div class="coord-text">
                     <h1>Snehashish Ghosh</h1>
-                    <p>Mail: praveha[dot]hcode[at]gmail[dot]com</p>
+                    <p>Mail: pravega[dot]hcode[at]gmail[dot]com</p>
                 </div>
             </div>
         </div>
