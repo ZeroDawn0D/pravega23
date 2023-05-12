@@ -1,10 +1,10 @@
 <script>
 import Title from './Title.vue'
 import Soon2 from './Soon2.vue'
-import Card2 from "./Card2.vue"
+import Card3 from "./Card3.vue"
 
 export default{
-	components:{Title, Soon2, Card2}
+	components:{Title, Soon2, Card3}
 }
 </script>
 <template>
@@ -12,19 +12,19 @@ export default{
 		<Title text = "CONTACT" color = "#4cc9f0"/>
 		<div :class = "`content`">
 			<div class = "description">
-				
+
 				<div class = "grad">
 					Chief Coordinators
 				</div>
 
 				<div class ="flex">
-					<Card2 
+					<Card3
 					dataImage="/img/people/Naman.jpeg"
 					size = "250px"
 					title = "Naman"
 					hover = "6398667637
 					 namans@iisc.ac.in" />
-					<Card2 
+					<Card3
 					dataImage="/img/people/Akshank.jpeg"
 					size = "250px"
 					title = "Akshank"
@@ -35,23 +35,23 @@ export default{
 					Sponsorships
 				</div>
 				<div class ="flex">
-					<Card2 
+					<Card3
 					dataImage="/img/people/Shreenabh.png"
 					size = "250px"
 					title = "Shreenabh"
 					hover = "9022411269
 					 shreenabhm@iisc.ac.in" />
-					<Card2 
+					<Card3
 					dataImage="/img/people/Tejus.jpg"
 					size = "250px"
 					title = "Tejus"
 					hover = "8420942839 tejusrohatgi@iisc.ac.in" />
-					<Card2 
+					<Card3
 					dataImage="/img/people/Shreshth.jpg"
 					size = "250px"
 					title = "Shresth"
 					hover = "7388058586 shreshthj@iisc.ac.in" />
-					<Card2
+					<Card3
 					dataImage="/img/people/Jasnoor.jpg"
 					size = "250px"
 					title = "Jasnoor"
@@ -62,13 +62,13 @@ export default{
 					Cultural Events
 				</div>
 				<div class ="flex">
-					<Card2 
+					<Card3
 					dataImage="/img/people/tanisha.jpg"
 					size = "250px"
 					title = "Tanisha"
 					hover = "9890725310
 					 tanishakumar@iisc.ac.in" />
-					<Card2 
+					<Card3
 					dataImage="/img/people/deepti.jpg"
 					size = "250px"
 					title = "Deepti"
@@ -79,13 +79,13 @@ export default{
 					Pronites
 				</div>
 				<div class ="flex">
-					<Card2 
+					<Card3
 					dataImage="/img/people/unknown.jpeg"
 					size = "250px"
 					title = "Rohan"
 					hover = "7081228530
 					 krohan@iisc.ac.in" />
-					<Card2 
+					<Card3
 					dataImage="/img/people/jitu.jpg"
 					size = "250px"
 					title = "Jitendriya"
@@ -96,18 +96,18 @@ export default{
 					Merchandise
 				</div>
 				<div class ="flex">
-					<Card2 
+					<Card3
 					dataImage="/img/people/Pugha.jpg"
 					size = "250px"
 					title = "Pugazhendi"
 					hover = "7338981627
 					 krohan@iisc.ac.in" />
-					<Card2 
+					<Card3
 					dataImage="/img/people/SANKALP.jpg"
 					size = "250px"
 					title = "Sankalp"
 					hover = "9691664003 sankalps@iisc.ac.in" />
-					<Card2 
+					<Card3
 					dataImage="/img/people/unknown.jpeg"
 					size = "250px"
 					title = "Tejas"
@@ -118,18 +118,18 @@ export default{
 					Recreational Events
 				</div>
 				<div class ="flex">
-					<Card2 
+					<Card3
 					dataImage="/img/people/Pushkal.jpg"
 					size = "250px"
 					title = "Pushkal"
 					hover = "7065829055
 					 pushkala@iisc.ac.in" />
-					<Card2 
+					<Card3
 					dataImage="/img/people/Sahil.png"
 					size = "250px"
 					title = "Sahil"
 					hover = "8653280175 sahils@iisc.ac.in" />
-					<Card2 
+					<Card3
 					dataImage="/img/people/sanjith.jpg"
 					size = "250px"
 					title = "Sanjith"
@@ -140,23 +140,23 @@ export default{
 					Logistics
 				</div>
 				<div class ="flex">
-					<Card2 
+					<Card3
 					dataImage="/img/people/unknown.jpeg"
 					size = "250px"
 					title = "Satyadarshi"
 					hover = "9709997353
 					 kumarsatyada@iisc.ac.in" />
-					<Card2 
+					<Card3
 					dataImage="/img/people/vishal.jpg"
 					size = "250px"
 					title = "Vishal"
 					hover = "9520464612 gaurvishal@iisc.ac.in" />
-					<Card2 
+					<Card3
 					dataImage="/img/people/vivek.jpg"
 					size = "250px"
 					title = "Vivek"
 					hover = "6385491905 vivekkumarh@iisc.ac.in" />
-					<Card2 
+					<Card3
 					dataImage="/img/people/unknown.jpeg"
 					size = "250px"
 					title = "Adithya"
@@ -167,13 +167,13 @@ export default{
 					Publicity
 				</div>
 				<div class ="flex">
-					<Card2 
+					<Card3
 					dataImage="/img/people/Kartikay.jpg"
 					size = "250px"
 					title = "Kartikay"
 					hover = "6378841075
 					 kartikayv@iisc.ac.in" />
-					<Card2 
+					<Card3
 					dataImage="/img/people/AOmar.jpg"
 					size = "250px"
 					title = "Ashish"
@@ -184,18 +184,18 @@ export default{
 					Scitech Events
 				</div>
 				<div class ="flex">
-					<Card2 
+					<Card3
 					dataImage="/img/people/Krishna.jpg"
 					size = "250px"
 					title = "Krishna"
 					hover = "88796 29440
 					 krishnasb@iisc.ac.in" />
-					<Card2 
+					<Card3
 					dataImage="/img/people/Dhruba.jpg"
 					size = "250px"
 					title = "Dhruba"
 					hover = "9051676010 dhrubadey@iisc.ac.in" />
-					<Card2 
+					<Card3
 					dataImage="/img/people/unknown.jpeg"
 					size = "250px"
 					title = "Debadrito"
@@ -206,18 +206,18 @@ export default{
 					Workshop
 				</div>
 				<div class ="flex">
-					<Card2 
+					<Card3
 					dataImage="/img/people/Aman.jpg"
 					size = "250px"
 					title = "Aman"
 					hover = "9034240861
 					 amangoyal@iisc.ac.in" />
-					<Card2 
+					<Card3
 					dataImage="/img/people/Rajvardhan.JPG"
 					size = "250px"
 					title = "Rajvardhan"
 					hover = "7249220441 rajvardhans@iisc.ac.in"/>
-					<Card2 
+					<Card3
 					dataImage="/img/people/SHIVAM.jpg"
 					size = "250px"
 					title = "Shivam"
@@ -228,13 +228,13 @@ export default{
 					Website
 				</div>
 				<div class ="flex">
-					<Card2 
+					<Card3
 					dataImage="/img/people/ssarma.jpg"
 					size = "250px"
 					title = "Soumyadeep"
 					hover = "9820893746
 					 ssoumyadeep@iisc.ac.in" />
-					<Card2 
+					<Card3
 					dataImage="/img/people/unknown.jpeg"
 					size = "250px"
 					title = "Priyanshu"
@@ -245,13 +245,13 @@ export default{
 					Design
 				</div>
 				<div class ="flex">
-					<Card2 
+					<Card3
 					dataImage="/img/people/Tirtha.JPG"
 					size = "250px"
 					title = "Tirtharenu"
 					hover = "87923 73085
 					 tirtharenuc@iisc.ac.in" />
-					<Card2 
+					<Card3
 					dataImage="/img/people/unknown.jpeg"
 					size = "250px"
 					title = "Dipayan"
@@ -263,13 +263,13 @@ export default{
 					Content
 				</div>
 				<div class ="flex">
-					<Card2 
+					<Card3
 					dataImage="/img/people/zenith.jpg"
 					size = "250px"
 					title = "Zenith"
 					hover = "83065 78839
 					 zenithm@iisc.ac.in" />
-					<Card2 
+					<Card3
 					dataImage="/img/people/diya.jpg"
 					size = "250px"
 					title = "Diya"
@@ -280,13 +280,13 @@ export default{
 					Finance
 				</div>
 				<div class ="flex">
-					<Card2 
+					<Card3
 					dataImage="/img/people/pratik.jpg"
 					size = "250px"
 					title = "Pratik"
 					hover = "9774755969
 					 pratikb@iisc.ac.in" />
-					<Card2 
+					<Card3
 					dataImage="/img/people/jyotirmoy.jpg"
 					size = "250px"
 					title = "Jyotirmoy"
@@ -297,13 +297,13 @@ export default{
 					Decoration
 				</div>
 				<div class ="flex">
-					<Card2 
+					<Card3
 					dataImage="/img/people/Oviya.jpg"
 					size = "250px"
 					title = "Oviya"
 					hover = "8050700234
 					 oviyag@iisc.ac.in" />
-					<Card2 
+					<Card3
 					dataImage="/img/people/unknown.jpeg"
 					size = "250px"
 					title = "Sourabh"
@@ -314,7 +314,7 @@ export default{
 					Accomodation
 				</div>
 				<div class ="flex">
-					<Card2 
+					<Card3
 					dataImage="/img/people/unknown.jpeg"
 					size = "250px"
 					title = "Anmol"
@@ -324,7 +324,7 @@ export default{
 
 
 
-				
+
 
 			</div>
 		</div>
@@ -332,7 +332,7 @@ export default{
 </template>
 
 <style scoped>
-	
+
 .title-flex{
 	display: flex;
 	height: 90vh;
@@ -381,6 +381,6 @@ export default{
 		padding-bottom: 10vw;
 	}
 }
-	
+
 
 </style>
