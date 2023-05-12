@@ -22,7 +22,7 @@
                 </router-link>
             </div>
             <div class="intro-image">
-                <img src="/img/scitech/BAH.jpg" alt="scitech">
+                <img src="/img/scitech/HonourCode.jpg" alt="scitech">
             </div>
         </div>
 
