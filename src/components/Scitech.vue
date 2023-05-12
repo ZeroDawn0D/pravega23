@@ -34,6 +34,12 @@ export default {
 				<router-link to="/scitech/exhibitions">
 					<Card link="/img/scitech/Exhibitions.jpg" size="300px" />
 				</router-link>
+				<router-link to="/scitech/hoco">
+					<Card link="/img/scitech/HonourCode.jpg" size="300px" />
+				</router-link>
+				<router-link to="/scitech/stemposium">
+					<Card link="/img/scitech/Stemposium.jpg" size="300px" />
+				</router-link>
 			</div>
 		</div>
 	</div>
