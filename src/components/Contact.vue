@@ -49,7 +49,7 @@ export default{
 					<Card3
 					dataImage="/img/people/Shreshth.jpg"
 					size = "250px"
-					title = "Shresth"
+					title = "Shreshth"
 					hover = "7388058586 shreshthj@iisc.ac.in" />
 					<Card3
 					dataImage="/img/people/Jasnoor.jpg"
