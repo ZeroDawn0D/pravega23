@@ -28,9 +28,9 @@ export default{
 				<router-link to = "/carvaan/cities">
 					<Card link = "/img/culturals/Proscencium V1.jpg" size = "300px"/>
 				</router-link>
-				
-				
-				
+
+
+
 			</div>
 		</div>
 	</div>
@@ -39,22 +39,31 @@ export default{
 <style scoped>
 .title-flex{
 	display: flex;
-	height: 90vh;
+	height: 100vh;
+	overflow: hidden;
 }
 .content{
 	background-color: #eeeeee;
-	height: 90vh;
+	height: 85vh;
 	top: 10vh;
 	position: relative;
 	border-top-left-radius: 25px;
 	border-top-right-radius: 25px;
 	overflow-y: scroll;
+	padding: 2rem 0rem;
+	/* removes scrollbar */
+	-ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
+.content::-webkit-scrollbar {
+  display: none;
+}
+
 .links{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	row-gap: 8px;
+	row-gap: 1.5rem;
 	padding: 20px;
 }
 
