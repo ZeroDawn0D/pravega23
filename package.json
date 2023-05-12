@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@vueuse/core": "^9.13.0",
+    "build": "^0.1.4",
     "http": "^0.0.1-security",
     "vite-plugin-require": "^1.1.10",
     "vue": "^3.2.45",
@@ -17,6 +18,6 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
-    "vite": "^4.2.0"
+    "vite": "^4.3.5"
   }
 }
