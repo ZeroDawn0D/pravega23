@@ -18,7 +18,7 @@
                 <h1>Pravega Innovation summit</h1><br>
                 <p>From Idea to Impact</p><br>
                 <router-link to = "/scitech/pis_register">
-                    <button type="button">Get Started!</button>
+                    <button type="button" class="reg_button">Get Started!</button>
                 </router-link>
             </div>
             <div class="intro-image">
@@ -46,13 +46,13 @@ Pravega Innovation Summit (PIS) is the flagship event of the Science and Cultura
             <div class="text">
                 <div class="timeline">
                     <h1>Timeline</h1><br>
-                    <p> The event has two stages- a Prelims and a Mains. The prelims will occur around the 3rd week of August and the teams can be of at most of 5 people, with each participant being in the age group of 15-28 (as of 31st October 2023) and the prelims entry would be a Pitch-Desk and a video with a 5-minute limit. 
+                    <p> The event has two stages- a Prelims and a Mains. The submission end date of prelims is August 20 and the teams can be of at most of 5 people, with each participant being in the age group of 15-28 (as of October 31, 2023) and the prelims entry would be a Pitch-Desk and a video with a 5-minute limit. 
                         The top 10 teams (subject to change) will be called for the Mains at IISc Bangalore for the final round during the weekend of Pravega IISc. The links for registration will be soon available on the website and there is no registration fees for the event
                     </p><br>
                 </div>
                 <div class="eligibility">
                     <h1>Eligibility</h1><br>
-                    <p> Please refer to the rules and regulations document for this.
+                    <p> Please refer to the rules and regulations documented for this.
                     </p><br>
                 </div>
                 <div class="prizes">
@@ -139,6 +139,25 @@ Pravega Innovation Summit (PIS) is the flagship event of the Science and Cultura
 </template>
 
 <style scoped>
+.reg_button{
+    background-color: #5d83eb; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius:30px;
+}
+.reg_button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: crimson;
+}
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;

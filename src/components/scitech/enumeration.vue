@@ -19,7 +19,7 @@
                 <h1>Enumeration</h1><br>
                 <p>To Infinity and beyond</p><br>
                 <router-link to = "/scitech/enumeration_register">
-                    <button type="button">Get Started!</button>
+                    <button type="button" class="reg_button">Get Started!</button>
                 </router-link>
             </div>
             <div class="intro-image">
@@ -47,7 +47,7 @@
             <div class="text">
                 <div class="timeline">
                     <h1>Timeline</h1><br>
-                    <p>To be announced later.
+                    <p>Prelims (online): July 29
                     </p><br>
                 </div>
                 <div class="eligibility">
@@ -135,6 +135,25 @@
 </template>
 
 <style scoped>
+.reg_button{
+    background-color: #5d83eb; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius:30px;
+}
+.reg_button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: crimson;
+}
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;

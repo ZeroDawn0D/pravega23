@@ -18,7 +18,7 @@
                 <h1>Bad Ad Hoc Hypothesis</h1><br>
                 <p>Science: Logical but quirky</p><br>
                 <router-link to = "/scitech/bah_register">
-                    <button type="button">Get Started!</button>
+                    <button type="button" class="reg_button">Get Started!</button>
                 </router-link>
             </div>
             <div class="intro-image">
@@ -48,7 +48,7 @@ In the prelims, contestants have to submit a concise alpha presentation, a rough
             <div class="text">
                 <div class="timeline">
                     <h1>Timeline</h1><br>
-                    <p> Prelims submission till 4th week of august.
+                    <p> Prelims submission till Aug 27.
                     </p><br>
                 </div>
                 <div class="eligibility">
@@ -132,6 +132,25 @@ discussions'
 </template>
 
 <style scoped>
+.reg_button{
+    background-color: #5d83eb; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius:30px;
+}
+.reg_button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: crimson;
+}
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;

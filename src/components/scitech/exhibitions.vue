@@ -15,10 +15,10 @@
         <div class="intro">
             <div class="intro-content">
                 <br><br>
-                <h1>Exhibitons</h1><br>
+                <h1>Exhibitions</h1><br>
                 <p>From the book to the lab</p><br>
                 <router-link to = "/scitech/exhibitions_register">
-                    <button type="button">Get Started!</button>
+                    <button type="button" class="reg_button">Get Started!</button>
                 </router-link>
             </div>
             <div class="intro-image">
@@ -50,7 +50,7 @@ IISc Exhibitions here at Pravega brings to you a one-of-its-kind of contest that
                 </div>
                 <div class="eligibility">
                     <h1>Eligibility</h1><br>
-                    <p> Please refer to the rules and regulations document for this.
+                    <p> Please refer to the rules and regulations documented for this.
                     </p><br>
                 </div>
                 <div class="prizes">
@@ -137,6 +137,25 @@ IISc Exhibitions here at Pravega brings to you a one-of-its-kind of contest that
 </template>
 
 <style scoped>
+.reg_button{
+    background-color: #5d83eb; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius:30px;
+}
+.reg_button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: crimson;
+}
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;

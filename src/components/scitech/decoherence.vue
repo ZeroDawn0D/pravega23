@@ -25,7 +25,7 @@
                     exciting physics, astronomy, stellar competition, and an opportunity to learn something while having
                     fun. The winners are rewarded with merchandise, trophies and (big) cash prizes. </p><br>
                 <router-link to = "/scitech/deco_register">
-                    <button type="button">Get Started!</button>
+                    <button type="button" class="reg_button">Get Started!</button>
                 </router-link>
             </div>
 
@@ -67,9 +67,9 @@
             <div class="details-2">
                 <div class="timeline">
                     <h1>Timeline</h1>
-                    <p> <b>First round of prelims: </b> online on 5th August (first week of August)
+                    <p> <b>First round of prelims: </b> online on August 5 (first week of August)
                         <br>
-                        <b>Second round of prelims: </b> online on 2nd September (first week of September)
+                        <b>Second round of prelims: </b> online on September 2 (first week of September)
                         <br>
                         <b>Finals:</b> offline at IISc Campus on the weekend of Pravega
                     </p><br>
@@ -199,7 +199,25 @@ Parth Agarwal: Periwal Global School</td>
 </template>
 
 <style scoped>
-
+.reg_button{
+    background-color: #5d83eb; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius:30px;
+}
+.reg_button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: crimson;
+}
 .content-stuff {
     position: relative;
     top: 10vh;

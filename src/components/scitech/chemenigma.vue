@@ -6,7 +6,7 @@
 
         <div class="scitech-navbar">
             <ul>
-                <li><a href="/pdf/Chemenigma_rules.docx">Rules</a></li>
+                <li><a href="/pdf/Chemenigma_rules.docx">Rules and Eligibility</a></li>
                 <li><a href="/pdf/Chemenigma'22_Prelims.pdf">Sample Questions</a></li>
                 <li><a href="#hof">Hall of Fame</a></li>
             </ul>
@@ -18,7 +18,7 @@
                 <h1>Chemenigma</h1><br>
                 <p>Some Explosive Brain-wacking Chemistry</p><br>
                 <router-link to = "/scitech/chemenigma_register">
-                    <button type="button">Get Started!</button>
+                    <button type="button" class="reg_button">Get Started!</button>
                 </router-link>
             </div>
             <div class="intro-image">
@@ -47,7 +47,7 @@
             <div class="text">
                 <div class="timeline">
                     <h1>Timeline</h1><br>
-                    <p> The online Prelims will be held in the 3rd week of July and will be a 3-3.5-hours paper followed by
+                    <p> The online Prelims will be held on July 23 and it will be a 3-3.5-hours paper followed by
                         the Mains on the weekend of Pravega at IISc.
                         The Top 4 teams during the prelims would be invited for Mains which include both theory and lab
                         components, thought-provoking challenges.
@@ -57,7 +57,7 @@
                 </div>
                 <div class="eligibility">
                     <h1>Eligibility</h1><br>
-                    <p> Please refer to the rules and regulations document for this.
+                    <p> Please refer to the rules and regulations documented for this.
                     </p><br>
                 </div>
                 <div class="prizes">
@@ -145,6 +145,25 @@
 </template>
 
 <style scoped>
+.reg_button{
+    background-color: #5d83eb; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius:30px;
+}
+.reg_button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: crimson;
+}
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;

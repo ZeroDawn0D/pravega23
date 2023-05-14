@@ -17,9 +17,6 @@
                 <br><br>
                 <h1>Honour Code</h1><br>
                 <p>Code and Smack Thy Keyboard</p><br>
-                <router-link to = "/scitech/bah_register">
-                    <button type="button">Get Started!</button>
-                </router-link>
             </div>
             <div class="intro-image">
                 <img src="/img/scitech/HonourCode.jpg" alt="scitech">
@@ -47,7 +44,7 @@
             <div class="text">
                 <div class="timeline">
                     <h1>Timeline</h1><br>
-                    <p> Prelims 1: 26th Aug
+                    <p> Prelims (online): Aug 26
                     </p><br>
                 </div>
                 <div class="eligibility">
@@ -128,6 +125,7 @@ discussions'
 </template>
 
 <style scoped>
+
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;

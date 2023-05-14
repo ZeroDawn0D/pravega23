@@ -18,7 +18,7 @@
                 <h1>Quadsparks</h1><br>
                 <p>Quizzical musings, and a dash of science</p><br>
                 <router-link to = "/scitech/quadsparks_register">
-                    <button type="button">Get Started!</button>
+                    <button type="button" class="reg_button">Get Started!</button>
                 </router-link>
                 <br>
                 <br><br>
@@ -48,7 +48,7 @@
             <div class="text">
                 <div class="timeline">
                     <h1>Timeline</h1><br>
-                    <p> Prelims 1: 24th June
+                    <p> Prelims (online): July 22<br/>Offline Bangalore prelims on the day of Pravega.
                     </p><br>
                 </div>
                 <div class="eligibility">
@@ -137,6 +137,25 @@
 </template>
 
 <style scoped>
+.reg_button{
+    background-color: #5d83eb; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius:30px;
+}
+.reg_button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: crimson;
+}
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;

@@ -235,10 +235,10 @@ export default{
 					hover = "9820893746
 					 ssoumyadeep@iisc.ac.in" />
 					<Card3
-					dataImage="/img/people/unknown.jpeg"
+					dataImage="/img/scitech/priyanshu_photo_chemenigma.jpeg.jpg"
 					size = "250px"
 					title = "Priyanshu"
-					hover = "9310177172 priyanshug@iisc.ac.in" />
+					hover = "priyanshug[at]iisc[dot]ac[dot]in" />
 				</div>
 				<br/>
 				<div class = "grad">
