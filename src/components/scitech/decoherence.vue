@@ -37,9 +37,9 @@
         </div>
 
 
-<!--        
+<!--
         <div class="declaration">
-            
+
             <div class="dec-1" style="background-color: #ebf234;">
                 <h1>Don't miss out on <br> IISc's Premier Physics Event</h1>
             </div>
@@ -92,7 +92,7 @@
 
         <div class="coord-intro" id="coords">
             <h1>Our Coordinators</h1><br>
-            <p> Meet our amazing coordinators. For any query regarding the event, they are your first point of contact! 
+            <p> Meet our amazing coordinators. For any query regarding the event, they are your first point of contact!
         Don't hesistate to mail them at any time of the day, and they will try to reply as soon as possible.</p><br>
         </div>
 
@@ -117,7 +117,7 @@
                     <p>vinayakam[at]iisc[dot]ac[dot]in</p>
                 </div>
             </div>
-            
+
             <div class="coord">
                 <div class="coord-img">
                     <img src="/img/scitech/Gaurav_Deco.jpeg" alt="scitech" height="300px" width="250px">
@@ -142,20 +142,20 @@
                 </div><br>
                 <div class="coord-text">
                     <h1>Anindya Guria</h1>
-                    <p>Mail: anindyaguria[at]iisc[dot]ac[dot]in</p>
+                    <p>Mail: pravega2023deco[at]gmail[dot]com</p>
                 </div>
             </div>
 
             <div class="coord">
                 <div class="coord-img">
-                    <img src="/img/scitech/Vinayaka_Deco.jpeg" alt="scitech" height="300px" width="250px">
+                    <img src="/img/scitech/Anubhav_Sir.jpeg" alt="scitech" height="300px" width="250px">
                 </div><br>
                 <div class="coord-text">
                     <h1>Anubhav Srivastava</h1>
-                    <p>Mail: </p>
+                    <p>Mail: pravega2023deco[at]gmail[dot]com</p>
                 </div>
             </div>
-        </div>    
+        </div>
 
         <div class="hof" id="hof">
             <br><br>
@@ -237,7 +237,7 @@ li a {
         width: 70vw;
     }
 
-    
+
     .intro{
         display: flex;
         background-color: #ffffff;
