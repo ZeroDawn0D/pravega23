@@ -1,4 +1,28 @@
 <script>
+export default {
+    data() {
+        return { code: "" }
+    },
+    methods: {
+        check: function () {
+            const DOMAIN = "https://api.pravega.org";
+            fetch(`${DOMAIN}/api/sci_tech/quad/checkcode`, {
+                method: "POST",
+                headers: {
+                    "Content-type": "application/json; charset=UTF-8",
+                    "Referrer-Policy": "strict-origin-when-cross-origin"
+                },
+                body: JSON.stringify({ number: this.code })
+            })
+                .then((res) => {
+                    if (res.status == 200) { alert('You are getting discount!! Cheers...') }//to be updated by Umang
+                    else if (res.status == 401) { alert('Didnt work like your luck !!') }// to be updated by Umang
+                    else { alert('Server issue, try later!') }
+                })
+                .catch((e) => alert(e.message))
+        }
+    }
+}
 </script>
 
 <template>
@@ -17,12 +41,18 @@
                 <br><br>
                 <h1>Quadsparks</h1><br>
                 <p>Quizzical musings, and a dash of science</p><br>
-                <router-link to = "/scitech/quadsparks_register">
-                    <button type="button" class="reg_button">Get Started!</button>
+                <br />
+                <br />
+                <h3>Have a registration code? Enter here:</h3>
+                <br />
+                <input type="text" v-model="code" placeholder="Enter here" required />
+                <br />
+                <input type="submit" @click="check" value="Get Discount!!" />
+                <br />
+                <br />
+                <router-link to="/scitech/quadsparks_register">
+                    <button type="button" class="reg_button">Register without Registration code</button>
                 </router-link>
-                <br>
-                <br><br>
-                <h3>PS: The discount coupon registrations will begin soon, fret not!</h3>
             </div>
             <div class="intro-image">
                 <img src="/img/scitech/Quadsparks.jpg" alt="scitech">
@@ -35,7 +65,10 @@
             </div>
             <div class="small-text" style="background-color: #ebf234;">
                 <p>
-                    The premier high school quiz contest of Pravega, Quadsparks, calls upon young, bright minds of the country to compete in a clash of wits. Covering a broad base of science-related themes, ranging from basic science and contemporary research, to pop culture and technology, Quadsparks promises to test your prowess in critical thinking, aptitude and quizzing simultaneously.
+                    The premier high school quiz contest of Pravega, Quadsparks, calls upon young, bright minds of the
+                    country to compete in a clash of wits. Covering a broad base of science-related themes, ranging from
+                    basic science and contemporary research, to pop culture and technology, Quadsparks promises to test your
+                    prowess in critical thinking, aptitude and quizzing simultaneously.
 
                 </p>
             </div>
@@ -49,17 +82,18 @@
                 <div class="timeline">
                     <h1>The Event</h1><br>
                     <p style="text-align=left;"> Quadsparks '23 consists of three levels of contests:<br>
-                    1. An online preliminary round: for students from all over India.<br>
-                    2. An interview/discussion round: for 15 teams selected from prelims.<br>
-                    3. The Grand Finale: for 5 teams selected from interview round.
+                        1. An online preliminary round: for students from all over India.<br>
+                        2. An interview/discussion round: for 15 teams selected from prelims.<br>
+                        3. The Grand Finale: for 5 teams selected from interview round.
                     </p>
-                    <p> For students from Bengaluru, Quadsparks hosts an offline prelims. 3 teams will be selected for the Grand Finale from this round.<br> A total of 8 teamss will participate in the stage finale.</p>
+                    <p> For students from Bengaluru, Quadsparks hosts an offline prelims. 3 teams will be selected for the
+                        Grand Finale from this round.<br> A total of 8 teams will participate in the stage finale.</p>
                     <br>
                 </div>
                 <div class="eligibility">
                     <h1>Eligibility</h1><br>
                     <p> High school students: Classes 9 to 12<br>
-                    Participation is allowed as individual or teams of two
+                        Participation is allowed as individual or teams of two
                     </p><br>
                 </div>
                 <div class="prizes">
@@ -69,7 +103,7 @@
                 </div>
             </div>
         </div>
-        <div class="coord-intro" id ="coords">
+        <div class="coord-intro" id="coords">
             <h1>Our Coordinators</h1><br>
 
             <p> Meet our amazing coordinators. For any query regarding the event, they are your first point of contact!
@@ -128,7 +162,7 @@
                     </tr>
                     <tr>
                         <td>1st Runner Up</td>
-                        <td>Varun Sinha, Soham Pednekar  </td>
+                        <td>Varun Sinha, Soham Pednekar </td>
                         <td>Pewar Public School, Mumbai</td>
                     </tr>
                     <tr>
@@ -143,25 +177,54 @@
 </template>
 
 <style scoped>
-.reg_button{
-    background-color: #5d83eb; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-  border-radius:30px;
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
-.reg_button:hover{
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    background-color: crimson;
+
+input[type=submit] {
+    width: 30%;
+    background-color: #037706;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
+
+input[type=submit]:hover {
+    background-color: #015105;
+}
+
+.reg_button {
+    background-color: #7295f6;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 30px;
+}
+
+.reg_button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(240, 134, 155);
+}
+
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
@@ -244,10 +307,12 @@ li a {
     align-items: center;
     text-align: center;
 }
-.intro-content h1{
+
+.intro-content h1 {
     font-size: 5rem;
 }
-.intro-content p{
+
+.intro-content p {
     font-size: 3rem;
 }
 
@@ -388,9 +453,9 @@ li a {
     text-align: center;
 }
 
-.coord-img img{
-    width:250px;
-    height:300px;
+.coord-img img {
+    width: 250px;
+    height: 300px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px grey;
     object-fit: cover;
@@ -448,10 +513,12 @@ li a {
     .text {
         width: 90vw;
     }
-    .intro{
+
+    .intro {
         height: 120vh;
     }
-    .intro-content{
+
+    .intro-content {
         height: 100vh;
     }
 
@@ -459,14 +526,15 @@ li a {
         width: 100%;
     }
 
-    .intro-content h1{
+    .intro-content h1 {
         font-size: 3rem;
     }
-    .intro-content p{
+
+    .intro-content p {
         font-size: 2rem;
     }
 
-    .big-text{
+    .big-text {
         margin-top: 2vh;
         margin-bottom: 5vh;
         margin-left: 8vw;
@@ -554,10 +622,11 @@ li a {
         margin: auto;
     }
 
-    .quote{
+    .quote {
         position: relative;
         top: 40%;
         height: auto;
         margin: auto;
     }
-}</style>
+}
+</style>
