@@ -45,7 +45,7 @@ IISc Exhibitions here at Pravega brings to you a one-of-its-kind of contest that
             <div class="text">
                 <div class="timeline">
                     <h1>Timeline</h1><br>
-                    <p> Will be held on the day of the fest!
+                    <p> 28th July (Last date of submission)
                     </p><br>
                 </div>
                 <div class="eligibility">
