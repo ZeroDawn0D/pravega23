@@ -33,7 +33,7 @@
             <div class="small-text" style="background-color: #ebf234;">
                 <p>Here is a chance to challenge your practical skills. Time to have fun playing around and experimenting with ideas, and trying to implement them!
 
-IISc Exhibitions here at Pravega brings to you a one-of-its-kind of contest that would poke your curiosity and make you whack your brains. Identify a real-world problem. , use YOUR brains to think of ideas to solve it and try to realise them! 
+IISc Exhibitions here at Pravega brings to you a one-of-its-kind of contest that would poke your curiosity and make you whack your brains. Identify a real-world problem. , use YOUR brains to think of ideas to solve it and try to realise them!
 </p>
             </div>
         </div>
@@ -45,13 +45,12 @@ IISc Exhibitions here at Pravega brings to you a one-of-its-kind of contest that
             <div class="text">
                 <div class="timeline">
                     <h1>Timeline</h1><br>
-                    <p> Will be updated soon.
+                    <p> Day of the fest
                     </p><br>
                 </div>
                 <div class="eligibility">
                     <h1>Eligibility</h1><br>
-                    <p> Please refer to the rules and regulations documented for this.
-                    </p><br>
+                    <p> 11th standard to 2nd year undergraduate</p><br>
                 </div>
                 <div class="prizes">
                     <h1>Prizes</h1><br>

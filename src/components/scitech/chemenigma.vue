@@ -31,12 +31,16 @@
                 <h1>Don't miss out on <br> IISc's Premier Chemistry Event</h1>
             </div>
             <div class="small-text" style="background-color: #ebf234;">
-                <p>Chemenigma is the Chemistry quiz event of Pravega. Chemenigma is held in two stages- an online Prelims
-                    and an offline Mains at IISc. This is a team event, and groups of up to 2 people can apply together.
-                    Applicants can be high school students (Class XI, Class XII) or upto 2nd-year undergraduates.
-                    Questions are meant to be thought–provoking and layered. We aspire to bring together different facets of
-                    chemistry and reward the participants who can follow essential ideas rather than rote memorization.
-                    Everyone interested in chemistry (and otherwise!) will learn something new, we promise.</p>
+                <p>
+                <ul style="text-align: left;"><li>
+                    Chemenigma is the Chemistry quiz event of Pravega. Chemenigma is held in two stages- an online Prelims
+                    and an offline Mains at IISc.</li><li> This is a team event, and groups of up to 2 people can apply together.</li>
+                    <li>Applicants can be high school students (Class XI, Class XII) or upto 2nd-year undergraduates.</li>
+                    <li>Questions are meant to be thought–provoking and layered. We aspire to bring together different facets of
+                    chemistry and reward the participants who can follow essential ideas rather than rote memorization.</li>
+                    <li>Everyone interested in chemistry (and otherwise!) will learn something new, we promise.</li>
+                </ul>
+                </p>
             </div>
         </div>
 
@@ -57,7 +61,7 @@
                 </div>
                 <div class="eligibility">
                     <h1>Eligibility</h1><br>
-                    <p> Please refer to the rules and regulations documented for this.
+                    <p> High school students (grade 11 and 12) or upto 2nd year undergraduate students
                     </p><br>
                 </div>
                 <div class="prizes">

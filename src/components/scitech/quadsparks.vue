@@ -48,12 +48,12 @@
             <div class="text">
                 <div class="timeline">
                     <h1>Timeline</h1><br>
-                    <p> Prelims (online): July 22<br/>Offline Bangalore prelims on the day of Pravega.
+                    <p> Prelims (online): July 22 for applicants outside Bangalore<br/>Offline prelims for Bangalore applicants on the day of Pravega, at IISc campus
                     </p><br>
                 </div>
                 <div class="eligibility">
                     <h1>Eligibility</h1><br>
-                    <p> 9th-12th High School
+                    <p> Grade 9-12 high school students
                     </p><br>
                 </div>
                 <div class="prizes">
@@ -96,7 +96,7 @@
         </div>
        <!-- <div class="quote">
             <div class="quote-text" style="font-family: 'Times New Roman', Times, serif;">
-                <p> 
+                <p>
 
                 </p>
             </div>
