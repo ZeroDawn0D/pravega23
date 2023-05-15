@@ -94,13 +94,13 @@
                 </div>
             </div>
         </div>
-       <!-- <div class="quote">
+        <div class="quote">
             <div class="quote-text" style="font-family: 'Times New Roman', Times, serif;">
                 <p> 
-
+                    Engage you brain cells like never before!
                 </p>
             </div>
-        </div> -->
+        </div> 
 
         <div class="hof" id="hof">
             <br><br>
@@ -422,7 +422,7 @@ li a {
     }
 
     .scitech-navbar {
-        width: 87vw;
+        width: 93vw;
         justify-content: center;
     }
 
@@ -440,16 +440,13 @@ li a {
     .intro-image,
     .intro-content,
     .text {
-        width: 100vw;
+        width: 90vw;
     }
 
     .intro-image img {
         width: 100%;
     }
 
-    .intro-content {
-        width: 100vw;
-    }
     .intro-content h1{
         font-size: 3rem;
     }
@@ -501,6 +498,7 @@ li a {
         background-color: beige;
         margin-top: 3vh;
         border-radius: 10px;
+        height: auto;
     }
 
     .coord-intro {
@@ -514,7 +512,7 @@ li a {
 
     .coords {
         position: relative;
-        top: 20%;
+        top: 10%;
         flex-direction: column;
         justify-content: center;
     }
@@ -532,7 +530,7 @@ li a {
 
     .hof {
         position: relative;
-        top: 40%;
+        top: 18%;
         height: auto;
         text-align: center;
         width: 100vw;
@@ -546,7 +544,7 @@ li a {
 
     .quote{
         position: relative;
-        top: 40%;
+        top: 18%;
         height: auto;
         margin: auto;
     }

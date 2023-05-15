@@ -491,6 +491,7 @@ li a {
         background-color: beige;
         margin-top: 3vh;
         border-radius: 10px;
+        height: auto;
     }
 
     .coord-intro {
@@ -504,7 +505,7 @@ li a {
 
     .coords {
         position: relative;
-        top: 32%;
+        top: 14%;
         flex-direction: column;
         justify-content: center;
     }
@@ -522,7 +523,7 @@ li a {
 
     .hof {
         position: relative;
-        top: 45%;
+        top: 15%;
         height: auto;
         text-align: center;
         width: 100vw;
@@ -535,7 +536,7 @@ li a {
     }
     .quote{
         position: relative;
-        top:50%;
+        top:20%;
     }
 }
 </style>

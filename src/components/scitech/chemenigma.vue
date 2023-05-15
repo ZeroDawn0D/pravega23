@@ -6,7 +6,7 @@
 
         <div class="scitech-navbar">
             <ul>
-                <li><a href="/pdf/Chemenigma_rules.docx">Rules and Eligibility</a></li>
+                <li><a href="/pdf/Chemenigma_rules.docx">Rules</a></li>
                 <li><a href="/pdf/Chemenigma'22_Prelims.pdf">Sample Questions</a></li>
                 <li><a href="#hof">Hall of Fame</a></li>
             </ul>
@@ -430,7 +430,7 @@ li a {
     }
 
     .scitech-navbar {
-        width: 87vw;
+        width: 93vw;
         justify-content: center;
     }
 
@@ -456,7 +456,7 @@ li a {
     }
 
     .intro-content {
-        width: 100vw;
+        width: 90vw;
     }
     .intro-content h1{
         font-size: 3rem;
@@ -509,6 +509,7 @@ li a {
         background-color: beige;
         margin-top: 3vh;
         border-radius: 10px;
+        height: auto;
     }
 
     .coord-intro {
@@ -522,7 +523,7 @@ li a {
 
     .coords {
         position: relative;
-        top: 20%;
+        top: 10%;
         flex-direction: column;
         justify-content: center;
     }
@@ -540,7 +541,7 @@ li a {
 
     .hof {
         position: relative;
-        top: 40%;
+        top: 16%;
         height: auto;
         text-align: center;
         width: 100vw;
@@ -554,7 +555,7 @@ li a {
 
     .quote{
         position: relative;
-        top: 40%;
+        top: 17%;
         height: auto;
         margin: auto;
     }

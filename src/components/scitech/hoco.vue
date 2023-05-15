@@ -406,11 +406,15 @@ li a {
         height: auto;
         border-radius: 10px;
     }
+    .intro{
+        height:77vh;
+    }
 
     .intro-image,
     .intro-content,
     .text {
-        width: 100vw;
+        width: 90vw;
+        align-items: center;
     }
 
     .intro-image img {
@@ -418,7 +422,7 @@ li a {
     }
 
     .intro-content {
-        width: 100vw;
+        height: 50vh;
     }
     .intro-content h1{
         font-size: 3rem;
@@ -471,6 +475,7 @@ li a {
         background-color: beige;
         margin-top: 3vh;
         border-radius: 10px;
+        height: auto;
     }
 
     .coord-intro {
@@ -484,9 +489,10 @@ li a {
 
     .coords {
         position: relative;
-        top: 20%;
+        top: 7%;
         flex-direction: column;
         justify-content: center;
+        height: 50vh;
     }
 
     .coord {
@@ -502,7 +508,7 @@ li a {
 
     .hof {
         position: relative;
-        top: 40%;
+        top: 1%;
         height: auto;
         text-align: center;
         width: 100vw;

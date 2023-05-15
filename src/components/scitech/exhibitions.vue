@@ -45,12 +45,12 @@ IISc Exhibitions here at Pravega brings to you a one-of-its-kind of contest that
             <div class="text">
                 <div class="timeline">
                     <h1>Timeline</h1><br>
-                    <p> Will be updated soon.
+                    <p> Will be held on the day of the fest!
                     </p><br>
                 </div>
                 <div class="eligibility">
                     <h1>Eligibility</h1><br>
-                    <p> Please refer to the rules and regulations documented for this.
+                    <p> 11th standard to 2nd year undergraduate.
                     </p><br>
                 </div>
                 <div class="prizes">
@@ -444,7 +444,7 @@ li a {
     }
 
     .intro-image img {
-        width: 100%;
+        width: 90%;
     }
 
     .intro-content {
@@ -501,6 +501,7 @@ li a {
         background-color: beige;
         margin-top: 3vh;
         border-radius: 10px;
+        height:auto;
     }
 
     .coord-intro {
@@ -514,7 +515,7 @@ li a {
 
     .coords {
         position: relative;
-        top: 20%;
+        top: 12%;
         flex-direction: column;
         justify-content: center;
     }

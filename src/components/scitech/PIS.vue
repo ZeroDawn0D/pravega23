@@ -442,16 +442,13 @@ li a {
     .intro-image,
     .intro-content,
     .text {
-        width: 100vw;
+        width: 90vw;
     }
 
     .intro-image img {
         width: 100%;
     }
 
-    .intro-content {
-        width: 100vw;
-    }
     .intro-content h1{
         font-size: 3rem;
     }
@@ -503,6 +500,7 @@ li a {
         background-color: beige;
         margin-top: 3vh;
         border-radius: 10px;
+        height: auto;
     }
 
     .coord-intro {
@@ -516,7 +514,7 @@ li a {
 
     .coords {
         position: relative;
-        top: 20%;
+        top: 12%;
         flex-direction: column;
         justify-content: center;
     }
@@ -548,7 +546,7 @@ li a {
 
     .quote{
         position: relative;
-        top: 40%;
+        top: 21%;
         height: auto;
         margin: auto;
     }

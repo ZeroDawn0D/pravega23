@@ -31,7 +31,7 @@
                 <h1>Don't miss out on <br> IISc's Premier Ideathon Event</h1>
             </div>
             <div class="small-text" style="background-color: #ebf234;">
-                <p>Get ready for a challenge that promises to stimulate your grey cells like no other! Ideathon, @pravega.iisc will engage your intellect and push your mind to its limits.
+                <p>Get ready for a challenge that promises to stimulate your grey cells like no other! Ideathon, Pravega will engage your intellect and push your mind to its limits.
 
 Find solutions to real life problems at the cutting edge of tech and stand a chance to win attractive prizes. Let your ideas flow and solve exciting and tangible problems!
 </p>
@@ -50,7 +50,7 @@ Find solutions to real life problems at the cutting edge of tech and stand a cha
                 </div>
                 <div class="eligibility">
                     <h1>Eligibility</h1><br>
-                    <p> Please refer to the rules and regulations document for this.
+                    <p> Open to all.
                     </p><br>
                 </div>
                 <div class="prizes">
@@ -444,7 +444,7 @@ li a {
     }
 
     .intro-image img {
-        width: 100%;
+        width: 90%;
     }
 
     .intro-content {
@@ -501,6 +501,7 @@ li a {
         background-color: beige;
         margin-top: 3vh;
         border-radius: 10px;
+        height: auto;
     }
 
     .coord-intro {
@@ -514,7 +515,7 @@ li a {
 
     .coords {
         position: relative;
-        top: 20%;
+        top: 12%;
         flex-direction: column;
         justify-content: center;
     }

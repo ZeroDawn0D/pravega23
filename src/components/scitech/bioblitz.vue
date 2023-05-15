@@ -546,7 +546,7 @@ li a {
 
     .coords {
         position: relative;
-        top: 25%;
+        top: 10%;
         flex-direction: column;
         justify-content: center;
     }
@@ -564,7 +564,7 @@ li a {
 
     .hof {
         position: relative;
-        top: 36%;
+        top: 10%;
         height: auto;
         text-align: center;
         width: 100vw;

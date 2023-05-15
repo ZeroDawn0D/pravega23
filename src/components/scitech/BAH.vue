@@ -439,7 +439,7 @@ li a {
     }
 
     .intro-image img {
-        width: 100%;
+        width: 90%;
     }
 
     .intro-content {
@@ -496,6 +496,7 @@ li a {
         background-color: beige;
         margin-top: 3vh;
         border-radius: 10px;
+        height: auto;
     }
 
     .coord-intro {
@@ -509,7 +510,7 @@ li a {
 
     .coords {
         position: relative;
-        top: 20%;
+        top: 12%;
         flex-direction: column;
         justify-content: center;
     }
@@ -527,7 +528,7 @@ li a {
 
     .hof {
         position: relative;
-        top: 40%;
+        top: 21%;
         height: auto;
         text-align: center;
         width: 100vw;
@@ -541,7 +542,7 @@ li a {
 
     .quote{
         position: relative;
-        top: 40%;
+        top: 22%;
         height: auto;
         margin: auto;
     }
