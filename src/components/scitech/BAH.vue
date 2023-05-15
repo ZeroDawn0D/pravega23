@@ -48,7 +48,7 @@ In the prelims, contestants have to submit a concise alpha presentation, a rough
             <div class="text">
                 <div class="timeline">
                     <h1>Timeline</h1><br>
-                    <p> Prelims submission till Aug 27.
+                    <p> 20days window for prelims submissions - end date is 27th August (last weekend of August)
                     </p><br>
                 </div>
                 <div class="eligibility">

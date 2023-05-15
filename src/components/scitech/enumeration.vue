@@ -47,17 +47,20 @@
             <div class="text">
                 <div class="timeline">
                     <h1>Timeline</h1><br>
-                    <p>Prelims (online): July 29
-                    </p><br>
+                    <p>Event has two rounds: Prelims and Finals<br>Prelims (online): 29th July, 2023 (4th weekend of July)
+                    </p><p>Prelims will have computational as well as subjective problems, roughly olympiad style
+                    </p><p>Finals will be offline, with only the top few teams from the prelims, on the IISc campus on the weekend of Pravega, for applicants outside of India, an online finals would be held, in case of travel absence</p>
+
+                    <br>
                 </div>
                 <div class="eligibility">
                     <h1>Eligibility</h1><br>
-                    <p> Go through the attached PDFs above.
+                    <p> Grade 8-12 school students and UG 1st-4th year
                     </p><br>
                 </div>
                 <div class="prizes">
                     <h1>Prizes</h1><br>
-                    <p> It is mentioned in the Rules PDF.
+                    <p> Prizes upto 30k
                     </p>
                 </div>
             </div>

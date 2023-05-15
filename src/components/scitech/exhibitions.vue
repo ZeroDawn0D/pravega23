@@ -33,7 +33,7 @@
             <div class="small-text" style="background-color: #ebf234;">
                 <p>Here is a chance to challenge your practical skills. Time to have fun playing around and experimenting with ideas, and trying to implement them!
 
-IISc Exhibitions here at Pravega brings to you a one-of-its-kind of contest that would poke your curiosity and make you whack your brains. Identify a real-world problem. , use YOUR brains to think of ideas to solve it and try to realise them! 
+IISc Exhibitions here at Pravega brings to you a one-of-its-kind of contest that would poke your curiosity and make you whack your brains. Identify a real-world problem. , use YOUR brains to think of ideas to solve it and try to realise them!
 </p>
             </div>
         </div>

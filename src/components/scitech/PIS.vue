@@ -31,7 +31,7 @@
                 <h1>Don’t miss out on <br> IISc’s marquee Sci-Tech event</h1>
             </div>
             <div class="small-text" style="background-color: #ebf234;">
-                <p>Do you own a disruptive science startup that needs funding? Do you want to connect with your industry’s leading professionals? Want to get recognition from India’s best Scientific Institute?  
+                <p>Do you own a disruptive science startup that needs funding? Do you want to connect with your industry’s leading professionals? Want to get recognition from India’s best Scientific Institute?
 If yes, then you are exactly where you’re supposed to be!<br>
 Brace yourself to compete with the best startups nationwide to participate in the Pravega Innovation summit.
 Pravega Innovation Summit (PIS) is the flagship event of the Science and Cultural fest of the Indian Institute of Science. The one of its kind event where you’ll get an opportunity to connect with industry leaders and your competitors and possibly get hefty investment for your startup!
@@ -46,7 +46,7 @@ Pravega Innovation Summit (PIS) is the flagship event of the Science and Cultura
             <div class="text">
                 <div class="timeline">
                     <h1>Timeline</h1><br>
-                    <p> The event has two stages- a Prelims and a Mains. The submission end date of prelims is August 20 and the teams can be of at most of 5 people, with each participant being in the age group of 15-28 (as of October 31, 2023) and the prelims entry would be a Pitch-Desk and a video with a 5-minute limit. 
+                    <p> The event has two stages- a Prelims and a Mains. The submission end date of prelims is August 20 and the teams can be of at most of 5 people, with each participant being in the age group of 15-28 (as of October 31, 2023) and the prelims entry would be a Pitch-Desk and a video with a 5-minute limit.
                         The top 10 teams (subject to change) will be called for the Mains at IISc Bangalore for the final round during the weekend of Pravega IISc. The links for registration will be soon available on the website and there is no registration fees for the event
                     </p><br>
                 </div>
@@ -57,7 +57,7 @@ Pravega Innovation Summit (PIS) is the flagship event of the Science and Cultura
                 </div>
                 <div class="prizes">
                     <h1>Prizes</h1><br>
-                    <p> The event will have Prizes of up to 40k.
+                    <p> The event will have Prizes of up to 4lakhs.
                     </p>
                 </div>
             </div>
