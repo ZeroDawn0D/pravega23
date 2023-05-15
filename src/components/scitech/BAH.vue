@@ -529,7 +529,7 @@ li a {
 
     .hof {
         position: relative;
-        top: 21%;
+        top: 40%;
         height: auto;
         text-align: center;
         width: 100vw;
