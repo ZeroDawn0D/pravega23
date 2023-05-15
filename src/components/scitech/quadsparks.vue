@@ -47,13 +47,19 @@
             </div>
             <div class="text">
                 <div class="timeline">
-                    <h1>Timeline</h1><br>
-                    <p> Prelims (online): July 22 for applicants outside Bangalore<br/>Offline prelims for Bangalore applicants on the day of Pravega, at IISc campus
-                    </p><br>
+                    <h1>The Event</h1><br>
+                    <p style="text-align=left;"> Quadsparks '23 consists of three levels of contests:<br>
+                    1. An online preliminary round: for students from all over India.<br>
+                    2. An interview/discussion round: for 15 teams selected from prelims.<br>
+                    3. The Grand Finale: for 5 teams selected from interview round.
+                    </p>
+                    <p> For students from Bengaluru, Quadsparks hosts an offline prelims. 3 teams will be selected for the Grand Finale from this round.<br> A total of 8 teamss will participate in the stage finale.</p>
+                    <br>
                 </div>
                 <div class="eligibility">
                     <h1>Eligibility</h1><br>
-                    <p> Grade 9-12 high school students
+                    <p> High school students: Classes 9 to 12<br>
+                    Participation is allowed as individual or teams of two
                     </p><br>
                 </div>
                 <div class="prizes">
@@ -96,11 +102,11 @@
         </div>
         <div class="quote">
             <div class="quote-text" style="font-family: 'Times New Roman', Times, serif;">
-                <p> 
+                <p>
                     Engage you brain cells like never before!
                 </p>
             </div>
-        </div> 
+        </div>
 
         <div class="hof" id="hof">
             <br><br>
