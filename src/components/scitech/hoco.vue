@@ -407,7 +407,7 @@ li a {
         border-radius: 10px;
     }
     .intro{
-        height:77vh;
+        height: 100vh;
     }
 
     .intro-image,
@@ -508,7 +508,7 @@ li a {
 
     .hof {
         position: relative;
-        top: 1%;
+        top: 9%;
         height: auto;
         text-align: center;
         width: 100vw;

@@ -449,6 +449,10 @@ li a {
         width: 100%;
     }
 
+    .intro{
+        height: 120vh;
+    }
+
     .intro-content h1{
         font-size: 3rem;
     }
@@ -514,7 +518,7 @@ li a {
 
     .coords {
         position: relative;
-        top: 12%;
+        top: 20%;
         flex-direction: column;
         justify-content: center;
     }
@@ -546,7 +550,7 @@ li a {
 
     .quote{
         position: relative;
-        top: 21%;
+        top: 40%;
         height: auto;
         margin: auto;
     }

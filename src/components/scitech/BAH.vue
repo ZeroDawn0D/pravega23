@@ -435,16 +435,17 @@ li a {
     .intro-image,
     .intro-content,
     .text {
-        width: 100vw;
+        width: 90vw;
     }
 
     .intro-image img {
         width: 90%;
     }
 
-    .intro-content {
-        width: 100vw;
+    .intro{
+        height: 120vh;
     }
+
     .intro-content h1{
         font-size: 3rem;
     }
@@ -510,7 +511,7 @@ li a {
 
     .coords {
         position: relative;
-        top: 12%;
+        top: 20%;
         flex-direction: column;
         justify-content: center;
     }
@@ -542,7 +543,7 @@ li a {
 
     .quote{
         position: relative;
-        top: 22%;
+        top: 40%;
         height: auto;
         margin: auto;
     }

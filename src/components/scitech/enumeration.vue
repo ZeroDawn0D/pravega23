@@ -420,7 +420,7 @@ li a {
     }
 
     .scitech-navbar {
-        width: 100vw;
+        width: 101vw;
         justify-content: center;
     }
 
@@ -508,7 +508,7 @@ li a {
 
     .coords {
         position: relative;
-        top: 14%;
+        top: 24%;
         flex-direction: column;
         justify-content: center;
     }
@@ -526,7 +526,7 @@ li a {
 
     .hof {
         position: relative;
-        top: 15%;
+        top: 36%;
         height: auto;
         text-align: center;
         width: 100vw;
@@ -539,7 +539,7 @@ li a {
     }
     .quote{
         position: relative;
-        top:20%;
+        top:40%;
     }
 }
 </style>

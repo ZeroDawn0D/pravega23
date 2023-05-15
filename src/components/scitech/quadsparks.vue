@@ -422,7 +422,7 @@ li a {
     }
 
     .scitech-navbar {
-        width: 93vw;
+        width: 100vw;
         justify-content: center;
     }
 
@@ -441,6 +441,12 @@ li a {
     .intro-content,
     .text {
         width: 90vw;
+    }
+    .intro{
+        height: 120vh;
+    }
+    .intro-content{
+        height: 100vh;
     }
 
     .intro-image img {
@@ -512,7 +518,7 @@ li a {
 
     .coords {
         position: relative;
-        top: 10%;
+        top: 20%;
         flex-direction: column;
         justify-content: center;
     }
@@ -530,7 +536,7 @@ li a {
 
     .hof {
         position: relative;
-        top: 18%;
+        top: 40%;
         height: auto;
         text-align: center;
         width: 100vw;
@@ -544,7 +550,7 @@ li a {
 
     .quote{
         position: relative;
-        top: 18%;
+        top: 40%;
         height: auto;
         margin: auto;
     }

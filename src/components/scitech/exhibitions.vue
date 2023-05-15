@@ -447,6 +447,10 @@ li a {
         width: 90%;
     }
 
+    .intro{
+        height: 100vh;
+    }
+
     .intro-content {
         width: 100vw;
     }
@@ -515,7 +519,7 @@ li a {
 
     .coords {
         position: relative;
-        top: 12%;
+        top: 20%;
         flex-direction: column;
         justify-content: center;
     }

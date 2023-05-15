@@ -515,7 +515,7 @@ li a {
 
     .coords {
         position: relative;
-        top: 12%;
+        top: 20%;
         flex-direction: column;
         justify-content: center;
     }
