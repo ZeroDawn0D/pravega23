@@ -76,7 +76,7 @@
                     <img src="\img\scitech\Snehasish.jpg" alt="scitech">
                 </div><br>
                 <div class="coord-text">
-                    <h1>Snehashish Ghosh</h1>
+                    <h1>Snehasish Ghosh</h1>
                     <p>Mail: pravega[dot]hcode[at]gmail[dot]com</p>
                 </div>
             </div>
