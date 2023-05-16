@@ -110,7 +110,7 @@ const router = createRouter({
 })
 
 router.beforeEach(async (to, from) => {
-	if (to.name === 'quadsparks_discount_register'){
+	if (to.name === 'quadsparks_discount_register' && from.name !== 'quadsparks') {
 // redirect the user to the quadsparks page
 return '/scitech/quadsparks'
 }
