@@ -9,6 +9,7 @@ import Merchandise from "../components/Merchandise.vue"
 import Sponsors from "../components/Sponsors.vue"
 import Contact from "../components/Contact.vue"
 import Register from "../components/carvaan/Register.vue"
+import Uploadreels from "../components/carvaan/Uploadreels.vue"
 import Register2 from "../components/aaghaz/aaghaaz_register.vue"
 import Cities from "../components/carvaan/Cities.vue"
 import Aaghaz from "../components/Aaghaz.vue"
@@ -65,6 +66,7 @@ const routes = [
 	{path: "/aaghaz", name:"Aaghaz", component: Aaghaz},
 	{path: "/aaghaz/sports", name:"Sports", component: Sports},
 	{path: "/carvaan/register", name:"Register",component:Register},
+	{path: "/carvaan/upload_reels", name:"Uploadreels",component:Uploadreels},
 	{path: "/aaghaz/aaghaaz_register", name:"Register2",component:Register2},
 	{path: "/scitech/template", name:"scitech_template",component:scitech_template},
 	{path: "/scitech/deco_register", name:"deco_register",component:deco_register},
@@ -87,8 +89,8 @@ const routes = [
 	{path: "/scitech/quadsparks", name:"quadsparks",component:quadsparks},
 	{path: "/scitech/hoco", name:"hoco",component:hoco},
 	{path: "/scitech/stemposium", name:"stemposium",component:stemposium},
-	
-	
+
+
 	/*{path:"/carvaan/mumbai",name:"Mumbai",component:Mumbai},
 	{path:"/carvaan/ahmedabad",name:"Ahmedabad",component:Ahmedabad},
 	{path:"/carvaan/kochi",name:"Kochi",component:Kochi},
@@ -97,8 +99,8 @@ const routes = [
 	{path:"/carvaan/chennai",name:"Chennai",component:Chennai},
 	{path:"/carvaan/hyderabad",name:"Hyderabad",component:Hyderabad},
 	{path:"/carvaan/kolkata",name:"Kolkata",component:Kolkata},
-	
-	
+
+
 	{path:"/carvaan/kolkata",name:"Kolkata",component:Kolkata}*/
 ]
 

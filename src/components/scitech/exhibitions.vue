@@ -18,7 +18,7 @@
                 <h1>Exhibitions</h1><br>
                 <p>From the book to the lab</p><br>
                 <router-link to = "/scitech/exhibitions_register">
-                    <button type="button" class="reg_button">Get Started!</button>
+                    <button type="button" class="reg_button">Register</button>
                 </router-link>
             </div>
             <div class="intro-image">
@@ -45,13 +45,18 @@ IISc Exhibitions here at Pravega brings to you a one-of-its-kind of contest that
             <div class="text">
                 <div class="timeline">
                     <h1>Timeline</h1><br>
-                    <p> 28th July (Last date of submission)
-                    </p><br>
+                    <p> Last date of submission of exhibition: 28th July<br>
+                    Final Presentation: Day of Pravega
+                    </p>
                 </div>
                 <div class="eligibility">
                     <h1>Eligibility</h1><br>
                     <p> 11th standard to 2nd year undergraduate.
-                    </p><br>
+                    </p>
+                </div>
+                <div class="rules">
+                <h1>Rules</h1>
+                <p>You can find the rules <a href = "/pdf/Exhibitions Rules.pdf">here</a></p>
                 </div>
                 <div class="prizes">
                     <h1>Prizes</h1><br>
@@ -349,7 +354,7 @@ li a {
     text-align: left;
 }
 
-.timeline,
+.timeline, .rules,
 .eligibility,
 .prizes {
     margin-bottom: 7vh;
@@ -493,7 +498,7 @@ li a {
     }
 
     .text,
-    .timeline,
+    .timeline, .rules,
     .eligibility,
     .prizes {
         padding: 30px;

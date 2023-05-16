@@ -25,7 +25,7 @@
                     exciting physics, astronomy, stellar competition, and an opportunity to learn something while having
                     fun. The winners are rewarded with merchandise, trophies and (big) cash prizes. </p><br>
                 <router-link to = "/scitech/deco_register">
-                    <button type="button" class="reg_button">Get Started!</button>
+                    <button type="button" class="reg_button">Register</button>
                 </router-link>
             </div>
 

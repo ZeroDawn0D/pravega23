@@ -19,7 +19,7 @@
                 <h1>Enumeration</h1><br>
                 <p>To Infinity and beyond</p><br>
                 <router-link to = "/scitech/enumeration_register">
-                    <button type="button" class="reg_button">Get Started!</button>
+                    <button type="button" class="reg_button">Register</button>
                 </router-link>
             </div>
             <div class="intro-image">
@@ -50,13 +50,15 @@
                     <p>Event has two rounds: Prelims and Finals<br>Prelims (online): 29th July, 2023 (4th weekend of July)
                     </p><p>Prelims will have computational as well as subjective problems, roughly olympiad style
                     </p><p>Finals will be offline, with only the top few teams from the prelims, on the IISc campus on the weekend of Pravega, for applicants outside of India, an online finals would be held, in case of travel absence</p>
-
-                    <br>
                 </div>
                 <div class="eligibility">
                     <h1>Eligibility</h1><br>
                     <p> Grade 8-12 school students and UG 1st-4th year
-                    </p><br>
+                    </p>
+                </div>
+                <div class="rules">
+                <h1>Rules</h1>
+                <p>You can find the rules <a href = "/pdf/Enumeration_2023_Rules_Reg.pdf">here</a></p>
                 </div>
                 <div class="prizes">
                     <h1>Prizes</h1><br>
@@ -347,7 +349,7 @@ li a {
     text-align: left;
 }
 
-.timeline,
+.timeline, .rules,
 .eligibility,
 .prizes {
     margin-bottom: 7vh;
@@ -482,7 +484,7 @@ li a {
     }
 
     .text,
-    .timeline,
+    .timeline, .rules,
     .eligibility,
     .prizes {
         padding: 30px;
