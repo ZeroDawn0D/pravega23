@@ -1,4 +1,4 @@
-<script>
+Register<script>
 
 </script>
 
@@ -19,7 +19,7 @@
                 <h1>Bioblitz</h1><br>
                 <p>The Biology Blitzkreig</p><br>
                 <router-link to = "/scitech/bioblitz_register">
-                    <button type="button" class="reg_button">Get Started!</button>
+                    <button type="button" class="reg_button">Register</button>
                 </router-link>
             </div>
             <div class="intro-image">
@@ -484,7 +484,7 @@ li a {
         font-size: 3rem;
     }
 
-    
+
     .intro-content p{
         font-size: 2rem;
     }

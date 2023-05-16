@@ -18,7 +18,7 @@
                 <h1>Exhibitions</h1><br>
                 <p>From the book to the lab</p><br>
                 <router-link to = "/scitech/exhibitions_register">
-                    <button type="button" class="reg_button">Get Started!</button>
+                    <button type="button" class="reg_button">Register</button>
                 </router-link>
             </div>
             <div class="intro-image">

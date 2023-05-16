@@ -19,7 +19,7 @@
                 <h1>Enumeration</h1><br>
                 <p>To Infinity and beyond</p><br>
                 <router-link to = "/scitech/enumeration_register">
-                    <button type="button" class="reg_button">Get Started!</button>
+                    <button type="button" class="reg_button">Register</button>
                 </router-link>
             </div>
             <div class="intro-image">

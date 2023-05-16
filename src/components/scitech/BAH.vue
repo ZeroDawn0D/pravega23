@@ -18,7 +18,7 @@
                 <h1>Bad Ad Hoc Hypothesis</h1><br>
                 <p>Science: Logical but quirky</p><br>
                 <router-link to = "/scitech/bah_register">
-                    <button type="button" class="reg_button">Get Started!</button>
+                    <button type="button" class="reg_button">Register</button>
                 </router-link>
             </div>
             <div class="intro-image">

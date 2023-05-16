@@ -18,7 +18,7 @@
                 <h1>Pravega Innovation summit</h1><br>
                 <p>From Idea to Impact</p><br>
                 <router-link to = "/scitech/pis_register">
-                    <button type="button" class="reg_button">Get Started!</button>
+                    <button type="button" class="reg_button">Register</button>
                 </router-link>
             </div>
             <div class="intro-image">

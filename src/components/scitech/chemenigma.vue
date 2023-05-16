@@ -18,7 +18,7 @@
                 <h1>Chemenigma</h1><br>
                 <p>Some Explosive Brain-wacking Chemistry</p><br>
                 <router-link to = "/scitech/chemenigma_register">
-                    <button type="button" class="reg_button">Get Started!</button>
+                    <button type="button" class="reg_button">Register</button>
                 </router-link>
             </div>
             <div class="intro-image">
