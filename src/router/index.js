@@ -107,4 +107,14 @@ const router = createRouter({
 	routes
 })
 
+router.beforeEach(async (to, from) => {
+	if (to.name === 'quadsparks_discount_register'){
+// redirect the user to the quadsparks page
+return '/scitech/quadsparks'
+}
+
+//add conditionality here for further pages
+
+})
+
 export default router

@@ -80,6 +80,15 @@
                     <p>Mail: pravega[dot]hcode[at]gmail[dot]com</p>
                 </div>
             </div>
+            <div class="coord">
+                <div class="coord-img">
+                    <img src="\img\people\nitin.jpg" alt="scitech">
+                </div><br>
+                <div class="coord-text">
+                    <h1>Nitin Vetcha</h1>
+                    <p>Mail: pravega[dot]hcode[at]gmail[dot]com</p>
+                </div>
+            </div>
         </div>
         <!--<div class="quote">
             <div class="quote-text" style="font-family: 'Times New Roman', Times, serif;">
@@ -508,7 +517,7 @@ li a {
 
     .hof {
         position: relative;
-        top: 9%;
+        top: 40%;
         height: auto;
         text-align: center;
         width: 100vw;

@@ -2,6 +2,7 @@
 import Title from '../Title.vue'
 import Soon from '../Soon.vue'
 import {useScriptTag} from '@vueuse/core'
+import router from '../../router'
 
 useScriptTag('https://embed.typeform.com/next/embed.js')
 export default{
@@ -11,8 +12,11 @@ export default{
       recaptchaScript.setAttribute('src', '//embed.typeform.com/next/embed.js')
       document.head.appendChild(recaptchaScript)
 
-    }
+    },
+	
 }
+
+
 </script>
 
 <template>
