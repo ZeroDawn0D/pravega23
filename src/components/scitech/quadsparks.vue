@@ -1,4 +1,6 @@
 <script>
+import router from '../../router';
+
 export default {
     data() {
         return { code: "" }
@@ -15,8 +17,10 @@ export default {
                 body: JSON.stringify({ number: this.code })
             })
                 .then((res) => {
-                    if (res.status == 200) { alert('You are getting discount!! Cheers...') }//to be updated by Umang
-                    else if (res.status == 401) { alert('Didnt work like your luck !!') }// to be updated by Umang
+                    if (res.status == 200) { alert('You are getting discount!! Cheers...') 
+                    router.push("/scitech/quadsparks_discount_register");
+                    }//to be updated by Umang
+                    else if (res.status == 401) { alert('Didnt work :(...maybe check the code again?') }// to be updated by Umang
                     else { alert('Server issue, try later!') }
                 })
                 .catch((e) => alert(e.message))
@@ -191,11 +195,12 @@ input[type=submit] {
     width: 30%;
     background-color: #037706;
     color: white;
-    padding: 14px 20px;
+    padding: 14px 13px;
     margin: 8px 0;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    text-align: center;
 }
 
 input[type=submit]:hover {
@@ -515,11 +520,14 @@ li a {
     }
 
     .intro {
-        height: 120vh;
+        height: 130vh;
     }
 
     .intro-content {
         height: 100vh;
+    }
+    .intro-image{
+        top: 3vh;
     }
 
     .intro-image img {
