@@ -45,7 +45,9 @@ IISc Exhibitions here at Pravega brings to you a one-of-its-kind of contest that
             <div class="text">
                 <div class="timeline">
                     <h1>Timeline</h1><br>
-                    <p> 28th July (Last date of submission)
+                    <p> Last date of submission of exhibition: 28th July<br>
+                    Final Presentation: Day of Pravega
+
                     </p><br>
                 </div>
                 <div class="eligibility">
