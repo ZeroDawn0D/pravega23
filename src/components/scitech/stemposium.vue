@@ -46,12 +46,16 @@ Find solutions to real life problems at the cutting edge of tech and stand a cha
                 <div class="timeline">
                     <h1>Timeline</h1><br>
                     <p> The end date of submission is September 9 (first weekend of September)
-                    </p><br>
+                    </p>
                 </div>
                 <div class="eligibility">
                     <h1>Eligibility</h1><br>
                     <p> Open to all.
-                    </p><br>
+                    </p>
+                </div>
+                <div class="rules">
+                <h1>Rules</h1>
+                <p>You can find the rules <a href = "/pdf/Ideathon 2023.docx">here</a></p>
                 </div>
                 <div class="prizes">
                     <h1>Prizes</h1><br>
@@ -349,7 +353,7 @@ li a {
     text-align: left;
 }
 
-.timeline,
+.timeline, .rules,
 .eligibility,
 .prizes {
     margin-bottom: 7vh;
@@ -489,7 +493,7 @@ li a {
     }
 
     .text,
-    .timeline,
+    .timeline, .rules,
     .eligibility,
     .prizes {
         padding: 30px;

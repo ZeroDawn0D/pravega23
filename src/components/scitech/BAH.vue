@@ -49,18 +49,23 @@ In the prelims, contestants have to submit a concise alpha presentation, a rough
                 <div class="timeline">
                     <h1>Timeline</h1><br>
                     <p> 20days window for prelims submissions - end date is 27th August (last weekend of August)
-                    </p><br>
+                    </p>
                 </div>
                 <div class="eligibility">
                     <h1>Eligibility</h1><br>
                     <p> Anyone (with proper mention of it, if option not present in the registration forms)
-                    </p><br>
+                    </p>
+                </div>
+                <div class="rules">
+                <h1>Rules</h1>
+                <p>You can find the rules <a href = "/pdf/BAH_Rules & Regulations.docx">here</a></p>
                 </div>
                 <div class="prizes">
                     <h1>Prizes</h1><br>
                     <p> The event will have Prizes of up to 15k.
                     </p>
                 </div>
+
             </div>
         </div>
         <div class="coord-intro" id ="coords">
@@ -346,7 +351,8 @@ li a {
 
 .timeline,
 .eligibility,
-.prizes {
+.prizes,
+.rules {
     margin-bottom: 7vh;
     padding-right: 2vw;
 }
@@ -487,7 +493,8 @@ li a {
     .text,
     .timeline,
     .eligibility,
-    .prizes {
+    .prizes,
+    .rules {
         padding: 30px;
         text-align: center;
         margin: -1%;

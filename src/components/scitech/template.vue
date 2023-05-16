@@ -5,7 +5,7 @@
 <template>
 
 
-<div class = "content-stuff">  
+<div class = "content-stuff">
 
 <div class = "scitech-navbar">
   <ul>
@@ -13,7 +13,7 @@
     <li><a href="#contact">Sample Questions</a></li>
     <li><a href="#hof">Hall of Fame</a></li>
   </ul>
-</div> 
+</div>
 
 <div class ="intro">
     <div class = "intro-content">
@@ -25,7 +25,7 @@
         <img src = "/img/scitech/sample1.png" alt = "scitech" width = "100%">
     </div>
 </div>
-    
+
 <div class = "declaration">
     <div class = "big-text" style="background-color: #ebf234;">
             <h1>Don't miss out on <br> IISc's Premier Chemistry Event</h1>
@@ -36,7 +36,7 @@
 <br>The Final event will truly bring out the Enigma of Chemenigma. The finalists would have to work their way through challenging problems in India's finest research labs with the exciting opportunity to present and defend their work in front of leading Chemists in the panel of judges!
 
 <br> Do you have what it takes to be in the Finals?</p>
-    </div>    
+    </div>
 </div>
 
 <div class = "details">
@@ -46,40 +46,47 @@
     <div class = "text">
         <div class = "timeline">
             <h1>Timeline</h1><br>
-            <p> I'm a paragraph. Click here to add your own text and edit me. It’s easy. 
-                Just click “Edit Text” or double click me to add your own content and make changes to the font. 
-                I’m a great place for you to tell a story and let your users know a little more about you.
-            </p><br>
-        </div>
-        <div class = "eligibility">
-            <h1>Eligibility</h1><br>
-            <p> I'm a paragraph. Click here to add your own text and edit me. It’s easy. 
-                Just click “Edit Text” or double click me to add your own content and make changes to the font. 
-                I’m a great place for you to tell a story and let your users know a little more about you.
-            </p><br>
-        </div>
-        <div class = "prizes">
-            <h1>Prizes</h1><br>
-            <p> I'm a paragraph. Click here to add your own text and edit me. It’s easy. 
-                Just click “Edit Text” or double click me to add your own content and make changes to the font. 
+            <p> I'm a paragraph. Click here to add your own text and edit me. It’s easy.
+                Just click “Edit Text” or double click me to add your own content and make changes to the font.
                 I’m a great place for you to tell a story and let your users know a little more about you.
             </p>
         </div>
-    </div>    
+        <div class = "eligibility">
+            <h1>Eligibility</h1><br>
+            <p> I'm a paragraph. Click here to add your own text and edit me. It’s easy.
+                Just click “Edit Text” or double click me to add your own content and make changes to the font.
+                I’m a great place for you to tell a story and let your users know a little more about you.
+            </p>
+        </div>
+        <div class = "prizes">
+            <h1>Prizes</h1><br>
+            <p> I'm a paragraph. Click here to add your own text and edit me. It’s easy.
+                Just click “Edit Text” or double click me to add your own content and make changes to the font.
+                I’m a great place for you to tell a story and let your users know a little more about you.
+            </p>
+        </div>
+        <div class = "rules">
+            <h1>Rules</h1><br>
+            <p> I'm a paragraph. Click here to add your own text and edit me. It’s easy.
+                Just click “Edit Text” or double click me to add your own content and make changes to the font.
+                I’m a great place for you to tell a story and let your users know a little more about you.
+            </p>
+        </div>
+    </div>
 </div>
 <div class = "coord-intro">
     <h1>Our Coordinators</h1><br>
 
-    <p> I'm a paragraph. Click here to add your own text and edit me. It’s easy. 
-        Just click “Edit Text” or double click me to add your own content and make changes to the font. 
+    <p> I'm a paragraph. Click here to add your own text and edit me. It’s easy.
+        Just click “Edit Text” or double click me to add your own content and make changes to the font.
         I’m a great place for you to tell a story and let your users know a little more about you.</p><br>
 </div>
 
 
 <div class = "coords">
-   
-        
-    
+
+
+
         <div class = "coord">
             <div class = "coord-img">
                 <img src = "/img/scitech/camelia_photo_chemenigma.jpg" alt = "scitech" height = "120%" width="35%">
@@ -111,11 +118,11 @@
 
 <div class = "quote">
     <div class = "quote-text" style="font-family: 'Times New Roman', Times, serif;">
-        <p> "I'm a paragraph. Click here to add your own text and edit me. It’s easy. 
-            Just click “Edit Text” or double click me to add your own content and make changes to the font. 
+        <p> "I'm a paragraph. Click here to add your own text and edit me. It’s easy.
+            Just click “Edit Text” or double click me to add your own content and make changes to the font.
             I’m a great place for you to tell a story and let your users know a little more about you."
         </p>
-    </div>  
+    </div>
 </div>
 
 <div class ="hof" id = "hof">
@@ -160,10 +167,10 @@
     <td>Giovanni Rovelli</td>
     <td>Italy</td>
   </tr>
-</table>   
+</table>
     </div>
 </div>
-</div>  
+</div>
 
 
 
@@ -223,7 +230,7 @@ li a {
 	top: 10vh;
 	height: 90vh;
 	background-color: #ffffff;
-	
+
 	border-top-left-radius: 25px;
 	border-top-right-radius: 30px;
 	overflow-y: scroll;
@@ -307,7 +314,7 @@ li a {
     margin-right: 8vw;
     background-color: #ffffff;
     align-items: center;
-    text-align: center; 
+    text-align: center;
 }
 .small-text{
     font-size: 1.2vw;
@@ -342,7 +349,7 @@ li a {
     align-items: left;
     text-align: left;
 }
-.timeline,.eligibility,.prizes{
+.timeline,.eligibility,.prizes, .rules{
     margin-bottom: 7vh;
     padding-right: 2vw;
 }
@@ -436,9 +443,9 @@ li a {
     .details img{
         width: 100vw;
         height: auto;
-        
+
     }
-    .text,.timeline,.eligibility,.prizes{
+    .text,.timeline,.eligibility,.prizes, rules{
         padding: 30px;
         text-align: center;
         margin: 0%;

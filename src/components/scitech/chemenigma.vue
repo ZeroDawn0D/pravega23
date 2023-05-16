@@ -57,18 +57,23 @@
                         components, thought-provoking challenges.
                         The links for registration and the discord servers will be soon available on the website and there
                         is no registration fees for the event.
-                    </p><br>
+                    </p>
                 </div>
                 <div class="eligibility">
                     <h1>Eligibility</h1><br>
                     <p> High school students (grade 11 and 12) or upto 2nd year undergraduate students
-                    </p><br>
+                    </p>
+                </div>
+                <div class="rules">
+                <h1>Rules</h1>
+                <p>You can find the rules <a href = "/pdf/Chemenigma_rules.docx">here</a></p>
                 </div>
                 <div class="prizes">
-                    <h1>Prizes</h1><br>
+                    <h1>Prizes</h1>
                     <p> The event will have Prizes of up to 40k.
                     </p>
                 </div>
+
             </div>
         </div>
         <div class="coord-intro">
@@ -361,7 +366,8 @@ li a {
     text-align: left;
 }
 
-.timeline,
+.timeline, .rules,
+.rules,
 .eligibility,
 .prizes {
     margin-bottom: 7vh;
@@ -501,7 +507,7 @@ li a {
     }
 
     .text,
-    .timeline,
+    .timeline, .rules,
     .eligibility,
     .prizes {
         padding: 30px;

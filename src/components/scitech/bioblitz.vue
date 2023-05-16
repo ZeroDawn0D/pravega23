@@ -54,12 +54,16 @@ Register<script>
                 <div class="timeline">
                     <h1>Timeline</h1><br>
                     <p> Prelims 1: July 15,2023. Prelims 2: Aug 12, 2023.
-                    </p><br>
+                    </p>
                 </div>
                 <div class="eligibility">
                     <h1>Eligibility</h1><br>
                     <p> 10-12th high school, 1st and 2nd Year Undergrads.
-                    </p><br>
+                    </p>
+                </div>
+                <div class="rules">
+                <h1>Rules</h1>
+                <p>You can find the rules <a href = "/pdf/Bioblitz RR.pdf">here</a></p>
                 </div>
                 <div class="prizes">
                     <h1>Prizes</h1><br>
@@ -384,6 +388,7 @@ li a {
 }
 
 .timeline,
+.rules,
 .eligibility,
 .prizes {
     margin-bottom: 7vh;
@@ -522,6 +527,7 @@ li a {
 
     .text,
     .timeline,
+    .rules,
     .eligibility,
     .prizes {
         padding: 30px;

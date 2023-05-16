@@ -50,12 +50,16 @@ Pravega Innovation Summit (PIS) is the flagship event of the Science and Cultura
 The submission end date of prelims is August 20, the prelims entry would be a Pitch-Desk and a video with a 5-minute limit.<br>
 The top 10 teams (subject to change) will be called for the Mains at IISc Bangalore for the final round during the weekend of Pravega IISc. <br>
 There is no registration fees for the event
-                    </p><br>
+                    </p>
                 </div>
                 <div class="eligibility">
                     <h1>Eligibility</h1><br>
                     <p> The teams can be of at most of 5 people, with each participant being in the age group of 15-28 (as of October 31, 2023) and further details are mentioned in the rules and eligibility document.
-                    </p><br>
+                    </p>
+                </div>
+                <div class="rules">
+                <h1>Rules</h1>
+                <p>You can find the rules <a href = "/pdf/PIS_RulesAndRegulations.pdf">here</a></p>
                 </div>
                 <div class="prizes">
                     <h1>Prizes</h1><br>
@@ -353,7 +357,7 @@ li a {
     text-align: left;
 }
 
-.timeline,
+.timeline, .rules,
 .eligibility,
 .prizes {
     margin-bottom: 7vh;
@@ -494,7 +498,7 @@ li a {
     }
 
     .text,
-    .timeline,
+    .timeline, .rules,
     .eligibility,
     .prizes {
         padding: 30px;
