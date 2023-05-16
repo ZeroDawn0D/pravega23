@@ -28,7 +28,9 @@ export default{
 				<router-link to = "/carvaan/cities">
 					<Card link = "/img/culturals/Proscencium V1.jpg" size = "300px"/>
 				</router-link>
-
+				<router-link to = "/carvaan/upload_reels">
+					<Card link = "img/culturals/reelmaking.jpg" size = "300px"/>
+				</router-link>
 
 
 			</div>
