@@ -50,7 +50,7 @@ Find solutions to real life problems at the cutting edge of tech and stand a cha
                 </div>
                 <div class="eligibility">
                     <h1>Eligibility</h1><br>
-                    <p> Open to all.
+                    <p> Participation is allowed for upto 3rd year undergraduates students
                     </p>
                 </div>
                 <div class="rules">

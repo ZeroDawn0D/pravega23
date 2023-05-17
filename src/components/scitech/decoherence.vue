@@ -76,7 +76,7 @@
                 </div>
                 <div class="eligibility">
                     <h1>Eligibility</h1>
-                    <p>Presently in 11th or 12th as of May 2023 or must be in 1st year of college/ university as of  January 2023. People who have completed their 12th and have not taken admission in a college/university are allowed to participate.
+                    <p>Presently in 11th or 12th as of May 2023 or must be in 1st year of college/ university as of  January 2023. People who have completed their 12th and have not taken admission in a college/university are allowed to participate. Participation upto 2022 batch is allowed, i.e., the peers of our junior batch are allowed to give the exam.
  <a href="/pdf/DECOHERENCE RULES.docx">Rules and Eligibility
                             criteria.</a>
                     </p><br>
