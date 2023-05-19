@@ -80,7 +80,7 @@ export default{
 				</div>
 				<div class ="flex">
 					<Card3
-					dataImage="/img/people/unknown.jpeg"
+					dataImage="/img/people/rohan-pronites.jpg"
 					size = "250px"
 					title = "Rohan"
 					hover = "7081228530
