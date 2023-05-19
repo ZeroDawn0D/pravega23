@@ -31,6 +31,19 @@ export default{
 				<router-link to = "/carvaan/upload_reels">
 					<Card link = "img/culturals/reelmaking.jpg" size = "300px"/>
 				</router-link>
+				<router-link to = "/carvaan/upload_reels">
+					<Card link = "img/culturals/Cooking V1.jpg" size = "300px"/>
+				</router-link>
+				<router-link to = "/carvaan/upload_reels">
+					<Card link = "img/culturals/Dianoia V2.jpg" size = "300px"/>
+				</router-link>
+				<router-link to = "/carvaan/upload_reels">
+					<Card link = "img/culturals/MUN V1.jpg" size = "300px"/>
+				</router-link>
+				<router-link to = "/carvaan/upload_reels">
+					<Card link = "img/culturals/Shutterbugs V2.jpg" size = "300px"/>
+				</router-link>
+				
 
 
 			</div>
@@ -66,7 +79,7 @@ export default{
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 	row-gap: 1.5rem;
-	padding: 20px;
+	padding: 8px;
 }
 
 </style>
