@@ -101,7 +101,7 @@ export default{
 					size = "250px"
 					title = "Pugazhendi"
 					hover = "7338981627
-					 krohan@iisc.ac.in" />
+					 pugazhendhia@iisc.ac.in" />
 					<Card3
 					dataImage="/img/people/SANKALP.jpg"
 					size = "250px"
