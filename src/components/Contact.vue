@@ -141,7 +141,7 @@ export default{
 				</div>
 				<div class ="flex">
 					<Card3
-					dataImage="/img/people/unknown.jpeg"
+					dataImage="/img/people/satyadarshi.jpg"
 					size = "250px"
 					title = "Satyadarshi"
 					hover = "9709997353
@@ -196,7 +196,7 @@ export default{
 					title = "Dhruba"
 					hover = "9051676010 dhrubadey@iisc.ac.in" />
 					<Card3
-					dataImage="/img/people/unknown.jpeg"
+					dataImage="/img/people/debadrito.jpg"
 					size = "250px"
 					title = "Debadrito"
 					hover = "62914 68387 debadritoroy@iisc.ac.in" />
