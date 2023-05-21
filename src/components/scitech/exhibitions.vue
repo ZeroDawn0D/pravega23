@@ -69,7 +69,9 @@ IISc Exhibitions here at Pravega brings to you a one-of-its-kind of contest that
             <h1>Our Coordinators</h1><br>
 
             <p> Meet our amazing coordinators. For any query regarding the event, they are your first point of contact!
-                Don't hesistate to mail them at any time of the day, and they will try to reply as soon as possible.</p><br>
+                Don't hesistate to mail them at any time of the day, and they will try to reply as soon as possible. For any general 
+                queries, mail us at scitech[dot]pravega[at]iisc[dot]ac[dot]in.
+            </p><br>
         </div>
 
 
