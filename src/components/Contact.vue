@@ -238,7 +238,7 @@ export default{
 					dataImage="/img/scitech/priyanshu_photo_chemenigma.jpeg.jpg"
 					size = "250px"
 					title = "Priyanshu"
-					hover = "priyanshug[at]iisc[dot]ac[dot]in" />
+					hover = "priyanshug@iisc.ac.in" />
 				</div>
 				<br/>
 				<div class = "grad">
@@ -252,7 +252,7 @@ export default{
 					hover = "87923 73085
 					 tirtharenuc@iisc.ac.in" />
 					<Card3
-					dataImage="/img/people/unknown.jpeg"
+					dataImage="/img/people/Dipayan.jpg"
 					size = "250px"
 					title = "Dipayan"
 					hover = "73629 65429 dipayandatta@iisc.ac.in" />
@@ -304,7 +304,7 @@ export default{
 					hover = "8050700234
 					 oviyag@iisc.ac.in" />
 					<Card3
-					dataImage="/img/people/unknown.jpeg"
+					dataImage="/img/people/sourabh.jpg"
 					size = "250px"
 					title = "Sourabh"
 					hover = "9182809934 sourabhp@iisc.ac.in" />
