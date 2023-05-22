@@ -108,7 +108,7 @@ export default{
 					title = "Sankalp"
 					hover = "9691664003 sankalps@iisc.ac.in" />
 					<Card3
-					dataImage="/img/people/unknown.jpeg"
+					dataImage="/img/people/tejas.jpg"
 					size = "250px"
 					title = "Tejas"
 					hover = "9920044090 tejasvinod@iisc.ac.in" />
