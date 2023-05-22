@@ -318,10 +318,11 @@ li a {
         top: 10%;
         background-color: #ffffff;
         text-align: center;
-        padding-left: 20vw;
-        padding-right: 20vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
         padding-bottom: 10vh ;
         padding-top: 10vh;
+        font-size: larger;
     }
 
     .coords{

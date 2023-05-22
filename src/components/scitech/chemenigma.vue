@@ -383,7 +383,7 @@ li a {
 
 .coords {
     position: relative;
-    top: 10vh;
+    top: 16vh;
     height: 90vh;
     width: 100vw;
     display: flex;
@@ -400,6 +400,10 @@ li a {
     background-color: #ffffff;
     align-items: right;
     text-align: center;
+}
+
+.coord-intro{
+    font-size: larger;
 }
 
 .coord-img img{
