@@ -248,6 +248,7 @@ li a {
     background-color: #ffffff;
     color: black;
     text-align: center;
+    font-size: larger;
 }
 
 .content-stuff {
@@ -404,7 +405,7 @@ li a {
 
 .coords {
     position: relative;
-    top: 10vh;
+    top: 16vh;
     height: 90vh;
     width: 100vw;
     display: flex;

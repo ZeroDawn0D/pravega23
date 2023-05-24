@@ -16,7 +16,7 @@
             <div class="intro-content">
                 <br><br>
                 <h1>Chemenigma</h1><br>
-                <p>Some Explosive Brain-wacking Chemistry</p><br>
+                <p>Some Explosive Brain-wracking Chemistry</p><br>
                 <router-link to = "/scitech/chemenigma_register">
                     <button type="button" class="reg_button">Register</button>
                 </router-link>
@@ -383,7 +383,7 @@ li a {
 
 .coords {
     position: relative;
-    top: 10vh;
+    top: 16vh;
     height: 90vh;
     width: 100vw;
     display: flex;
@@ -400,6 +400,10 @@ li a {
     background-color: #ffffff;
     align-items: right;
     text-align: center;
+}
+
+.coord-intro{
+    font-size: larger;
 }
 
 .coord-img img{
