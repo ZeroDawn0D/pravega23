@@ -8,7 +8,7 @@ export default {
     methods: {
         enter: function () {
             this.code = prompt("Enter the code: ");
-            this.check();
+            if(this.code!="")this.check();
         },
         check: function () {
             const DOMAIN = "https://api.pravega.org";
