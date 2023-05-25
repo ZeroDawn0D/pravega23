@@ -34,7 +34,7 @@
                 <p>
                 <ul style="text-align: left;"><li>
                     Chemenigma is the Chemistry quiz event of Pravega. Chemenigma is held in two stages- an online Prelims
-                    and an offline Mains at IISc.</li><li>One can participate as a solo participant or groups of up to 2 people.</li>
+                    and an offline Mains at IISc.</li><li>One can participate as a solo participant or groups of up to 2 people. (<b>We encourage teams of 2 participants because team of one person may face difficulty in performing experiments, etc. in finals  (if qualified)</b>)</li>
                     <li>Applicants can be high school students (Class XI, Class XII) or upto 2nd-year undergraduates.</li>
                     <li>Questions are meant to be thought–provoking and layered. We aspire to bring together different facets of
                     chemistry and reward the participants who can follow essential ideas rather than rote memorization.</li>

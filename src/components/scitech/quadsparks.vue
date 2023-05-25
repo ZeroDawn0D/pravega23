@@ -6,6 +6,10 @@ export default {
         return { code: "" }
     },
     methods: {
+        enter: function () {
+            this.code = prompt("Enter the code: ");
+            this.check();
+        },
         check: function () {
             const DOMAIN = "https://api.pravega.org";
             fetch(`${DOMAIN}/api/sci_tech/quad/checkcode`, {
@@ -17,8 +21,9 @@ export default {
                 body: JSON.stringify({ number: this.code })
             })
                 .then((res) => {
-                    if (res.status == 200) { alert('You are getting discount!! Cheers...') 
-                    router.push("/scitech/quadsparks_discount_register");
+                    if (res.status == 200) {
+                        alert('You are getting discount!! Cheers...')
+                        router.push("/scitech/quadsparks_discount_register");
                     }//to be updated by Umang
                     else if (res.status == 401) { alert('Didnt work :(...maybe check the code again?') }// to be updated by Umang
                     else { alert('Server issue, try later!') }
@@ -47,16 +52,19 @@ export default {
                 <p>Quizzical musings, and a dash of science</p><br>
                 <br />
                 <br />
-                <h3>Have a registration code? Enter here:</h3>
-                <br />
-                <input type="text" v-model="code" placeholder="Enter here" required />
-                <br />
-                <input type="submit" @click="check" value="Get Discount!!" />
-                <br />
-                <br />
-                <router-link to="/scitech/quadsparks_register">
-                    <button type="button" class="reg_button">Register without Registration code</button>
-                </router-link>
+                <p style="font-size: 1.7rem;font-weight: 600;">Register here</p>
+                <br/>
+                <div class="float">
+                    <div class="float1">
+                        <button type="button" @click="enter" class="reg_button_1">Register WITH Registration
+                            code</button>
+                    </div>
+                    <div class="float2">
+                        <router-link to="/scitech/quadsparks_register">
+                            <button type="button" class="reg_button">Register WITHOUT Registration code</button>
+                        </router-link>
+                    </div>
+                </div>
             </div>
             <div class="intro-image">
                 <img src="/img/scitech/Quadsparks.jpg" alt="scitech">
@@ -111,7 +119,8 @@ export default {
             <h1>Our Coordinators</h1><br>
 
             <p> Meet our amazing coordinators. For any query regarding the event, they are your first point of contact!
-                Don't hesistate to mail them at any time of the day, and they will try to reply as soon as possible.  For any general 
+                Don't hesistate to mail them at any time of the day, and they will try to reply as soon as possible. For any
+                general
                 queries, mail us at scitech[dot]pravega[at]iisc[dot]ac[dot]in.
             </p><br>
         </div>
@@ -183,6 +192,13 @@ export default {
 </template>
 
 <style scoped>
+.float{
+    display: flex;
+    flex-direction: row;
+}
+.float1,.float2{
+    width: 50%;
+}
 input[type=text] {
     width: 50%;
     padding: 12px 20px;
@@ -210,7 +226,25 @@ input[type=submit]:hover {
 }
 
 .reg_button {
-    background-color: #7295f6;
+    background-color: #3e8ed0;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 30px;
+}
+
+.reg_button_1 {
+    background-color: #48c78e;
     /* Green */
     border: none;
     color: white;
@@ -229,7 +263,12 @@ input[type=submit]:hover {
 
 .reg_button:hover {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-    background-color: rgb(240, 134, 155);
+    background-color: #3488ce;
+}
+
+.reg_button_1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background-color: #3ec487;
 }
 
 table {
@@ -529,7 +568,8 @@ li a {
     .intro-content {
         height: 100vh;
     }
-    .intro-image{
+
+    .intro-image {
         top: 3vh;
     }
 
