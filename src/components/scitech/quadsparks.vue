@@ -195,6 +195,7 @@ export default {
 .float{
     display: flex;
     flex-direction: row;
+
 }
 .float1,.float2{
     width: 50%;
@@ -530,6 +531,9 @@ li a {
 }
 
 @media screen and (max-width:1024px) {
+    .reg_button_1, .reg_button{
+        padding: 15px;
+    }
 
     .intro,
     .details,
