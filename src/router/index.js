@@ -35,6 +35,7 @@ import pis from "../components/scitech/PIS.vue"
 import quadsparks from "../components/scitech/quadsparks.vue"
 import hoco from "../components/scitech/hoco.vue"
 import stemposium from "../components/scitech/stemposium.vue"
+import cultural_template from "../components/culturals/cultural_template.vue"
 /*import Delhi from "../components/carvaan/Delhi.vue"
 
 
@@ -89,6 +90,7 @@ const routes = [
 	{path: "/scitech/quadsparks", name:"quadsparks",component:quadsparks},
 	{path: "/scitech/hoco", name:"hoco",component:hoco},
 	{path: "/scitech/stemposium", name:"stemposium",component:stemposium},
+	{path: "/culturals/cultural_template", name:"cultural_template",component:cultural_template},
 
 
 	/*{path:"/carvaan/mumbai",name:"Mumbai",component:Mumbai},
