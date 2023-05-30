@@ -48,8 +48,8 @@
                 <div class="timeline">
                     <h1>Timeline</h1><br>
                     <p>Event has two rounds: Prelims and Finals<br>Prelims (online): 29th July, 2023 (4th weekend of July)
-                    </p><p>Prelims will have computational as well as subjective problems, roughly olympiad style
-                    </p><p>Finals will be offline, with only the top few teams from the prelims, on the IISc campus on the weekend of Pravega, for applicants outside of India, an online finals would be held, in case of travel absence</p>
+                    </p><p>Prelims will have computational as well as subjective problems, roughly olympiad style</p>
+                <p>Finals will be held offline during the Pravega weekend in the IISc campus. Online finals will be held for non-Indian applicants.  </p>
                 </div>
                 <div class="eligibility">
                     <h1>Eligibility</h1><br>
@@ -92,7 +92,7 @@
                     <img src="/img/scitech/aryan_photo_enum.jpg" alt="scitech">
                 </div><br>
                 <div class="coord-text">
-                    <h1>Aryan Amin Kazi</h1>
+                    <h1>Kazi Aryan Amin</h1>
                     <p>aryanamin[at]iisc[dot]ac[dot]in</p>
                 </div>
             </div>
