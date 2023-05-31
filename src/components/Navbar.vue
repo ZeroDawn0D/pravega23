@@ -73,9 +73,9 @@
     	</div>
       </router-link>
 
-      <router-link @click = "this.menuBlack = true;" :style = "`text-decoration: none; color: inherit`" to="/aaghaz">
+      <router-link @click = "this.menuBlack = true;" :style = "`text-decoration: none; color: inherit`" to="/recreationals">
     	<div :class="`workshop-button`">
-      		AAGHAAZ
+      		RECREATIONALS
     	</div>
       </router-link>
 
