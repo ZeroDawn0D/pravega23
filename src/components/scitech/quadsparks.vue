@@ -1,6 +1,5 @@
 <script>
 import router from '../../router';
-import Swal from "sweetalert2";
 export default {
     data() {
         return { code: "" }
@@ -22,13 +21,13 @@ export default {
             })
                 .then((res) => {
                     if (res.status == 200) {
-                       Swal.fire({icon:"success",title:"Hurray!",text:"You are getting discount in registration fee!!!"})
+                     alert("You are getting discount in registration fee!!!");
                         router.push("/scitech/quadsparks_discount_register");
                     }//to be updated by Umang
-                    else if (res.status == 401) {  Swal.fire({icon:"error",title:"Oops!",text:"Didnt work :(...maybe check the code again?"}) }// to be updated by Umang
-                    else { Swal.fire({icon:"error",title:"Oops!",text:"Server issue, try later!"}) }
+                    else if (res.status == 401) { alert("Didnt work :(...maybe check the code again?") }// to be updated by Umang
+                    else { alert("Server issue, try later!") }
                 })
-                .catch((e) => Swal.fire({icon:"error",title:"Oops!",text:e.message}))
+                .catch((e) => alert(e.message))
         }
     }
 }
