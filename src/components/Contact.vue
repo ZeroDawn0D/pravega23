@@ -369,6 +369,7 @@ export default{
 		text-align: center;
 	font-size: 50px;
   	background: -webkit-linear-gradient(45deg, #4cc9f0, #fff12d);
+	background-clip: text;
   	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
   	font-weight: bold;

@@ -1,4 +1,10 @@
 <script>
+import Swal from "sweetalert2"
+Swal.fire({
+    icon:"info",
+    title:"Alert",
+    text:"Due to queries raised by few participants, we clarify that in Oct. 2023, if you are in from class 11 to second-year UG students, you are ELIGIBLE."
+})
 </script>
 
 <template>

@@ -56,6 +56,7 @@ export default{
 }
 .grad{
   	background: -webkit-linear-gradient(45deg, #dd6e42, #3a0ca6);
+	background-clip: text;
   	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
 }
