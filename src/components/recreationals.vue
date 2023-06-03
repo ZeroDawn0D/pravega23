@@ -7,7 +7,7 @@ export default{
 </script>
 <template>
 	<div :class = "`title-flex`">
-		<Title text = "RECREATIONALS" color = "#7bff28"/>
+		<Title text = "MERCH" color = "#7bff28"/>
 		<div :class = "`content`">
 			<Soon />
 		</div>
