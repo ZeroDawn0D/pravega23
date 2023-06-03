@@ -1,10 +1,11 @@
-<script>
+<script >
 import Swal from "sweetalert2"
-Swal.fire({
+if(window.location.pathname=="/scitech/chemenigma")
+{Swal.fire({
     icon:"info",
     title:"Alert",
     text:"Due to queries raised by few participants, we clarify that in Oct. 2023, if you are in from class 11 to second-year UG students, you are ELIGIBLE."
-})
+})}
 </script>
 
 <template>
@@ -67,7 +68,7 @@ Swal.fire({
                 </div>
                 <div class="eligibility">
                     <h1>Eligibility</h1><br>
-                    <p> High school students (grade 11 and 12) or upto 2nd year undergraduate students
+                    <p> Applicants who will be in class 11 or 12 or first-year UG or second-year UG student in Oct. 2023 are eligible.
                     </p>
                 </div>
                 <div class="rules">
