@@ -1,5 +1,10 @@
 <script >
-
+    import swal from 'sweetalert';
+    export default{
+        mounted(){
+            swal("Alert", "Due to queries raised by few participants, we clarify that in Oct 2023, if you're a class 11 to 2nd year UG student, you are ELIGIBLE", "info");
+        }
+    }
 </script>
 
 <template>

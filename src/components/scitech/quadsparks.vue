@@ -1,5 +1,6 @@
 <script>
 import router from '../../router';
+import swal from 'sweetalert';
 export default {
     data() {
         return { code: "" }
@@ -29,7 +30,12 @@ export default {
                 })
                 .catch((e) => alert(e.message))
         }
-    }
+        
+    },
+    /*mounted(){
+            swal("Alert", "Due to queries raised by few participants, we clarify that in Oct 2023, if you're a class 11 to 2nd year UG student, you are ELIGIBLE", "info");
+        }*/
+
 }
 </script>
 
