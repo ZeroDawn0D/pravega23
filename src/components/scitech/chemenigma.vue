@@ -3,9 +3,19 @@
     export default{
         mounted(){
         let recaptchaScript = document.createElement('script')
-      recaptchaScript.setAttribute('src', '//unpkg.com/sweetalert/dist/sweetalert.min.js')
+      recaptchaScript.setAttribute('src', 'https://unpkg.com/sweetalert/dist/sweetalert.min.js')
       document.head.appendChild(recaptchaScript)
-            swal("Alert","Something something","info")
+     this.$nextTick(function(){
+        this.loading()
+     })
+    },
+    /*created: function(){
+        this.loading()
+    },*/
+    methods:{
+        loading: function(){
+            swal("Alert","something something","info")
+        }
     }
     }
 </script>
