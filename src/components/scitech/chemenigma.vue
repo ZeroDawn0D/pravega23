@@ -1,10 +1,9 @@
 <script >
-import swal from 'sweetalert'
 
     export default{
         mounted(){
         let recaptchaScript = document.createElement('script')
-      recaptchaScript.setAttribute('src', '//embed.typeform.com/next/embed.js')
+      recaptchaScript.setAttribute('src', '//unpkg.com/sweetalert/dist/sweetalert.min.js')
       document.head.appendChild(recaptchaScript)
             swal("Alert","Something something","info")
     }
