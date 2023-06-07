@@ -7,8 +7,8 @@
     <div class = "culturals_navbar">
         <ul>
             <li><a href="#news">Gallery</a></li>
-            <li><a href="#contact">Poster</a></li>
-            <li><a href="#hof">Contact</a></li>
+            <li><a href="#">Poster</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </div>
     <br>
@@ -67,7 +67,7 @@
     </div>
     <br>
     <br>
-    <div class = 'coords'>
+    <div class = 'coords' id ='contact'>
         <h1>Our Coordinators</h1><br>
         <div class = "flex-images">
             <div class = "image_1">
