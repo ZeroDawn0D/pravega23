@@ -5,27 +5,33 @@
 <template>
 <div class = 'content-stuff'>
     <div class = "culturals_navbar">
-        <ul>
-            <li><a href="#news">Gallery</a></li>
-            <li><a href="#contact">Poster</a></li>
-            <li><a href="#hof">Contact</a></li>
+        <ul class = "ul">
+            <li class = 'li'><a href="#news">Gallery</a></li>
+            <li class = 'li'><a href="#contact">Poster</a></li>
+            <li class = 'li'><a href="#hof">Contact</a></li>
         </ul>
     </div>
     <br>
     <br>
 
     <dic class = 'desc_mobile'>
-        <h2>TEMPLATE</h2><br>
-            <p>I'm a paragraph. Click here to add your own text and edit me. 
-            It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.
-            </p>
+        <h2>Dianoia</h2><br>
+            <p>A battle of words, the debutante oratory and debate event, Dianoia, tests your ability to think on your toes and presents a plethora of opportunities to showcase your versatility as a speaker. 
+                From fiery debates to resolution-oriented discussions, from evocative extempore speeches to amusing just-a-minute quips, the contest beckons you to sway the crowd with your eloquence. Buckle up, and join us on the ride!
+            </p><br>
+            <router-link to = "/carvaan/register">
+                    <button type="button" class="reg_button">Register here!</button>
+            </router-link>
     </dic>
 
     <div class = "main_image">
         <div class = "desc">
-            <h2>TEMPLATE</h2>
-            <p>I'm a paragraph. Click here to add your own text and edit me. 
-            It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.
+            <h2>Dianoia</h2>
+            <p>A battle of words, the debutante oratory and debate event, Dianoia, tests your ability to think on your toes and presents a plethora of opportunities to showcase your versatility as a speaker. 
+                From fiery debates to resolution-oriented discussions, from evocative extempore speeches to amusing just-a-minute quips, the contest beckons you to sway the crowd with your eloquence. Buckle up, and join us on the ride!<br><br>
+                <router-link to="/carvaan/register" :style="`text-decoration: none; color: inherit;`">
+				<p class = 'learn'>Register here!</p>
+			</router-link>
             </p>
         </div>
     </div>
@@ -37,56 +43,47 @@
         <div class = "text">
             <div class = "timeline">
                 <h1>Timeline</h1><br>
-                <p> I'm a paragraph. Click here to add your own text and edit me. It’s easy.
-                    Just click “Edit Text” or double click me to add your own content and make changes to the font.
-                    I’m a great place for you to tell a story and let your users know a little more about you.
+                <p>Registrations open: 1<sup>st</sup> July to 31<sup>st</sup> July <br>
+                    Prelims Date: 2<sup>nd</sup> week of August.
                 </p>
             </div>
             <div class = "eligibility">
                 <h1>Eligibility</h1><br>
-                <p> I'm a paragraph. Click here to add your own text and edit me. It’s easy.
-                    Just click “Edit Text” or double click me to add your own content and make changes to the font.
-                    I’m a great place for you to tell a story and let your users know a little more about you.
+                <p> Please go through the rules and regulations PDF for this.
                 </p>
             </div>
             <div class = "prizes">
                 <h1>Prizes</h1><br>
-                <p> I'm a paragraph. Click here to add your own text and edit me. It’s easy.
-                    Just click “Edit Text” or double click me to add your own content and make changes to the font.
-                    I’m a great place for you to tell a story and let your users know a little more about you.
+                <p> Prize pool of 20k+.
                 </p>
             </div>
             <div class = "rules">
                 <h1>Rules</h1><br>
-                <p> I'm a paragraph. Click here to add your own text and edit me. It’s easy.
-                    Just click “Edit Text” or double click me to add your own content and make changes to the font.
-                    I’m a great place for you to tell a story and let your users know a little more about you.
+                <p> Click here for the rules and regulations PDF.
                 </p>
             </div>
         </div>
     </div>
     <br>
     <br>
-    <div class = 'coords'>
+    <div class = 'coords' id = 'contact'>
         <h1>Our Coordinators</h1><br>
         <div class = "flex-images">
             <div class = "image_1">
-                <h2>Coordinator 1</h2>
-                <p>Contact Info</p>
+                <h2>Aditi Arun</h2>
+                <p>+91 96320 38334<br>aditiarun@iisc.ac.in</p>
             </div>
             <div class = "image_2">
-                <h2>Coordinator 2</h2>
-                <p>Contact Info</p>
+                <h2>Chethana Nair</h2>
+                <p>+91 98957 55365<br>chethanar@iisc.ac.in</p>
             </div>
-            <div class = "image_3">
+            <!--<div class = "image_3">
                 <h2>Coordinator 3</h2>
-                <p>Contact Info</p>
+                <p>Contact Info</p>-->
             </div>
         </div>
     </div>
 
-
-</div>
 
 </template>
 
@@ -109,18 +106,18 @@ html {
     width:80vw;
 }
 
-ul {
+.ul {
   list-style-type: none;
   margin-top: 20px;
   padding: 0;
   overflow: hidden;
 }
 
-li {
+.li {
   float: right;
 }
 
-li a {
+.li a {
   display: block;
   padding: 20px;
   background-color: #ffffff;
@@ -135,15 +132,51 @@ li a:hover {
     display: none;
 }
 
+.reg_button{
+    background-color: #5d83eb; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius:30px;
+}
+.reg_button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: crimson;
+}
+
 .main_image{
-    background-image: url("/img/culturals/template main image.jpg");
-    background-size: 110% 130%;
+    background-image: url("/img/culturals/dianoia_img1.jpg");
+    background-size: 90% 150%;
     background-repeat: no-repeat;
-    background-position: 10% -20%;
+    background-position: 10% 20%;
     background-attachment: fixed;
     height: 75vh;
     width: 85vw;
     position: absolute;
+}
+
+.learn{
+	cursor: pointer;
+	font-weight: bold;
+	transition: font-size 1s;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: yellow;
+    text-align: left;
+}
+
+.learn:hover{
+	font-size: 1.5em;
 }
 
 .desc{
@@ -151,7 +184,7 @@ li a:hover {
     top: 40%;
     left: 25%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: yellow;
     text-align: left;
     padding: 10px;
     width: 30vw;
@@ -175,11 +208,12 @@ li a:hover {
 }
 .img{
     height: 90vh;
-    width: 110vw;
-    background-image: url("/img/culturals/template_guitar.jpg");
+    width: 40vw;
+    background-image: url("/img/culturals/dianoia_img2.jpg");
     background-repeat: no-repeat;
     background-size: 45% 100%;
     background-attachment: fixed;
+    background-position: 0% -20%;
 }
 
 .timeline,.eligibility,.prizes, .rules{
@@ -208,12 +242,13 @@ li a:hover {
     position: relative;
     top: 10vh;
     gap: 20px;
+    margin-bottom: 15vh;
 }
 
 .image_1{
     height: 100vh;
     width: 32vw;
-    background-image: url("/img/culturals/random.jpg");
+    background-image: url("/img/people/Aditi Arun.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -222,7 +257,7 @@ li a:hover {
 .image_2{
     height: 100vh;
     width: 32vw;
-    background-image: url("/img/culturals/random.jpg");
+    background-image: url("/img/people/chethana.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -240,56 +275,56 @@ li a:hover {
 .image_1 h2{
     position: relative;
     top: 85%;
-    left: 85%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    text-align: left;
+    text-align: center;
     padding: 5px;
 }
 
 .image_1 p{
     position: relative;
     top: 85%;
-    left: 92%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    text-align: left;
+    text-align: center;
     padding: 10px;
 }
 .image_2 p{
     position: relative;
     top: 85%;
-    left: 92%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    text-align: left;
+    text-align: center;
     padding: 10px;
 }
 .image_3 p{
     position: relative;
     top: 85%;
-    left: 92%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    text-align: left;
+    text-align: center;
     padding: 10px;
 }
 .image_2 h2{
     position: relative;
     top: 85%;
-    left: 85%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    text-align: left;
+    text-align: center;
     padding: 10px;
 }
 .image_3 h2{
     position: relative;
     top: 85%;
-    left: 85%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    text-align: left;
+    text-align: center;
     padding: 10px;
 }
 
@@ -341,13 +376,17 @@ li a:hover {
         text-align: center;
         padding: 0px 0px 0px 40px;
     }
+    li{
+        text-align: left;
+    }
     .img{
         position: relative;
         top: -32vh;
         left: 6vw;
+        width: 96vw;
         display: block;
         margin: auto;
-        background-size: 80% 75%;
+        background-size: 90% 75%;
         background-attachment: scroll;
     }
     .coords{
@@ -364,13 +403,15 @@ li a:hover {
         width: 80vw;
     }
     .image_1 h2,.image_2 h2,.image_3 h2{
+        text-align: center;
         font-size: 20px;
-        left: 78%;
+        left: 50%;
         top: 75%;
     }
     .image_1 p,.image_2 p,.image_3 p{
+        text-align: center;
         font-size: 15px;
-        left: 84%;
+        left: 50%;
         top: 74%;
     }
     .image_2 p,.image_3 p{

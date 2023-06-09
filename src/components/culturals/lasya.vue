@@ -5,62 +5,76 @@
 <template>
 <div class = 'content-stuff'>
     <div class = "culturals_navbar">
-        <ul>
-            <li><a href="#news">Gallery</a></li>
-            <li><a href="#contact">Poster</a></li>
-            <li><a href="#hof">Contact</a></li>
+        <ul class = "ul">
+            <li class = 'li'><a href="#news">Gallery</a></li>
+            <li class = 'li'><a href="#contact">Poster</a></li>
+            <li class = 'li'><a href="#hof">Contact</a></li>
         </ul>
     </div>
     <br>
     <br>
 
-    <dic class = 'desc_mobile'>
-        <h2>TEMPLATE</h2><br>
-            <p>I'm a paragraph. Click here to add your own text and edit me. 
-            It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.
-            </p>
-    </dic>
+    <div class = 'desc_mobile'>
+        <h2>Lasya</h2><br>
+            <p>A dance competition like no another, Lasya '23 is a nation wide dance extravaganza which brings on stage uniquely talented and phenomenally graceful dancers proficient in a myraid of styles. The fiery battle put up by the dancers is sure leave the audience in awe of its unmatched class, versatality and enthralling energy. 
+                So, hop on and join us on the journey to make this event a grand success! Happy dancing!
+            </p><br>
+            <router-link to = "/carvaan/register">
+                    <button type="button" class="reg_button">Register here!</button>
+            </router-link>
 
-    <div class = "main_image">
+    </div>
+
+    <div class = "main_image"> <!--Render size: 2612px-->
         <div class = "desc">
-            <h2>TEMPLATE</h2>
-            <p>I'm a paragraph. Click here to add your own text and edit me. 
-            It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.
+            <h2>Lasya</h2>
+            <p>AA dance competition like no another, Lasya '23 is a nation wide dance extravaganza which brings on stage uniquely talented and phenomenally graceful dancers proficient in a myraid of styles. The fiery battle put up by the dancers is sure leave the audience in awe of its unmatched class, versatality and enthralling energy. 
+                So, hop on and join us on the journey to make this event a grand success! Happy dancing!
+<br><br>
+            <router-link to="/carvaan/register" :style="`text-decoration: none; color: inherit;`">
+				<p class = 'learn'>Register here!</p>
+			</router-link>
+
             </p>
         </div>
+       
+			
     </div>
     <br>
     <br>
     <div class = "details">
-        <div class = "img">
+        <div class = "img"> <!--Render size: 1102px-->
         </div>
         <div class = "text">
             <div class = "timeline">
                 <h1>Timeline</h1><br>
-                <p> I'm a paragraph. Click here to add your own text and edit me. It’s easy.
-                    Just click “Edit Text” or double click me to add your own content and make changes to the font.
-                    I’m a great place for you to tell a story and let your users know a little more about you.
-                </p>
+                <p> Carvaan Prelims dates:<br></p><br>
+                <ul>
+                    <li>Bangalore: 20<sup>th</sup> May</li>
+                    <li>Ahmedabad: 4<sup>th</sup> June</li>
+                    <li>Delhi: 10<sup>th</sup> June</li>
+                    <li>Kolkata: 17-18<sup>th</sup> June</li>
+                    <li>Bhubaneshwar: 24-25<sup>th</sup> June</li>
+                    <li>Indore: 1-2<sup>nd</sup> July</li>
+                    <li>Hyderabad: 8-9<sup>th</sup> July</li>
+                    <li>Chennai: 15-16<sup>th</sup> July</li>
+                    <li>Mumbai: 19-20<sup>th</sup> August</li>
+                </ul>
+                
             </div>
             <div class = "eligibility">
                 <h1>Eligibility</h1><br>
-                <p> I'm a paragraph. Click here to add your own text and edit me. It’s easy.
-                    Just click “Edit Text” or double click me to add your own content and make changes to the font.
-                    I’m a great place for you to tell a story and let your users know a little more about you.
+                <p> No specific restrictions as such.
                 </p>
             </div>
             <div class = "prizes">
                 <h1>Prizes</h1><br>
-                <p> I'm a paragraph. Click here to add your own text and edit me. It’s easy.
-                    Just click “Edit Text” or double click me to add your own content and make changes to the font.
-                    I’m a great place for you to tell a story and let your users know a little more about you.
+                <p> Prize pool of 50k+.
                 </p>
             </div>
             <div class = "rules">
                 <h1>Rules</h1><br>
-                <p> I'm a paragraph. Click here to add your own text and edit me. It’s easy.
-                    Just click “Edit Text” or double click me to add your own content and make changes to the font.
-                    I’m a great place for you to tell a story and let your users know a little more about you.
+                <p> Click here for the rules and regulations PDF.
                 </p>
             </div>
         </div>
@@ -70,18 +84,18 @@
     <div class = 'coords'>
         <h1>Our Coordinators</h1><br>
         <div class = "flex-images">
-            <div class = "image_1">
-                <h2>Coordinator 1</h2>
-                <p>Contact Info</p>
+            <div class = "image_1"> <!--Render size: 844px-->
+                <h2>Atharv Suryawanshi</h2>
+                <p>+91 80800 09347<br>atharvsagar@iisc.ac.in</p>
             </div>
             <div class = "image_2">
-                <h2>Coordinator 2</h2>
-                <p>Contact Info</p>
+                <h2>Divija Nanavati</h2>
+                <p>+91 91733 76267<br>divijan@iisc.ac.in</p>
             </div>
-            <div class = "image_3">
+            <!--<div class = "image_3">
                 <h2>Coordinator 3</h2>
                 <p>Contact Info</p>
-            </div>
+            </div>-->
         </div>
     </div>
 
@@ -109,18 +123,18 @@ html {
     width:80vw;
 }
 
-ul {
+.ul {
   list-style-type: none;
   margin-top: 20px;
   padding: 0;
   overflow: hidden;
 }
 
-li {
+.li {
   float: right;
 }
 
-li a {
+.li a {
   display: block;
   padding: 20px;
   background-color: #ffffff;
@@ -135,15 +149,51 @@ li a:hover {
     display: none;
 }
 
+.reg_button{
+    background-color: #5d83eb; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius:30px;
+}
+.reg_button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: crimson;
+}
+
 .main_image{
-    background-image: url("/img/culturals/template main image.jpg");
-    background-size: 110% 130%;
+    background-image: url("/img/culturals/lasya_img1.jpg");
+    background-size: 90% 200%;
     background-repeat: no-repeat;
-    background-position: 10% -20%;
+    background-position: 0% 10%;
     background-attachment: fixed;
     height: 75vh;
     width: 85vw;
     position: absolute;
+}
+
+.learn{
+	cursor: pointer;
+	font-weight: bold;
+	transition: font-size 1s;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: yellow;
+    text-align: left;
+}
+
+.learn:hover{
+	font-size: 1.5em;
 }
 
 .desc{
@@ -151,7 +201,7 @@ li a:hover {
     top: 40%;
     left: 25%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: yellow;
     text-align: left;
     padding: 10px;
     width: 30vw;
@@ -175,8 +225,8 @@ li a:hover {
 }
 .img{
     height: 90vh;
-    width: 110vw;
-    background-image: url("/img/culturals/template_guitar.jpg");
+    width: 40vw;
+    background-image: url("/img/culturals/lasya_img2.jpg");
     background-repeat: no-repeat;
     background-size: 45% 100%;
     background-attachment: fixed;
@@ -208,12 +258,13 @@ li a:hover {
     position: relative;
     top: 10vh;
     gap: 20px;
+    margin-bottom: 15vh;
 }
 
 .image_1{
     height: 100vh;
     width: 32vw;
-    background-image: url("/img/culturals/random.jpg");
+    background-image: url("/img/people/atharv_lasya.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -240,38 +291,38 @@ li a:hover {
 .image_1 h2{
     position: relative;
     top: 85%;
-    left: 85%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    text-align: left;
+    text-align: center;
     padding: 5px;
 }
 
 .image_1 p{
     position: relative;
     top: 85%;
-    left: 92%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    text-align: left;
+    text-align: center;
     padding: 10px;
 }
 .image_2 p{
     position: relative;
     top: 85%;
-    left: 92%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    text-align: left;
+    text-align: center;
     padding: 10px;
 }
 .image_3 p{
     position: relative;
     top: 85%;
-    left: 92%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    text-align: left;
+    text-align: center;
     padding: 10px;
 }
 .image_2 h2{
@@ -341,13 +392,17 @@ li a:hover {
         text-align: center;
         padding: 0px 0px 0px 40px;
     }
+    li{
+        text-align: left;
+    }
     .img{
         position: relative;
         top: -32vh;
         left: 6vw;
+        width: 96vw;
         display: block;
         margin: auto;
-        background-size: 80% 75%;
+        background-size: 90% 75%;
         background-attachment: scroll;
     }
     .coords{
@@ -364,13 +419,15 @@ li a:hover {
         width: 80vw;
     }
     .image_1 h2,.image_2 h2,.image_3 h2{
+        text-align: center;
         font-size: 20px;
-        left: 78%;
+        left: 50%;
         top: 75%;
     }
     .image_1 p,.image_2 p,.image_3 p{
+        text-align: center;
         font-size: 15px;
-        left: 84%;
+        left: 50%;
         top: 74%;
     }
     .image_2 p,.image_3 p{

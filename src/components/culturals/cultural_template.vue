@@ -21,7 +21,7 @@
             </p>
     </dic>
 
-    <div class = "main_image">
+    <div class = "main_image"> <!--Render size: 2612px-->
         <div class = "desc">
             <h2>TEMPLATE</h2>
             <p>I'm a paragraph. Click here to add your own text and edit me. 
@@ -32,7 +32,7 @@
     <br>
     <br>
     <div class = "details">
-        <div class = "img">
+        <div class = "img"> <!--Render size: 1102px-->
         </div>
         <div class = "text">
             <div class = "timeline">
@@ -70,7 +70,7 @@
     <div class = 'coords' id ='contact'>
         <h1>Our Coordinators</h1><br>
         <div class = "flex-images">
-            <div class = "image_1">
+            <div class = "image_1"> <!--Render size: 844px-->
                 <h2>Coordinator 1</h2>
                 <p>Contact Info</p>
             </div>
