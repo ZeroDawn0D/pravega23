@@ -12,7 +12,7 @@
     "@vueuse/core": "^9.13.0",
     "build": "^0.1.4",
     "http": "^0.0.1-security",
-    "sweetalert2": "^11.7.10",
+    "sweetalert2": "^11.4.8",
     "vite-plugin-require": "^1.1.10",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"
