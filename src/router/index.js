@@ -45,6 +45,11 @@ import dianoia from "../components/culturals/dianoia.vue"
 import pandf from "../components/culturals/pandf.vue"
 import elegante from "../components/culturals/elegante.vue"
 import cwf from "../components/culturals/cwf.vue"
+import merch from "../components/Merchandise-test.vue"
+
+import bgmi from "../components/recreationals/bgmi.vue"
+import valorant from "../components/recreationals/valorant.vue"
+import chess from "../components/recreationals/chess.vue"
 /*import Delhi from "../components/carvaan/Delhi.vue"
 
 
@@ -109,7 +114,10 @@ const routes = [
 	{path: "/culturals/pandf", name:"pandf",component:pandf},
 	{path: "/culturals/elegante", name:"elegante",component:elegante},
 	{path: "/culturals/cwf", name:"cwf",component:cwf},
-
+	{path: "/merch-test", name:"merch-test", component:merch},
+	{path: "/recreationals/chess", name:"chess", component:chess},
+	{path: "/recreationals/bgmi", name:"bgmi", component:bgmi},
+	{path: "/recreationals/valorant", name:"valorant", component:valorant},
 
 
 	/*{path:"/carvaan/mumbai",name:"Mumbai",component:Mumbai},

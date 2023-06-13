@@ -1,31 +1,58 @@
 <script>
 import Title from './Title.vue'
-import Soon from './Soon.vue'
+import Card from './Card.vue'
 export default{
-	components:{Title, Soon}
+	components:{Title, Card}
 }
 </script>
 <template>
 	<div :class = "`title-flex`">
-		<Title text = "MERCH" color = "#7bff28"/>
+		<Title text = "Recreationals" color =  "#7bff28"/>
 		<div :class = "`content`">
-			<Soon />
+			<div :class = "'links'">
+				<router-link to = "/recreationals/chess">
+					<Card link = "img/recreationals/chess.jpg" size = "350px"/>
+				</router-link>
+				<router-link to = "/recreationals/valorant">
+					<Card link = "img/recreationals/valorant.webp" size = "350px"/>
+				</router-link>
+				<router-link to = "/recreationals/bgmi">
+					<Card link = "img/recreationals/bgmi.jpg" size = "350px"/>
+				</router-link>
+			</div>
 		</div>
 	</div>
 </template>
 
 <style scoped>
-	.title-flex{
+.title-flex{
 	display: flex;
-	height: 90vh;
+	height: 100vh;
+	overflow: hidden;
 }
 .content{
 	background-color: #eeeeee;
-	height: 90vh;
-	position: relative;
+	height: 85vh;
 	top: 10vh;
+	position: relative;
 	border-top-left-radius: 25px;
 	border-top-right-radius: 25px;
 	overflow-y: scroll;
+	padding: 2rem 0rem;
+	/* removes scrollbar */
+	-ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
+.content::-webkit-scrollbar {
+  display: none;
+}
+
+.links{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	row-gap: 1.5rem;
+	padding: 8px;
+}
+
 </style>
