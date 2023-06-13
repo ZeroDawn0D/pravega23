@@ -7,7 +7,7 @@ export default{
 </script>
 <template>
 	<div :class = "`title-flex`">
-		<Title text = "Recreationals" color =  "#7bff28"/>
+		<Title text = "RECREATIONALS" color =  "#3fd8a4"/>
 		<div :class = "`content`">
 			<div :class = "'links'">
 				<router-link to = "/recreationals/chess">

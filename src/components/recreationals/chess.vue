@@ -18,7 +18,7 @@ export default{
 <div :class = "`title-flex`">
 		<Title text = "REGISTER" color = "#f72585"/>
 		<div :class = "`content`">
-			<div data-tf-widget="TegWteGC" data-tf-opacity="100" data-tf-iframe-props="title=Chess" data-tf-transitive-search-params data-tf-medium="snippet" data-tf-hidden="tournament=Chess\ Tournament" style="width:100%;height:100%;"></div>
+			<div data-tf-widget="TegWteGC" data-tf-opacity="100" data-tf-iframe-props="title=Chess" data-tf-transitive-search-params data-tf-medium="snippet" style="width:100%;height:100%;"></div>
 		</div>
 	</div>
 </template>
