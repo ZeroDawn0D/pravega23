@@ -7,8 +7,8 @@
     <div class = "culturals_navbar">
         <ul class = "ul">
             <li class = 'li'><a href="#news">Gallery</a></li>
-            <li class = 'li'><a href="#contact">Poster</a></li>
-            <li class = 'li'><a href="#hof">Contact</a></li>
+            <li class = 'li'><a href="/img/culturals/Dianoia V2.jpg">Poster</a></li>
+            <li class = 'li'><a href="#contact">Contact</a></li>
         </ul>
     </div>
     <br>
@@ -19,9 +19,9 @@
             <p>A battle of words, the debutante oratory and debate event, Dianoia, tests your ability to think on your toes and presents a plethora of opportunities to showcase your versatility as a speaker. 
                 From fiery debates to resolution-oriented discussions, from evocative extempore speeches to amusing just-a-minute quips, the contest beckons you to sway the crowd with your eloquence. Buckle up, and join us on the ride!
             </p><br>
-            <router-link to = "/carvaan/register">
+            <!--<router-link to = "/carvaan/register">
                     <button type="button" class="reg_button">Register here!</button>
-            </router-link>
+            </router-link>-->
     </dic>
 
     <div class = "main_image">
@@ -29,9 +29,9 @@
             <h2>Dianoia</h2>
             <p>A battle of words, the debutante oratory and debate event, Dianoia, tests your ability to think on your toes and presents a plethora of opportunities to showcase your versatility as a speaker. 
                 From fiery debates to resolution-oriented discussions, from evocative extempore speeches to amusing just-a-minute quips, the contest beckons you to sway the crowd with your eloquence. Buckle up, and join us on the ride!<br><br>
-                <router-link to="/carvaan/register" :style="`text-decoration: none; color: inherit;`">
+                <!--<router-link to="/carvaan/register" :style="`text-decoration: none; color: inherit;`">
 				<p class = 'learn'>Register here!</p>
-			</router-link>
+			</router-link>-->
             </p>
         </div>
     </div>

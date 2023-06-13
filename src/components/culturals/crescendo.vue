@@ -7,8 +7,8 @@
     <div class = "culturals_navbar">
         <ul class = "ul">
             <li class = 'li'><a href="#news">Gallery</a></li>
-            <li class = 'li'><a href="#contact">Poster</a></li>
-            <li class = 'li'><a href="#hof">Contact</a></li>
+            <li class = 'li'><a href="/img/culturals/Crescendo V1.jpg">Poster</a></li>
+            <li class = 'li'><a href="#contact">Contact</a></li>
         </ul>
     </div>
     <br>
@@ -77,14 +77,14 @@ So, are you prepared to blow the audience away and make your mark in the world o
             </div>
             <div class = "rules">
                 <h1>Rules</h1><br>
-                <p> Click here for the rules and regulations PDF.
+                <p> Click <a href ='/pdf/Carvaan_rules.pdf'>here</a> for the rules and regulations PDF.
                 </p>
             </div>
         </div>
     </div>
     <br>
     <br>
-    <div class = 'coords'>
+    <div class = 'coords' id = 'contact'>
         <h1>Our Coordinators</h1><br>
         <div class = "flex-images">
             <div class = "image_1"> <!--Render size: 844px-->
@@ -173,10 +173,10 @@ li a:hover {
 }
 
 .main_image{
-    background-image: url("/img/culturals/crescendo_img1.jpg");
-    background-size: 110% 130%;
+    background-image: url("/img/culturals/crescendo_img1.png");
+    background-size: 90% 110%;
     background-repeat: no-repeat;
-    background-position: 10% -20%;
+    background-position: 30% 50%;
     background-attachment: fixed;
     height: 75vh;
     width: 85vw;

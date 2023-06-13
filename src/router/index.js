@@ -45,6 +45,8 @@ import dianoia from "../components/culturals/dianoia.vue"
 import pandf from "../components/culturals/pandf.vue"
 import elegante from "../components/culturals/elegante.vue"
 import cwf from "../components/culturals/cwf.vue"
+import mun from "../components/culturals/mun.vue"
+import alekhya from "../components/culturals/alekhya.vue"
 import merch from "../components/Merchandise-test.vue"
 
 import bgmi from "../components/recreationals/bgmi.vue"
@@ -114,6 +116,8 @@ const routes = [
 	{path: "/culturals/pandf", name:"pandf",component:pandf},
 	{path: "/culturals/elegante", name:"elegante",component:elegante},
 	{path: "/culturals/cwf", name:"cwf",component:cwf},
+	{path: "/culturals/mun", name:"mun",component:mun},
+	{path: "/culturals/alekhya", name:"alekhya",component:alekhya},
 	{path: "/merch-test", name:"merch-test", component:merch},
 	{path: "/recreationals/chess", name:"chess", component:chess},
 	{path: "/recreationals/bgmi", name:"bgmi", component:bgmi},

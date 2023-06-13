@@ -7,8 +7,8 @@
     <div class = "culturals_navbar">
         <ul class = "ul">
             <li class = 'li'><a href="#news">Gallery</a></li>
-            <li class = 'li'><a href="#contact">Poster</a></li>
-            <li class = 'li'><a href="#hof">Contact</a></li>
+            <li class = 'li'><a href="/img/culturals/BOB V1.jpg">Poster</a></li>
+            <li class = 'li'><a href="#contact">Contact</a></li>
         </ul>
     </div>
     <br>
@@ -60,7 +60,7 @@ Showcase your musical prowess, captivate the crowd with your style, and feel the
             </div>
             <div class = "eligibility">
                 <h1>Eligibility</h1><br>
-                <p> No specific restrictions as such.
+                <p>  Any band not signed to a major record label or has not released an album on a major label is eligible to compete.
                 </p>
             </div>
             <div class = "prizes">
@@ -70,14 +70,14 @@ Showcase your musical prowess, captivate the crowd with your style, and feel the
             </div>
             <div class = "rules">
                 <h1>Rules</h1><br>
-                <p> Click here for rules and regulations pdf.
+                <p> Click <a href ='/pdf/Carvaan_rules.pdf'>here</a> for rules and regulations pdf.
                 </p>
             </div>
         </div>
     </div>
     <br>
     <br>
-    <div class = 'coords'>
+    <div class = 'coords' id = 'contact'>
         <h1>Our Coordinators</h1><br>
         <div class = "flex-images">
             <div class = "image_1"> <!--Render size: 844px-->

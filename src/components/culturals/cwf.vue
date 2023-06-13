@@ -7,8 +7,8 @@
     <div class = "culturals_navbar">
         <ul class = "ul">
             <li class = 'li'><a href="#news">Gallery</a></li>
-            <li class = 'li'><a href="#contact">Poster</a></li>
-            <li class = 'li'><a href="#hof">Contact</a></li>
+            <li class = 'li'><a href="/img/culturals/Cooking V1.jpg">Poster</a></li>
+            <li class = 'li'><a href="#contact">Contact</a></li>
         </ul>
     </div>
     <br>
@@ -16,22 +16,22 @@
 
     <dic class = 'desc_mobile'>
         <h2>Cooking Without Fire</h2><br>
-            <p>A battle of words, the debutante oratory and debate event, Dianoia, tests your ability to think on your toes and presents a plethora of opportunities to showcase your versatility as a speaker. 
-                From fiery debates to resolution-oriented discussions, from evocative extempore speeches to amusing just-a-minute quips, the contest beckons you to sway the crowd with your eloquence. Buckle up, and join us on the ride!
+            <p>The Cooking Without Fire event is a unique and novel cooking competition that challenges partici-pants to create delicious and visually appealing dishes without using fire. 
+                The competition winners will receive lucrative prize money, making it a fun and rewarding event for all participants.This event is a great way to showcase creativity and culinary skills and to learn new techniques and ap-proaches from other participants.
             </p><br>
-            <router-link to = "/carvaan/register">
+            <!--<router-link to = "/carvaan/register">
                     <button type="button" class="reg_button">Register here!</button>
-            </router-link>
+            </router-link>-->
     </dic>
 
     <div class = "main_image">
         <div class = "desc">
             <h2>Cooking Without Fire</h2>
-            <p>A battle of words, the debutante oratory and debate event, Dianoia, tests your ability to think on your toes and presents a plethora of opportunities to showcase your versatility as a speaker. 
-                From fiery debates to resolution-oriented discussions, from evocative extempore speeches to amusing just-a-minute quips, the contest beckons you to sway the crowd with your eloquence. Buckle up, and join us on the ride!<br><br>
-                <router-link to="/carvaan/register" :style="`text-decoration: none; color: inherit;`">
+            <p>The Cooking Without Fire event is a unique and novel cooking competition that challenges partici-pants to create delicious and visually appealing dishes without using fire. 
+                The competition winners will receive lucrative prize money, making it a fun and rewarding event for all participants.This event is a great way to showcase creativity and culinary skills and to learn new techniques and ap-proaches from other participants.<br><br>
+                <!--<router-link to="/carvaan/register" :style="`text-decoration: none; color: inherit;`">
 				<p class = 'learn'>Register here!</p>
-			</router-link>
+			</router-link>-->
             </p>
         </div>
     </div>
@@ -43,8 +43,7 @@
         <div class = "text">
             <div class = "timeline">
                 <h1>Timeline</h1><br>
-                <p>Registrations open: 1<sup>st</sup> July to 31<sup>st</sup> July <br>
-                    Prelims Date: 2<sup>nd</sup> week of August.
+                <p>Finals: TBD.
                 </p>
             </div>
             <div class = "eligibility">
@@ -54,7 +53,7 @@
             </div>
             <div class = "prizes">
                 <h1>Prizes</h1><br>
-                <p> Prize pool of 20k+.
+                <p> Prize pool of 5k+.
                 </p>
             </div>
             <div class = "rules">
@@ -70,12 +69,12 @@
         <h1>Our Coordinators</h1><br>
         <div class = "flex-images">
             <div class = "image_1">
-                <h2>Aditi Arun</h2>
-                <p>+91 96320 38334<br>aditiarun@iisc.ac.in</p>
+                <h2>Bhaskar Chelleng</h2>
+                <p>+91 99573 86281<br>bhaskarc@iisc.ac.in</p>
             </div>
             <div class = "image_2">
-                <h2>Chethana Nair</h2>
-                <p>+91 98957 55365<br>chethanar@iisc.ac.in</p>
+                <h2>Manish Sarkar</h2>
+                <p>+91 81350 74565<br>manishranjan@iisc.ac.in</p>
             </div>
             <!--<div class = "image_3">
                 <h2>Coordinator 3</h2>
@@ -171,7 +170,7 @@ li a:hover {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: yellow;
+    color: white;
     text-align: left;
 }
 
@@ -184,7 +183,7 @@ li a:hover {
     top: 40%;
     left: 25%;
     transform: translate(-50%, -50%);
-    color: yellow;
+    color: white;
     text-align: left;
     padding: 10px;
     width: 30vw;
@@ -248,7 +247,7 @@ li a:hover {
 .image_1{
     height: 100vh;
     width: 32vw;
-    background-image: url("/img/people/Aditi Arun.jpg");
+    background-image: url("/img/people/Bhaskar Chelleng.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -257,7 +256,7 @@ li a:hover {
 .image_2{
     height: 100vh;
     width: 32vw;
-    background-image: url("/img/people/chethana.jpg");
+    background-image: url("/img/people/manish ranjan.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

@@ -7,8 +7,8 @@
     <div class = "culturals_navbar">
         <ul class = "ul">
             <li class = 'li'><a href="#news">Gallery</a></li>
-            <li class = 'li'><a href="#contact">Poster</a></li>
-            <li class = 'li'><a href="#hof">Contact</a></li>
+            <li class = 'li'><a href="#">Poster</a></li>
+            <li class = 'li'><a href="#contact">Contact</a></li>
         </ul>
     </div>
     <br>
@@ -16,9 +16,9 @@
 
     <div class = 'desc_mobile'>
         <h2>Alekhya</h2><br>
-            <p>Attention music lovers! Get ready for an unforgettable experience with the ultimate music event of the year - Crescendo!
-Join us for a captivating showcase of the college circuit's most talented vocalists and instrumentalists. Whether you're a budding musician or simply love music, this is the perfect opportunity to show off your skills and enjoy top-notch performances.
-So, are you prepared to blow the audience away and make your mark in the world of music? Look no further than Crescendo! Get set to ignite the stage and be a part of the music revolution!
+            <p>Before copper, wheels or language existed, humans expressed themselves via their art. All these years, art has remained a malleable, fluid and elegant way to express what words often can’t. 
+                Through Alekhya, we aim to bring together artists of varying styles and create a budding atmos-phere for them to creatively communicate through their paintings and drawings. 
+                We hope you’re as excited as we are to take Alekhya to new heights.
 
             </p><br>
             <router-link to = "/carvaan/register">
@@ -29,10 +29,10 @@ So, are you prepared to blow the audience away and make your mark in the world o
 
     <div class = "main_image"> <!--Render size: 2612px-->
         <div class = "desc">
-            <h2>Crescendo</h2>
-            <p>Attention music lovers! Get ready for an unforgettable experience with the ultimate music event of the year - Crescendo!
-Join us for a captivating showcase of the college circuit's most talented vocalists and instrumentalists. Whether you're a budding musician or simply love music, this is the perfect opportunity to show off your skills and enjoy top-notch performances.
-So, are you prepared to blow the audience away and make your mark in the world of music? Look no further than Crescendo! Get set to ignite the stage and be a part of the music revolution!
+            <h2>Alekhya</h2>
+            <p>Before copper, wheels or language existed, humans expressed themselves via their art. All these years, art has remained a malleable, fluid and elegant way to express what words often can’t. 
+                Through Alekhya, we aim to bring together artists of varying styles and create a budding atmos-phere for them to creatively communicate through their paintings and drawings. 
+                We hope you’re as excited as we are to take Alekhya to new heights.
 <br><br>
             <router-link to="/carvaan/register" :style="`text-decoration: none; color: inherit;`">
 				<p class = 'learn'>Register here!</p>
@@ -51,17 +51,11 @@ So, are you prepared to blow the audience away and make your mark in the world o
         <div class = "text">
             <div class = "timeline">
                 <h1>Timeline</h1><br>
-                <p> Carvaan Prelims dates:<br></p><br>
                 <ul>
-                    <li>Bangalore: 21<sup>st</sup> May</li>
-                    <li>Ahmedabad: 4<sup>th</sup> June</li>
-                    <li>Delhi: 10<sup>th</sup> June</li>
-                    <li>Kolkata: 17-18<sup>th</sup> June</li>
-                    <li>Bhubaneshwar: 24-25<sup>th</sup> June</li>
-                    <li>Indore: 1-2<sup>nd</sup> July</li>
-                    <li>Hyderabad: 8-9<sup>th</sup> July</li>
-                    <li>Chennai: 15-16<sup>th</sup> July</li>
-                    <li>Mumbai: 19-20<sup>th</sup> August</li>
+                    <li>Bangalore Prelims: 20<sup>th</sup> May</li>
+                    <li>Delhi Prelims: 10<sup>th</sup> June</li>
+                    <li>Online Prelims and Graphic Designing competetion: TBD</li>
+                
                 </ul>
                 
             </div>
@@ -72,30 +66,30 @@ So, are you prepared to blow the audience away and make your mark in the world o
             </div>
             <div class = "prizes">
                 <h1>Prizes</h1><br>
-                <p> Prize pool of 30k+.
+                <p> Prize pool of 10k+.
                 </p>
             </div>
             <div class = "rules">
                 <h1>Rules</h1><br>
-                <p> Click here for the rules and regulations PDF.
+                <p> Click <a href ='/pdf/Carvaan_rules.pdf'>here</a> for the rules and regulations PDF.
                 </p>
             </div>
         </div>
     </div>
     <br>
     <br>
-    <div class = 'coords'>
+    <div class = 'coords' id="contact">
         <h1>Our Coordinators</h1><br>
         <div class = "flex-images">
             <div class = "image_1"> <!--Render size: 844px-->
-                <h2>Eashvar Srinivasan</h2>
-                <p>+91 93440 93094<br>eashvars@iisc.ac.in</p>
+                <h2>Aman Goyal</h2>
+                <p>+91 90342 40861<br>amangoyal@iisc.ac.in</p>
             </div>
-            <!--<div class = "image_2">
-                <h2>Coordinator 2</h2>
-                <p>Contact Info</p>
+            <div class = "image_2">
+                <h2>Tejas Keswani</h2>
+                <p>+91 77096 07189<br>tejaskeswani@iisc.ac.in</p>
             </div>
-            <div class = "image_3">
+            <!--<div class = "image_3">
                 <h2>Coordinator 3</h2>
                 <p>Contact Info</p>
             </div>-->
@@ -267,7 +261,7 @@ li a:hover {
 .image_1{
     height: 100vh;
     width: 32vw;
-    background-image: url("/img/people/Eashvar_photo.png");
+    background-image: url("/img/people/Aman.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -276,7 +270,7 @@ li a:hover {
 .image_2{
     height: 100vh;
     width: 32vw;
-    background-image: url("/img/culturals/random.jpg");
+    background-image: url("/img/people/Tejas Keswani.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -313,10 +307,10 @@ li a:hover {
 .image_2 p{
     position: relative;
     top: 85%;
-    left: 92%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    text-align: left;
+    text-align: center;
     padding: 10px;
 }
 .image_3 p{
@@ -331,10 +325,10 @@ li a:hover {
 .image_2 h2{
     position: relative;
     top: 85%;
-    left: 85%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    text-align: left;
+    text-align: center;
     padding: 10px;
 }
 .image_3 h2{

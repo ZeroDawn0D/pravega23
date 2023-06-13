@@ -7,8 +7,8 @@
     <div class = "culturals_navbar">
         <ul class = "ul">
             <li class = 'li'><a href="#news">Gallery</a></li>
-            <li class = 'li'><a href="#contact">Poster</a></li>
-            <li class = 'li'><a href="#hof">Contact</a></li>
+            <li class = 'li'><a href="/img/culturals/Proscenium V1.jpg">Poster</a></li>
+            <li class = 'li'><a href="#contact">Contact</a></li>
         </ul>
     </div>
     <br>
@@ -64,7 +64,7 @@
             </div>
             <div class = "rules">
                 <h1>Rules</h1><br>
-                <p> Click here for the rules and regulations PDF.
+                <p> Click <a href ='/pdf/Carvaan_rules.pdf'>here</a> for the rules and regulations PDF.
                 </p>
             </div>
         </div>
@@ -253,7 +253,7 @@ li a:hover {
 .image_1{
     height: 100vh;
     width: 32vw;
-    background-image: url("/img/people/Aditi Arun.jpg");
+    background-image: url("/img/people/unknown.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

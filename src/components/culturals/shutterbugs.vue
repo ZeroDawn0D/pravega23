@@ -7,8 +7,8 @@
     <div class = "culturals_navbar">
         <ul class = "ul">
             <li class = 'li'><a href="#news">Gallery</a></li>
-            <li class = 'li'><a href="#contact">Poster</a></li>
-            <li class = 'li'><a href="#hof">Contact</a></li>
+            <li class = 'li'><a href="/img/culturals/Shutterbugs V2.jpg">Poster</a></li>
+            <li class = 'li'><a href="#contact">Contact</a></li>
         </ul>
     </div>
     <br>
@@ -22,9 +22,9 @@ Don't miss this exciting opportunity to showcase your talent and love for photog
 
 
             </p><br>
-            <router-link to = "/carvaan/register">
+            <!--<router-link to = "/carvaan/register">
                     <button type="button" class="reg_button">Register here!</button>
-            </router-link>
+            </router-link>-->
 
     </div>
 
@@ -36,9 +36,9 @@ You'll get to experience photography workshops and events throughout the competi
 Don't miss this exciting opportunity to showcase your talent and love for photography! Grab your camera, set free your imagination and let your pictures do the talking.
 
 <br><br>
-            <router-link to="/carvaan/register" :style="`text-decoration: none; color: inherit;`">
+            <!--<router-link to="/carvaan/register" :style="`text-decoration: none; color: inherit;`">
 				<p class = 'learn'>Register here!</p>
-			</router-link>
+			</router-link>-->
 
             </p>
         </div>
@@ -75,7 +75,7 @@ Don't miss this exciting opportunity to showcase your talent and love for photog
     </div>
     <br>
     <br>
-    <div class = 'coords'>
+    <div class = 'coords' id = 'contact'>
         <h1>Our Coordinators</h1><br>
         <div class = "flex-images">
             <div class = "image_1"> <!--Render size: 844px-->
@@ -165,9 +165,9 @@ li a:hover {
 
 .main_image{
     background-image: url("/img/culturals/shutterbugs_img1.png");
-    background-size: 90% 150%;
+    background-size: 90% 170%;
     background-repeat: no-repeat;
-    background-position: 10% 20%;
+    background-position: 30% 30%;
     background-attachment: fixed;
     height: 75vh;
     width: 85vw;

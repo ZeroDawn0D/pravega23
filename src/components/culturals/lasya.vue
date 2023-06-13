@@ -7,8 +7,8 @@
     <div class = "culturals_navbar">
         <ul class = "ul">
             <li class = 'li'><a href="#news">Gallery</a></li>
-            <li class = 'li'><a href="#contact">Poster</a></li>
-            <li class = 'li'><a href="#hof">Contact</a></li>
+            <li class = 'li'><a href="/img/culturals/Lasya V1.jpg">Poster</a></li>
+            <li class = 'li'><a href="#contact">Contact</a></li>
         </ul>
     </div>
     <br>
@@ -74,14 +74,14 @@
             </div>
             <div class = "rules">
                 <h1>Rules</h1><br>
-                <p> Click here for the rules and regulations PDF.
+                <p> Click <a href ='/pdf/Carvaan_rules.pdf'>here</a> for the rules and regulations PDF.
                 </p>
             </div>
         </div>
     </div>
     <br>
     <br>
-    <div class = 'coords'>
+    <div class = 'coords' id = 'contact'>
         <h1>Our Coordinators</h1><br>
         <div class = "flex-images">
             <div class = "image_1"> <!--Render size: 844px-->
@@ -171,9 +171,9 @@ li a:hover {
 
 .main_image{
     background-image: url("/img/culturals/lasya_img1.jpg");
-    background-size: 90% 200%;
+    background-size: 90% 250%;
     background-repeat: no-repeat;
-    background-position: 0% 10%;
+    background-position: 40% 25%;
     background-attachment: fixed;
     height: 75vh;
     width: 85vw;
@@ -273,7 +273,7 @@ li a:hover {
 .image_2{
     height: 100vh;
     width: 32vw;
-    background-image: url("/img/culturals/random.jpg");
+    background-image: url("/img/people/divija.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -328,10 +328,10 @@ li a:hover {
 .image_2 h2{
     position: relative;
     top: 85%;
-    left: 85%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    text-align: left;
+    text-align: center;
     padding: 10px;
 }
 .image_3 h2{

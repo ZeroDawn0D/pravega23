@@ -7,31 +7,36 @@
     <div class = "culturals_navbar">
         <ul class = "ul">
             <li class = 'li'><a href="#news">Gallery</a></li>
-            <li class = 'li'><a href="#contact">Poster</a></li>
-            <li class = 'li'><a href="#hof">Contact</a></li>
+            <li class = 'li'><a href="/img/culturals/MUN V1.jpg">Poster</a></li>
+            <li class = 'li'><a href="#contact">Contact</a></li>
         </ul>
     </div>
     <br>
     <br>
 
     <dic class = 'desc_mobile'>
-        <h2>Dianoia</h2><br>
-            <p>A battle of words, the debutante oratory and debate event, Dianoia, tests your ability to think on your toes and presents a plethora of opportunities to showcase your versatility as a speaker. 
-                From fiery debates to resolution-oriented discussions, from evocative extempore speeches to amusing just-a-minute quips, the contest beckons you to sway the crowd with your eloquence. Buckle up, and join us on the ride!
+        <h2>Model United Nations</h2><br>
+            <p>
+
+Pravega X is extremely proud to announce the first ever IISc Model United Nations conference for the passionate leaders of tommorow. 
+This is an exercise in structured debate and subtle diplo-macy, where participants will represnt a country on a mock international platform. As they try to sort through covtroversial agendas and thoughtful topics, we’ll see displays of sharp diplomacy and stunning arguments.To be a part of this intellectually stimulating journey, 
+be connected through @culturals.pravega on Instagram for the announcement of committees involved in the conference and for further updates.
             </p><br>
-            <router-link to = "/carvaan/register">
+            <!--<router-link to = "/carvaan/register">
                     <button type="button" class="reg_button">Register here!</button>
-            </router-link>
+            </router-link>-->
     </dic>
 
     <div class = "main_image">
         <div class = "desc">
-            <h2>Dianoia</h2>
-            <p>A battle of words, the debutante oratory and debate event, Dianoia, tests your ability to think on your toes and presents a plethora of opportunities to showcase your versatility as a speaker. 
-                From fiery debates to resolution-oriented discussions, from evocative extempore speeches to amusing just-a-minute quips, the contest beckons you to sway the crowd with your eloquence. Buckle up, and join us on the ride!<br><br>
-                <router-link to="/carvaan/register" :style="`text-decoration: none; color: inherit;`">
+            <h2>Model United Nations</h2>
+            <p>
+
+Pravega X is extremely proud to announce the first ever IISc Model United Nations conference for the passionate leaders of tommorow. This is an exercise in structured debate and subtle diplo-macy, where participants will represnt a country on a mock international platform. As they try to sort through covtroversial agendas and thoughtful topics, we’ll see displays of sharp diplomacy and stunning arguments.
+To be a part of this intellectually stimulating journey, be connected through @culturals.pravega on Instagram for the announcement of committees involved in the conference and for further updates.<br><br>
+                <!--<router-link to="/carvaan/register" :style="`text-decoration: none; color: inherit;`">
 				<p class = 'learn'>Register here!</p>
-			</router-link>
+			</router-link>-->
             </p>
         </div>
     </div>
@@ -43,8 +48,9 @@
         <div class = "text">
             <div class = "timeline">
                 <h1>Timeline</h1><br>
-                <p>Registrations open: 1<sup>st</sup> July to 31<sup>st</sup> July <br>
-                    Prelims Date: 2<sup>nd</sup> week of August.
+                <p>Early bird registrations: 1<sup>st</sup> Jult to 15<sup>th</sup> July<br>
+                    Registrations: 15<sup>th</sup> July to 16<sup>th</sup> August<br>
+                    Finals: During main Pravega event.
                 </p>
             </div>
             <div class = "eligibility">
@@ -54,7 +60,7 @@
             </div>
             <div class = "prizes">
                 <h1>Prizes</h1><br>
-                <p> Prize pool of 20k+.
+                <p> Prize pool of 40k+.
                 </p>
             </div>
             <div class = "rules">
@@ -70,12 +76,12 @@
         <h1>Our Coordinators</h1><br>
         <div class = "flex-images">
             <div class = "image_1">
-                <h2>Aditi Arun</h2>
-                <p>+91 96320 38334<br>aditiarun@iisc.ac.in</p>
+                <h2>Aniket Ray</h2>
+                <p>+91 89026 86994<br>aniketray@iisc.ac.in</p>
             </div>
             <div class = "image_2">
-                <h2>Chethana Nair</h2>
-                <p>+91 98957 55365<br>chethanar@iisc.ac.in</p>
+                <h2>Sohaan Pattanayak</h2>
+                <p>+91 96102 43267<br>sohaankumar@iisc.ac.in</p>
             </div>
             <!--<div class = "image_3">
                 <h2>Coordinator 3</h2>
@@ -153,7 +159,7 @@ li a:hover {
 }
 
 .main_image{
-    background-image: url("/img/culturals/dianoia_img1.jpg");
+    background-image: url("/img/culturals/mun_img1.png");
     background-size: 90% 150%;
     background-repeat: no-repeat;
     background-position: 10% 20%;
@@ -209,7 +215,7 @@ li a:hover {
 .img{
     height: 90vh;
     width: 40vw;
-    background-image: url("/img/culturals/dianoia_img2.jpg");
+    background-image: url("/img/culturals/mun_img1.jpg");
     background-repeat: no-repeat;
     background-size: 45% 100%;
     background-attachment: fixed;
@@ -248,7 +254,7 @@ li a:hover {
 .image_1{
     height: 100vh;
     width: 32vw;
-    background-image: url("/img/people/Aditi Arun.jpg");
+    background-image: url("/img/people/aniket.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -257,7 +263,7 @@ li a:hover {
 .image_2{
     height: 100vh;
     width: 32vw;
-    background-image: url("/img/people/chethana.jpg");
+    background-image: url("/img/people/Sohaan.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
