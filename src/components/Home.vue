@@ -1,9 +1,17 @@
-
-
 <script>
 import Timer from './Timer.vue'
+import Carousel from './Carousel.vue'
 export default{
-  components:{Timer}
+  components:{Timer, Carousel},
+  data(){
+    return{slides: [
+      "https://picsum.photos/id/1032/900/400",
+      "https://picsum.photos/id/1033/900/400",
+      "https://picsum.photos/id/1037/900/400",
+      "https://picsum.photos/id/1035/900/400",
+      "https://picsum.photos/id/1036/900/400",
+    ]}
+  }
 }
 </script>
 
@@ -69,6 +77,7 @@ export default{
           </div>
         </div>
        
+       <Carousel :slides="slides" :intervals="3000" controls indicators></Carousel>
   </div>
 </template>
 
@@ -258,7 +267,7 @@ export default{
   .about-pravega{
     position:relative;
     background-color: #000000;
-    height: 100vh;
+    padding:  15px;
     overflow: visible;
   }
   .pravega-title{
@@ -287,7 +296,7 @@ export default{
   }
   .about-iisc{
     background-color: #000000;
-    height: 100vh;
+    padding: 15px;
 
   }
   .iisc-title{
