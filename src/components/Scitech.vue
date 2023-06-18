@@ -9,6 +9,12 @@ export default {
 	<div :class="`title-flex`">
 		<Title text="SCITECH" color="#f72585" />
 		<div :class="`content`">
+			<div :class="`description`">
+				<!--To learn in detail about all the events, click
+				<a :style="`color: inherit;`" class="grad underline" :href="`/pdf/Carvaan_rules.pdf`">here</a>.
+				Below are the listed cities and dates for <span class="grad">CARVAAN 2023</span>.--> Hope to see you all during
+				the prelims! For any queries, mail us at scitech.pravega@iisc.ac.in
+			</div>
 			<div :class="'links'">
 				<router-link to="/scitech/decoherence">
 					<Card link="/img/scitech/Decoherence.jpg" size="300px" />
@@ -46,6 +52,21 @@ export default {
 </template>
 
 <style scoped>
+.description {
+	padding: 20px;
+	color: black;
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+.grad {
+	font-weight: bold;
+	background-image: -webkit-linear-gradient(0deg, #f72585, #a92fde 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
 .title-flex {
 	display: flex;
 	height: 100vh;

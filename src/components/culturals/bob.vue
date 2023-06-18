@@ -5,76 +5,93 @@
 <template>
 <div class = 'content-stuff'>
     <div class = "culturals_navbar">
-        <ul>
-            <li><a href="#news">Gallery</a></li>
-            <li><a href="#contact">Poster</a></li>
-            <li><a href="#hof">Contact</a></li>
+        <ul class = "ul">
+            <li class = 'li'><a href="#news">Gallery</a></li>
+            <li class = 'li'><a href="/img/culturals/BOB V1.jpg">Poster</a></li>
+            <li class = 'li'><a href="#contact">Contact</a></li>
         </ul>
     </div>
     <br>
     <br>
 
-    <div class = "main_image">
+    <div class = 'desc_mobile'>
+        <h2>Battle of Bands</h2><br>
+            <p>With the stage set, bands take to the stage to showcase their musical prowess and vie for the coveted title of the best band of the evening. 
+Join us for an electrifying Battle of the Bands event where talented musicians compete for glory on the stage. 
+Showcase your musical prowess, captivate the crowd with your style, and feel the rush of the ultimate music showdown.
+            </p><br>
+            <router-link to = "/carvaan/register">
+                    <button type="button" class="reg_button">Register here!</button>
+            </router-link>
+
+    </div>
+
+    <div class = "main_image"> <!--Render size: 2612px-->
         <div class = "desc">
-            <h2>TEMPLATE</h2>
-            <p>I'm a paragraph. Click here to add your own text and edit me. 
-            It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.
+            <h2>Battle of Bands</h2>
+            <p>With the stage set, bands take to the stage to showcase their musical prowess and vie for the coveted title of the best band of the evening. 
+Join us for an electrifying Battle of the Bands event where talented musicians compete for glory on the stage. 
+Showcase your musical prowess, captivate the crowd with your style, and feel the rush of the ultimate music showdown.<br><br>
+            <router-link to="/carvaan/register" :style="`text-decoration: none; color: inherit;`">
+				<p class = 'learn'>Register here!</p>
+			</router-link>
+
             </p>
         </div>
+       
+			
     </div>
     <br>
     <br>
     <div class = "details">
-        <div class = "img">
+        <div class = "img"> <!--Render size: 1102px-->
         </div>
         <div class = "text">
             <div class = "timeline">
                 <h1>Timeline</h1><br>
-                <p> I'm a paragraph. Click here to add your own text and edit me. It’s easy.
-                    Just click “Edit Text” or double click me to add your own content and make changes to the font.
-                    I’m a great place for you to tell a story and let your users know a little more about you.
-                </p>
+                <p> Carvaan Prelims dates:<br></p>
+                <ul>
+                    <li>Delhi: 11<sup>th</sup> June</li>
+                    <li>Kolkata: 18<sup>th</sup> June</li>
+                    <li>Chennai: 16<sup>th</sup> July</li>
+                    <li>Mumbai: 20<sup>th</sup> August</li>
+                </ul>
+                
             </div>
             <div class = "eligibility">
                 <h1>Eligibility</h1><br>
-                <p> I'm a paragraph. Click here to add your own text and edit me. It’s easy.
-                    Just click “Edit Text” or double click me to add your own content and make changes to the font.
-                    I’m a great place for you to tell a story and let your users know a little more about you.
+                <p>  Any band not signed to a major record label or has not released an album on a major label is eligible to compete.
                 </p>
             </div>
             <div class = "prizes">
                 <h1>Prizes</h1><br>
-                <p> I'm a paragraph. Click here to add your own text and edit me. It’s easy.
-                    Just click “Edit Text” or double click me to add your own content and make changes to the font.
-                    I’m a great place for you to tell a story and let your users know a little more about you.
+                <p> Prize pool of 50k+.
                 </p>
             </div>
             <div class = "rules">
                 <h1>Rules</h1><br>
-                <p> I'm a paragraph. Click here to add your own text and edit me. It’s easy.
-                    Just click “Edit Text” or double click me to add your own content and make changes to the font.
-                    I’m a great place for you to tell a story and let your users know a little more about you.
+                <p> Click <a href ='/pdf/Carvaan_rules.pdf'>here</a> for rules and regulations pdf.
                 </p>
             </div>
         </div>
     </div>
     <br>
     <br>
-    <div class = 'coords'>
+    <div class = 'coords' id = 'contact'>
         <h1>Our Coordinators</h1><br>
         <div class = "flex-images">
-            <div class = "image_1">
-                <h2>Coordinator 1</h2>
-                <p>Contact Info</p>
+            <div class = "image_1"> <!--Render size: 844px-->
+                <h2>Harshit Dev Mathur</h2>
+                <p>+91 83819 41704<br>harshitmd@iisc.ac.in</p>
             </div>
-            <div class = "image_2">
+            <!--<div class = "image_2">
                 <h2>Coordinator 2</h2>
                 <p>Contact Info</p>
             </div>
             <div class = "image_3">
                 <h2>Coordinator 3</h2>
                 <p>Contact Info</p>
-            </div>
+            </div>-->
         </div>
     </div>
 
@@ -102,18 +119,18 @@ html {
     width:80vw;
 }
 
-ul {
+.ul {
   list-style-type: none;
   margin-top: 20px;
   padding: 0;
   overflow: hidden;
 }
 
-li {
+.li {
   float: right;
 }
 
-li a {
+.li a {
   display: block;
   padding: 20px;
   background-color: #ffffff;
@@ -122,6 +139,30 @@ li a {
 
 li a:hover {
   color: grey;
+}
+
+.desc_mobile{
+    display: none;
+}
+
+.reg_button{
+    background-color: #5d83eb; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius:30px;
+}
+.reg_button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: crimson;
 }
 
 .main_image{
@@ -135,12 +176,28 @@ li a:hover {
     position: absolute;
 }
 
+.learn{
+	cursor: pointer;
+	font-weight: bold;
+	transition: font-size 1s;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: yellow;
+    text-align: left;
+}
+
+.learn:hover{
+	font-size: 1.5em;
+}
+
 .desc{
     position: relative;
     top: 40%;
     left: 25%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: yellow;
     text-align: left;
     padding: 10px;
     width: 30vw;
@@ -164,11 +221,10 @@ li a:hover {
 }
 .img{
     height: 90vh;
-    width: 130vw;
+    width: 40vw;
     background-image: url("/img/culturals/template_guitar.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
+    background-size: 45% 100%;
     background-attachment: fixed;
 }
 
@@ -198,13 +254,15 @@ li a:hover {
     position: relative;
     top: 10vh;
     gap: 20px;
+    margin-bottom: 15vh;
 }
 
 .image_1{
     height: 100vh;
     width: 32vw;
-    background-image: url("/img/culturals/random.jpg");
+    background-image: url("/img/people/harshit_bob.jpg");
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 
 }
@@ -213,6 +271,7 @@ li a:hover {
     width: 32vw;
     background-image: url("/img/culturals/random.jpg");
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 }
 .image_3{
@@ -220,6 +279,7 @@ li a:hover {
     width: 32vw;
     background-image: url("/img/culturals/random.jpg");
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 }
 
@@ -227,20 +287,20 @@ li a:hover {
 .image_1 h2{
     position: relative;
     top: 85%;
-    left: 85%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    text-align: left;
+    text-align: center;
     padding: 5px;
 }
 
 .image_1 p{
     position: relative;
     top: 85%;
-    left: 92%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    text-align: left;
+    text-align: center;
     padding: 10px;
 }
 .image_2 p{
@@ -282,8 +342,92 @@ li a:hover {
 
 
 @media screen and (max-width:1024px) {
+
+    .content-stuff{
+        height: 100vh;
+        overflow-y: none;
+        align-items: center;
+        padding: 0px;
+    }
+
     .culturals_navbar{
+        width: 82vw;
+    }
+
+    .main_image{
+        background-size: 90% 87%;
+        background-position: 50% 50%;
+        background-attachment: scroll;
+        height: 50vh;
         width: 100vw;
+        position: relative;
+        left: 0%;
+    }
+
+    .desc{
+        display: none;
+    }
+
+    .desc_mobile{
+        display: block;
+        position: relative;
+        text-align: center;
+        padding: 10px;
+        width: 80vw;
+        margin: auto;
+    }
+    .details{
+        position: relative;
+        top: 0vh;
+        flex-direction: column-reverse;
+    }
+    .text{
+        height: auto;
+    }
+    .timeline,.eligibility,.prizes, .rules{
+        text-align: center;
+        padding: 0px 0px 0px 40px;
+    }
+    li{
+        text-align: left;
+    }
+    .img{
+        position: relative;
+        top: -32vh;
+        left: 6vw;
+        width: 96vw;
+        display: block;
+        margin: auto;
+        background-size: 90% 75%;
+        background-attachment: scroll;
+    }
+    .coords{
+        top: -52vh;
+        height: auto;
+        margin: auto;
+    }
+    .flex-images{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .image_1,.image_2,.image_3{
+        height: 50vh;
+        width: 80vw;
+    }
+    .image_1 h2,.image_2 h2,.image_3 h2{
+        text-align: center;
+        font-size: 20px;
+        left: 50%;
+        top: 75%;
+    }
+    .image_1 p,.image_2 p,.image_3 p{
+        text-align: center;
+        font-size: 15px;
+        left: 50%;
+        top: 74%;
+    }
+    .image_2 p,.image_3 p{
+        top: 71%;
     }
 }
 

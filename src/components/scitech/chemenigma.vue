@@ -1,5 +1,23 @@
 <script >
 
+    export default{
+        mounted(){
+        let recaptchaScript = document.createElement('script')
+      recaptchaScript.setAttribute('src', 'https://unpkg.com/sweetalert/dist/sweetalert.min.js')
+      document.head.appendChild(recaptchaScript)
+     this.$nextTick(function(){
+        this.loading()
+     })
+    },
+    /*created: function(){
+        this.loading()
+    },*/
+    methods:{
+        loading: function(){
+            swal("Alert","something something","info")
+        }
+    }
+    }
 </script>
 
 <template>

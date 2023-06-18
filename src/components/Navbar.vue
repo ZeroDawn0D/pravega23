@@ -133,9 +133,9 @@
         </div>
       </router-link>
 
-      <router-link @click = "this.navOpen = false; this.menuBlack = true;" :style = "`text-decoration: none; color: inherit`" to="/aaghaz">
+      <router-link @click = "this.navOpen = false; this.menuBlack = true;" :style = "`text-decoration: none; color: inherit`" to="/recreationals">
         <div>
-          AAGHAAZ
+          RECREATIONALS
         </div>
       </router-link>
 

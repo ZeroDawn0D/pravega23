@@ -7,14 +7,21 @@
     <div class = "culturals_navbar">
         <ul>
             <li><a href="#news">Gallery</a></li>
-            <li><a href="#contact">Poster</a></li>
-            <li><a href="#hof">Contact</a></li>
+            <li><a href="#">Poster</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </div>
     <br>
     <br>
 
-    <div class = "main_image">
+    <dic class = 'desc_mobile'>
+        <h2>TEMPLATE</h2><br>
+            <p>I'm a paragraph. Click here to add your own text and edit me. 
+            It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.
+            </p>
+    </dic>
+
+    <div class = "main_image"> <!--Render size: 2612px-->
         <div class = "desc">
             <h2>TEMPLATE</h2>
             <p>I'm a paragraph. Click here to add your own text and edit me. 
@@ -25,7 +32,7 @@
     <br>
     <br>
     <div class = "details">
-        <div class = "img">
+        <div class = "img"> <!--Render size: 1102px-->
         </div>
         <div class = "text">
             <div class = "timeline">
@@ -60,10 +67,10 @@
     </div>
     <br>
     <br>
-    <div class = 'coords'>
+    <div class = 'coords' id ='contact'>
         <h1>Our Coordinators</h1><br>
         <div class = "flex-images">
-            <div class = "image_1">
+            <div class = "image_1"> <!--Render size: 844px-->
                 <h2>Coordinator 1</h2>
                 <p>Contact Info</p>
             </div>
@@ -124,6 +131,10 @@ li a:hover {
   color: grey;
 }
 
+.desc_mobile{
+    display: none;
+}
+
 .main_image{
     background-image: url("/img/culturals/template main image.jpg");
     background-size: 110% 130%;
@@ -164,11 +175,10 @@ li a:hover {
 }
 .img{
     height: 90vh;
-    width: 130vw;
+    width: 110vw;
     background-image: url("/img/culturals/template_guitar.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
+    background-size: 45% 100%;
     background-attachment: fixed;
 }
 
@@ -205,6 +215,7 @@ li a:hover {
     width: 32vw;
     background-image: url("/img/culturals/random.jpg");
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 
 }
@@ -213,6 +224,7 @@ li a:hover {
     width: 32vw;
     background-image: url("/img/culturals/random.jpg");
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 }
 .image_3{
@@ -220,6 +232,7 @@ li a:hover {
     width: 32vw;
     background-image: url("/img/culturals/random.jpg");
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 }
 
@@ -282,8 +295,86 @@ li a:hover {
 
 
 @media screen and (max-width:1024px) {
+
+    .content-stuff{
+        height: 100vh;
+        overflow-y: none;
+        align-items: center;
+        padding: 0px;
+    }
+
     .culturals_navbar{
+        width: 82vw;
+    }
+
+    .main_image{
+        background-size: 90% 87%;
+        background-position: 50% 50%;
+        background-attachment: scroll;
+        height: 50vh;
         width: 100vw;
+        position: relative;
+        left: 0%;
+    }
+
+    .desc{
+        display: none;
+    }
+
+    .desc_mobile{
+        display: block;
+        position: relative;
+        text-align: center;
+        padding: 10px;
+        width: 80vw;
+        margin: auto;
+    }
+    .details{
+        position: relative;
+        top: 0vh;
+        flex-direction: column-reverse;
+    }
+    .text{
+        height: auto;
+    }
+    .timeline,.eligibility,.prizes, .rules{
+        text-align: center;
+        padding: 0px 0px 0px 40px;
+    }
+    .img{
+        position: relative;
+        top: -32vh;
+        left: 6vw;
+        display: block;
+        margin: auto;
+        background-size: 80% 75%;
+        background-attachment: scroll;
+    }
+    .coords{
+        top: -52vh;
+        height: auto;
+        margin: auto;
+    }
+    .flex-images{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .image_1,.image_2,.image_3{
+        height: 50vh;
+        width: 80vw;
+    }
+    .image_1 h2,.image_2 h2,.image_3 h2{
+        font-size: 20px;
+        left: 78%;
+        top: 75%;
+    }
+    .image_1 p,.image_2 p,.image_3 p{
+        font-size: 15px;
+        left: 84%;
+        top: 74%;
+    }
+    .image_2 p,.image_3 p{
+        top: 71%;
     }
 }
 

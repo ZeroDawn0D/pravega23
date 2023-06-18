@@ -21,7 +21,7 @@ export default {
 				To learn in detail about all the events, click
 				<a :style="`color: inherit;`" class="grad underline" :href="`/pdf/Carvaan_rules.pdf`">here</a>.
 				Below are the listed cities and dates for <span class="grad">CARVAAN 2023</span>. Hope to see you all during
-				the prelims!
+				the prelims! For any queries, mail us at culturals.pravega@iisc.ac.in
 			</div>
 
 			<div class="links">
