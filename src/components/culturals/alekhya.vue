@@ -167,7 +167,7 @@ li a:hover {
 }
 
 .main_image{
-    background-image: url("/img/culturals/crescendo_img1.jpg");
+    background-image: url("/img/culturals/alekhya_img2.jpg");
     background-size: 110% 130%;
     background-repeat: no-repeat;
     background-position: 10% -20%;
@@ -223,7 +223,8 @@ li a:hover {
 .img{
     height: 90vh;
     width: 40vw;
-    background-image: url("/img/culturals/crescendo_img2.jpg");
+    background-image: url("/img/culturals/alekhya_img1.jpg");
+    background-position: 7% 0%;
     background-repeat: no-repeat;
     background-size: 45% 100%;
     background-attachment: fixed;

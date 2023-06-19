@@ -28,10 +28,10 @@ export default{
 				<router-link to = "/culturals/lasya">
 					<Card link = "/img/culturals/Lasya V1.jpg" size = "300px"/>
 				</router-link>
-				<router-link to = "/carvaan/cities">
+				<router-link to = "/culturals/alekhya">
 					<Card link = "/img/culturals/Alekhya V2.jpg" size = "300px"/>
 				</router-link>
-				<router-link to = "/carvaan/cities">
+				<router-link to = "/culturals/pandf">
 					<Card link = "/img/culturals/Proscencium V1.jpg" size = "300px"/>
 				</router-link>
 				<router-link to = "/carvaan/upload_reels">

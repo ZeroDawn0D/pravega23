@@ -170,10 +170,10 @@ li a:hover {
 }
 
 .main_image{
-    background-image: url("/img/culturals/lasya_img1.jpg");
-    background-size: 90% 250%;
+    background-image: url("/img/culturals/lasya_img2.jpg");
+    background-size: 90% 100%;
     background-repeat: no-repeat;
-    background-position: 40% 25%;
+    background-position: 60% 5%;
     background-attachment: fixed;
     height: 75vh;
     width: 85vw;
@@ -226,9 +226,10 @@ li a:hover {
 .img{
     height: 90vh;
     width: 40vw;
-    background-image: url("/img/culturals/lasya_img2.jpg");
+    background-image: url("/img/culturals/lasya_img1.jpg");
     background-repeat: no-repeat;
-    background-size: 45% 100%;
+    background-size: 60% 180%;
+    background-position: -20% 20%;
     background-attachment: fixed;
 }
 

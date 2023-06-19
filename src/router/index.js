@@ -41,11 +41,15 @@ import bob from "../components/culturals/bob.vue"
 import crescendo from "../components/culturals/crescendo.vue"
 import lasya from "../components/culturals/lasya.vue"
 import shutterbugs from "../components/culturals/shutterbugs.vue"
+import shutterbugs_register from "../components/culturals/shutterbugs_register.vue"
 import dianoia from "../components/culturals/dianoia.vue"
+import dianoia_register from "../components/culturals/dianoia_register.vue"
 import pandf from "../components/culturals/pandf.vue"
 import elegante from "../components/culturals/elegante.vue"
 import cwf from "../components/culturals/cwf.vue"
+import cwf_register from "../components/culturals/cwf_register.vue"
 import mun from "../components/culturals/mun.vue"
+import mun_register from "../components/culturals/mun_register.vue"
 import alekhya from "../components/culturals/alekhya.vue"
 import merch from "../components/Merchandise-test.vue"
 
@@ -112,11 +116,15 @@ const routes = [
 	{path: "/culturals/crescendo", name:"crescendo",component:crescendo},
 	{path: "/culturals/lasya", name:"lasya",component:lasya},
 	{path: "/culturals/shutterbugs", name:"shutterbugs",component:shutterbugs},
+	{path: "/culturals/shutterbugs_register", name:"shutterbugs_register",component:shutterbugs_register},
 	{path: "/culturals/dianoia", name:"dianoia",component:dianoia},
+	{path: "/culturals/dianoia_register", name:"dianoia_register",component:dianoia_register},
 	{path: "/culturals/pandf", name:"pandf",component:pandf},
 	{path: "/culturals/elegante", name:"elegante",component:elegante},
 	{path: "/culturals/cwf", name:"cwf",component:cwf},
+	{path: "/culturals/cwf_register", name:"cwf_register",component:cwf_register},
 	{path: "/culturals/mun", name:"mun",component:mun},
+	{path: "/culturals/mun_register", name:"mun_register",component:mun_register},
 	{path: "/culturals/alekhya", name:"alekhya",component:alekhya},
 	{path: "/merch-test", name:"merch-test", component:merch},
 	{path: "/recreationals/chess", name:"chess", component:chess},

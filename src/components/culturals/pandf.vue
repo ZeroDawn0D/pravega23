@@ -158,8 +158,8 @@ li a:hover {
 }
 
 .main_image{
-    background-image: url("/img/culturals/dianoia_img1.jpg");
-    background-size: 90% 150%;
+    background-image: url("/img/culturals/pandf_img1.jpg");
+    background-size: 100% 90%;
     background-repeat: no-repeat;
     background-position: 10% 20%;
     background-attachment: fixed;
@@ -214,11 +214,11 @@ li a:hover {
 .img{
     height: 90vh;
     width: 40vw;
-    background-image: url("/img/culturals/dianoia_img2.jpg");
+    background-image: url("/img/culturals/pandf_img2.jpg");
     background-repeat: no-repeat;
-    background-size: 45% 100%;
+    background-size: 40% 100%;
     background-attachment: fixed;
-    background-position: 0% -20%;
+    background-position: 10% -20%;
 }
 
 .timeline,.eligibility,.prizes, .rules{

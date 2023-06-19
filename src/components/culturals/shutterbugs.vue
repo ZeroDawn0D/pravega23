@@ -22,9 +22,9 @@ Don't miss this exciting opportunity to showcase your talent and love for photog
 
 
             </p><br>
-            <!--<router-link to = "/carvaan/register">
+            <router-link to = "/culturals/shutterbugs_register">
                     <button type="button" class="reg_button">Register here!</button>
-            </router-link>-->
+            </router-link>
 
     </div>
 
@@ -36,9 +36,9 @@ You'll get to experience photography workshops and events throughout the competi
 Don't miss this exciting opportunity to showcase your talent and love for photography! Grab your camera, set free your imagination and let your pictures do the talking.
 
 <br><br>
-            <!--<router-link to="/carvaan/register" :style="`text-decoration: none; color: inherit;`">
+            <router-link to="/culturals/shutterbugs_register" :style="`text-decoration: none; color: inherit;`">
 				<p class = 'learn'>Register here!</p>
-			</router-link>-->
+			</router-link>
 
             </p>
         </div>

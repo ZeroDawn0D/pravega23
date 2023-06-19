@@ -19,9 +19,9 @@
             <p>A battle of words, the debutante oratory and debate event, Dianoia, tests your ability to think on your toes and presents a plethora of opportunities to showcase your versatility as a speaker. 
                 From fiery debates to resolution-oriented discussions, from evocative extempore speeches to amusing just-a-minute quips, the contest beckons you to sway the crowd with your eloquence. Buckle up, and join us on the ride!
             </p><br>
-            <!--<router-link to = "/carvaan/register">
+            <router-link to = "/culturals/dianoia_register">
                     <button type="button" class="reg_button">Register here!</button>
-            </router-link>-->
+            </router-link>
     </dic>
 
     <div class = "main_image">
@@ -29,9 +29,9 @@
             <h2>Dianoia</h2>
             <p>A battle of words, the debutante oratory and debate event, Dianoia, tests your ability to think on your toes and presents a plethora of opportunities to showcase your versatility as a speaker. 
                 From fiery debates to resolution-oriented discussions, from evocative extempore speeches to amusing just-a-minute quips, the contest beckons you to sway the crowd with your eloquence. Buckle up, and join us on the ride!<br><br>
-                <!--<router-link to="/carvaan/register" :style="`text-decoration: none; color: inherit;`">
+                <router-link to="/culturals/dianoia_register" :style="`text-decoration: none; color: inherit;`">
 				<p class = 'learn'>Register here!</p>
-			</router-link>-->
+			</router-link>
             </p>
         </div>
     </div>
@@ -43,8 +43,8 @@
         <div class = "text">
             <div class = "timeline">
                 <h1>Timeline</h1><br>
-                <p>Registrations open: 1<sup>st</sup> July to 31<sup>st</sup> July <br>
-                    Prelims Date: 2<sup>nd</sup> week of August.
+                <p>Registrations open: 5<sup>th</sup> to 6<sup>th</sup> August <br>
+                   Finals: With main Pravega.
                 </p>
             </div>
             <div class = "eligibility">
@@ -59,7 +59,7 @@
             </div>
             <div class = "rules">
                 <h1>Rules</h1><br>
-                <p> Click here for the rules and regulations PDF.
+                <p> Click <a href ='/pdf/Shutterbugs V1.pdf'>here</a> for the rules and regulations PDF.
                 </p>
             </div>
         </div>

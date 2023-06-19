@@ -22,9 +22,9 @@ Pravega X is extremely proud to announce the first ever IISc Model United Nation
 This is an exercise in structured debate and subtle diplo-macy, where participants will represnt a country on a mock international platform. As they try to sort through covtroversial agendas and thoughtful topics, we’ll see displays of sharp diplomacy and stunning arguments.To be a part of this intellectually stimulating journey, 
 be connected through @culturals.pravega on Instagram for the announcement of committees involved in the conference and for further updates.
             </p><br>
-            <!--<router-link to = "/carvaan/register">
+            <router-link to = "/culturals/mun_register">
                     <button type="button" class="reg_button">Register here!</button>
-            </router-link>-->
+            </router-link>
     </dic>
 
     <div class = "main_image">
@@ -34,9 +34,9 @@ be connected through @culturals.pravega on Instagram for the announcement of com
 
 Pravega X is extremely proud to announce the first ever IISc Model United Nations conference for the passionate leaders of tommorow. This is an exercise in structured debate and subtle diplo-macy, where participants will represnt a country on a mock international platform. As they try to sort through covtroversial agendas and thoughtful topics, we’ll see displays of sharp diplomacy and stunning arguments.
 To be a part of this intellectually stimulating journey, be connected through @culturals.pravega on Instagram for the announcement of committees involved in the conference and for further updates.<br><br>
-                <!--<router-link to="/carvaan/register" :style="`text-decoration: none; color: inherit;`">
+                <router-link to="/culturals/mun_register" :style="`text-decoration: none; color: inherit;`">
 				<p class = 'learn'>Register here!</p>
-			</router-link>-->
+			</router-link>
             </p>
         </div>
     </div>

@@ -31,7 +31,7 @@
                 <h1>Don't miss out on <br> IISc's Premier Ideathon Event</h1>
             </div>
             <div class="small-text" style="background-color: #ebf234;">
-                <p>Get ready for a challenge that promises to stimulate your grey cells like no other! Ideathon, Pravega will engage your intellect and push your mind to its limits.
+                <p>Get ready for a challenge that promises to stimulate your grey cells like no other! STEMposium, Pravega will engage your intellect and push your mind to its limits.
 
 Find solutions to real life problems at the cutting edge of tech and stand a chance to win attractive prizes. Let your ideas flow and solve exciting and tangible problems!
 </p>
