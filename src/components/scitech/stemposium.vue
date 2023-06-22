@@ -28,7 +28,7 @@
 
         <div class="declaration">
             <div class="big-text" style="background-color: #ebf234;">
-                <h1>Don't miss out on <br> IISc's Premier Ideathon Event</h1>
+                <h1>Don't miss out on <br> IISc's Premier STEMposium Event</h1>
             </div>
             <div class="small-text" style="background-color: #ebf234;">
                 <p>Are you an innovator? Do you love showing your passion for science and sharing it with others? 
