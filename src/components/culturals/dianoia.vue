@@ -7,7 +7,7 @@
     <div class = "culturals_navbar">
         <ul class = "ul">
             <li class = 'li'><a href="#news">Gallery</a></li>
-            <li class = 'li'><a href="/img/culturals/Dianoia V2.jpg">Poster</a></li>
+            <li class = 'li'><a href="/pdf/Dianoia.pdf">Rules</a></li>
             <li class = 'li'><a href="#contact">Contact</a></li>
         </ul>
     </div>
@@ -59,7 +59,7 @@
             </div>
             <div class = "rules">
                 <h1>Rules</h1><br>
-                <p> Click <a href ='/pdf/Shutterbugs V1.pdf'>here</a> for the rules and regulations PDF.
+                <p> Click <a href ='/pdf/Dianoia.pdf'>here</a> for the rules and regulations PDF.
                 </p>
             </div>
         </div>

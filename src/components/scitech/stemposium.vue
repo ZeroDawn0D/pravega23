@@ -6,7 +6,7 @@
 
         <div class="scitech-navbar">
             <ul>
-                <li><a href="/pdf/Ideathon 2023.docx">Rules</a></li>
+                <li><a href="/pdf/STEMposium 2023.docx">Rules</a></li>
                 <li><a href="#coords">Contact</a></li>
                 <li><a href="#hof">Hall of Fame</a></li>
             </ul>
@@ -31,9 +31,12 @@
                 <h1>Don't miss out on <br> IISc's Premier Ideathon Event</h1>
             </div>
             <div class="small-text" style="background-color: #ebf234;">
-                <p>Get ready for a challenge that promises to stimulate your grey cells like no other! STEMposium, Pravega will engage your intellect and push your mind to its limits.
-
-Find solutions to real life problems at the cutting edge of tech and stand a chance to win attractive prizes. Let your ideas flow and solve exciting and tangible problems!
+                <p>Are you an innovator? Do you love showing your passion for science and sharing it with others? 
+                    STEMposium Pravega provides you with the perfect opportunity to prove yourself as a science communicator.  
+                    Bring out the coolest concepts, problems or phenomenon in all of STEM that you think will dazzle us. 
+                    Let your imagination run wild to find innovative ways to make cool stuff simpler (or simple stuff cooler!). 
+                    You can use any tools of the digital era:  videos, blog posts, animations etc. that you feel gets the " vibe-flowing". 
+                    Stand a chance to win exciting prizes, visit our campus and be published on our official Pravega website.
 </p>
             </div>
         </div>
