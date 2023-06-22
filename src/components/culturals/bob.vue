@@ -7,7 +7,7 @@
     <div class = "culturals_navbar">
         <ul class = "ul">
             <li class = 'li'><a href="#news">Gallery</a></li>
-            <li class = 'li'><a href="/pdf/Carvaan_rules.pdf">Rules</a></li>
+            <li class = 'li'><a href="/pdf/bob.pdf">Rules</a></li>
             <li class = 'li'><a href="#contact">Contact</a></li>
         </ul>
     </div>
@@ -70,7 +70,7 @@ Showcase your musical prowess, captivate the crowd with your style, and feel the
             </div>
             <div class = "rules">
                 <h1>Rules</h1><br>
-                <p> Click <a href ='/pdf/Carvaan_rules.pdf'>here</a> for rules and regulations pdf.
+                <p> Click <a href ='/pdf/bob.pdf'>here</a> for rules and regulations pdf.
                 </p>
             </div>
         </div>

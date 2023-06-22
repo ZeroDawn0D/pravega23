@@ -51,7 +51,8 @@
                     <li>Hyderabad: 8-9<sup>th</sup> July</li>
                     <li>Chennai: 15-16<sup>th</sup> July</li>
                     <li>Mumbai: 19-20<sup>th</sup> August</li>
-                </ul>
+                </ul><br>
+                <p>Online prelims: Last date of video submission - 25<sup>th</sup> July<br>Submit video on <a href = "https://shorturl.at/hwDEW" target="_blank">this link</a></p>
             </div>
             <div class = "eligibility">
                 <h1>Eligibility</h1><br>
