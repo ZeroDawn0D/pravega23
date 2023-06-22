@@ -29,7 +29,7 @@
 <script>
 import CarouselItem from "./carousel/CarouselItem.vue";
 import CarouselControls from "./carousel/CarouselControls.vue";
-import CarouselIndicators from "./carousel/carouselIndicators.vue";
+import CarouselIndicators from "./carousel/CarouselIndicators.vue";
 export default {
   props: {
     slides: {
