@@ -9,7 +9,7 @@ Register<script>
             <ul>
                 <li><a href="/pdf/Bioblitz RR.pdf">Rules</a></li>
                 <li><a href="#coords">Contacts</a></li>
-                <li><a href="#hof">Hall of Fame</a></li>
+                <li><a href="/pdf/BioBlitz_2022_final.pdf">Previous Year Paper</a></li>
             </ul>
         </div>
 

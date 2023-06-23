@@ -8,7 +8,7 @@
             <ul>
                 <li><a href="/pdf/DECOHERENCE RULES.docx">Rules</a></li>
                 <li><a href="#coords">Contact</a></li>
-                <li><a href="#hof">Hall of Fame</a></li>
+                <li><a href="/pdf/Decoherence_Objective .pdf">Previous Year Paper</a></li>
             </ul>
         </div>
 
