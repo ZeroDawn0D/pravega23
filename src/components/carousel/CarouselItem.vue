@@ -24,6 +24,11 @@ export default {
 </script>
 
 <style scoped>
+  img{
+    object-fit: contain;
+    width: 45vw;
+  height: 30vw;
+  }
 .carousel-item {
   position: absolute;
   top: 0;
