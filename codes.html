@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./codes.js" type="javascript"></script>
+    <title>Add code</title>
+</head>
+<body>
+    <div id="main">
+        <form method="post" onsubmit="addcode(event)" id="form_1">
+            <div>
+                <label class="label" for="codes">Codes (if more than one, separate them by space like "ASDEFR ASDEFRG")</label>
+                <div class="control has-icons-left has-icons-right">
+                    <input class="input is-primary" id="codes" name="codes" type="text" required value />
+                    <span class="icon is-small is-left"><i aria-hidden="true" class="fas fa-user"></i></span>
+                    <span class="icon is-small is-right"><i aria-hidden="true" class="fas fa-check"></i></span>
+                </div>
+                <br/>
+                <div>
+                    <button type="submit" onsubmit="addcode(event)" class="button is-success">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
