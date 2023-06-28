@@ -71,8 +71,8 @@ To be a part of this intellectually stimulating journey, be connected through @c
                     Double Delegation - 1500 rupees.<br><br>
 
                     Registration fees:<br>
-                    Single Delegetion - 1200 rupees<br>
-                    Double Delegation - 1500 rupees.<br>
+                    Single Delegetion - 1500 rupees<br>
+                    Double Delegation - 1800 rupees.<br>
 
                 </p>
             </div>
