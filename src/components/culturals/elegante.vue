@@ -7,7 +7,7 @@
     <div class = "culturals_navbar">
         <ul class = "ul">
             <li class = 'li'><a href="#news">Gallery</a></li>
-            <li class = 'li'><a href="/pdf/Carvaan_rules.pdf">Rules</a></li>
+            <li class = 'li'><a href="/pdf/Eleganté.pdf">Rules</a></li>
             <li class = 'li'><a href="#contact">Contact</a></li>
         </ul>
     </div>
