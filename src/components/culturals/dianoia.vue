@@ -59,7 +59,7 @@
             </div>
             <div class = "rules">
                 <h1>Rules</h1><br>
-                <p> Click <a href ='/pdf/Dianoia.pdf'>here</a> for the rules and regulations PDF.
+                <p> Click <a href ='/pdf/Dianoia .pdf'>here</a> for the rules and regulations PDF.
                 </p>
             </div>
         </div>

@@ -7,7 +7,7 @@
     <div class = "culturals_navbar">
         <ul class = "ul">
             <li class = 'li'><a href="#news">Gallery</a></li>
-            <li class = 'li'><a href="/img/culturals/MUN V1.jpg">Poster</a></li>
+            <li class = 'li'><a href="/pdf/mun p1.pdf">Rules</a></li>
             <li class = 'li'><a href="#contact">Contact</a></li>
         </ul>
     </div>
@@ -65,7 +65,15 @@ To be a part of this intellectually stimulating journey, be connected through @c
             </div>
             <div class = "rules">
                 <h1>Rules</h1><br>
-                <p> Click here for the rules and regulations PDF.
+                <p> Click <a href="/pdf/mun p1.pdf">here</a> for the rules and regulations PDF.<br><br>
+                    Early bird Registration Fees:<br>
+                    Single Delegetion - 1200 rupees<br>
+                    Double Delegation - 1500 rupees.<br><br>
+
+                    Registration fees:<br>
+                    Single Delegetion - 1200 rupees<br>
+                    Double Delegation - 1500 rupees.<br>
+
                 </p>
             </div>
         </div>
