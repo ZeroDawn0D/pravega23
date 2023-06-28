@@ -48,7 +48,7 @@ To be a part of this intellectually stimulating journey, be connected through @c
         <div class = "text">
             <div class = "timeline">
                 <h1>Timeline</h1><br>
-                <p>Early bird registrations: 1<sup>st</sup> Jult to 15<sup>th</sup> July<br>
+                <p>Early bird registrations: 1<sup>st</sup> July to 15<sup>th</sup> July<br>
                     Registrations: 15<sup>th</sup> July to 16<sup>th</sup> August<br>
                     Finals: During main Pravega event.
                 </p>
