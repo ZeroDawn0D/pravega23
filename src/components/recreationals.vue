@@ -13,12 +13,7 @@ export default{
 				<router-link to = "/recreationals/chess">
 					<Card link = "img/recreationals/chess.jpg" size = "350px"/>
 				</router-link>
-				<router-link to = "/recreationals/valorant">
-					<Card link = "img/recreationals/valorant.webp" size = "350px"/>
-				</router-link>
-				<router-link to = "/recreationals/bgmi">
-					<Card link = "img/recreationals/bgmi.jpg" size = "350px"/>
-				</router-link>
+				
 			</div>
 		</div>
 	</div>

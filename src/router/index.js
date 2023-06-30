@@ -57,6 +57,7 @@ import merch from "../components/Merchandise-test.vue"
 //Recreationals
 import bgmi from "../components/recreationals/bgmi.vue"
 import valorant from "../components/recreationals/valorant.vue"
+import chess_register from "../components/recreationals/chess_register.vue"
 import chess from "../components/recreationals/chess.vue"
 /*import Delhi from "../components/carvaan/Delhi.vue"
 
@@ -129,6 +130,7 @@ const routes = [
 	{path: "/culturals/mun_register", name:"mun_register",component:mun_register},
 	{path: "/culturals/alekhya", name:"alekhya",component:alekhya},
 	{path: "/merch-test", name:"merch-test", component:merch},
+	{path: "/recreationals/chess_register", name:"chess_register", component:chess_register},
 	{path: "/recreationals/chess", name:"chess", component:chess},
 	{path: "/recreationals/bgmi", name:"bgmi", component:bgmi},
 	{path: "/recreationals/valorant", name:"valorant", component:valorant},
