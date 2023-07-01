@@ -10,7 +10,7 @@ export default{
 		<Title text = "RECREATIONALS" color =  "#3fd8a4"/>
 		<div :class = "`content`">
 			<div :class = "'links'">
-				<router-link to = "/recreationals/chess">
+				<router-link to = "/recreationals/chess_register">
 					<Card link = "img/recreationals/chess.jpg" size = "350px"/>
 				</router-link>
 				
