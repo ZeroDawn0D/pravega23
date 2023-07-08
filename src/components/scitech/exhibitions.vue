@@ -6,9 +6,9 @@
 
         <div class="scitech-navbar">
             <ul>
-                <li><a href="/pdf/Exhibitions Rules.pdf">Rules</a></li>
-                <li><a href="#coords">Contact</a></li>
-                <li><a href="#hof">Hall of Fame</a></li>
+                <li><a href="/pdf/Exhibitions Rules.pdf" class="my_button">Rules</a></li>
+                <li><a href="#coords" class="my_button">Contact</a></li>
+                <li><a href="#hof" class="my_button">Hall of Fame</a></li>
             </ul>
         </div>
 
@@ -418,7 +418,26 @@ li a {
     align-items: center;
     text-align: center;
 }
+    
+.my_button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
+.my_button:hover {
+  background-color: #45a049;
+}
+
+.my_button:active {
+  background-color: #3e8e41;
+
+}  
+    
 @media screen and (max-width:1024px) {
 
     .intro,
