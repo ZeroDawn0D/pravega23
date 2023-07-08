@@ -17,10 +17,8 @@ Register<script>
             <div class="intro-content">
                 <br><br>
                 <h1>Bioblitz</h1><br>
-                <p>The Biology Blitzkreig</p><br>
-                <router-link to = "/scitech/bioblitz_register">
-                    <button type="button" class="reg_button">Register</button>
-                </router-link>
+                <p>The Biology Blitzkreig</p><br><br>
+                <p style = "font-size: larger;">Registrations closed for now. Stay tuned for updates.</p>
             </div>
             <div class="intro-image">
                 <img src="/img/scitech/BioBlitz.jpg" alt="scitech">
@@ -53,7 +51,7 @@ Register<script>
             <div class="text">
                 <div class="timeline">
                     <h1>Timeline</h1><br>
-                    <p> Prelims 1: July 15,2023. Prelims 2: Aug 12, 2023.
+                    <p> Prelims 1: July 15,2023. Prelims 2: Aug 12, 2023.<br>Last date of registration: 11:59 PM, 7<sup>th</sup> July, 2023.
                     </p>
                 </div>
                 <div class="eligibility">
@@ -482,7 +480,10 @@ li a {
     .intro-content,
     .text {
         width: 100vw;
+        position: relative;
+        top: -10vh;
     }
+
 
     .intro-content {
         width: 100vw;

@@ -85,11 +85,11 @@
                 <h2>Aman Goyal</h2>
                 <p>+91 90342 40861<br>amangoyal@iisc.ac.in</p>
             </div>
-            <div class = "image_2">
+            <!--<div class = "image_2">
                 <h2>Tejas Keswani</h2>
                 <p>+91 77096 07189<br>tejaskeswani@iisc.ac.in</p>
             </div>
-            <!--<div class = "image_3">
+            <div class = "image_3">
                 <h2>Coordinator 3</h2>
                 <p>Contact Info</p>
             </div>-->
