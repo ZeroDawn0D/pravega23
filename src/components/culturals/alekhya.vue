@@ -21,7 +21,7 @@
                 We hope you’re as excited as we are to take Alekhya to new heights.
 
             </p><br>
-            <router-link to = "/carvaan/register">
+            <router-link to = "/culturals/alekhya_register">
                     <button type="button" class="reg_button">Register here!</button>
             </router-link>
 
@@ -34,7 +34,7 @@
                 Through Alekhya, we aim to bring together artists of varying styles and create a budding atmos-phere for them to creatively communicate through their paintings and drawings. 
                 We hope you’re as excited as we are to take Alekhya to new heights.
 <br><br>
-            <router-link to="/carvaan/register" :style="`text-decoration: none; color: inherit;`">
+            <router-link to="/culturals/alekhya_register" :style="`text-decoration: none; color: inherit;`">
 				<p class = 'learn'>Register here!</p>
 			</router-link>
 
@@ -85,11 +85,11 @@
                 <h2>Aman Goyal</h2>
                 <p>+91 90342 40861<br>amangoyal@iisc.ac.in</p>
             </div>
-            <div class = "image_2">
+            <!--<div class = "image_2">
                 <h2>Tejas Keswani</h2>
                 <p>+91 77096 07189<br>tejaskeswani@iisc.ac.in</p>
             </div>
-            <!--<div class = "image_3">
+            <div class = "image_3">
                 <h2>Coordinator 3</h2>
                 <p>Contact Info</p>
             </div>-->

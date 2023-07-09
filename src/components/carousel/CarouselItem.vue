@@ -27,7 +27,7 @@ export default {
   img{
     object-fit: contain;
     width: 45vw;
-  height: 30vw;
+    height: 30vw;
   }
 .carousel-item {
   position: absolute;
@@ -53,5 +53,13 @@ export default {
 }
 .slide-out-leave-to {
   transform: translateX(-100%);
+}
+
+@media screen and (max-width: 1024px){
+    img{
+    object-fit: contain;
+    width: 75vw;
+    height: 50vw;
+  }
 }
 </style>

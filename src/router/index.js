@@ -53,11 +53,14 @@ import cwf_register from "../components/culturals/cwf_register.vue"
 import mun from "../components/culturals/mun.vue"
 import mun_register from "../components/culturals/mun_register.vue"
 import alekhya from "../components/culturals/alekhya.vue"
+import alekhya_register from "../components/culturals/alekhya_register.vue"
 import merch from "../components/Merchandise-test.vue"
 //Recreationals
 import bgmi from "../components/recreationals/bgmi.vue"
 import valorant from "../components/recreationals/valorant.vue"
+import chess_register from "../components/recreationals/chess_register.vue"
 import chess from "../components/recreationals/chess.vue"
+import killer_instinct_register from "../components/recreationals/killer_instinct_register.vue"
 /*import Delhi from "../components/carvaan/Delhi.vue"
 
 
@@ -128,10 +131,13 @@ const routes = [
 	{path: "/culturals/mun", name:"mun",component:mun},
 	{path: "/culturals/mun_register", name:"mun_register",component:mun_register},
 	{path: "/culturals/alekhya", name:"alekhya",component:alekhya},
+	{path: "/culturals/alekhya_register", name:"alekhya_register",component:alekhya_register},
 	{path: "/merch-test", name:"merch-test", component:merch},
+	{path: "/recreationals/chess_register", name:"chess_register", component:chess_register},
 	{path: "/recreationals/chess", name:"chess", component:chess},
 	{path: "/recreationals/bgmi", name:"bgmi", component:bgmi},
 	{path: "/recreationals/valorant", name:"valorant", component:valorant},
+	{path: "/recreationals/killer_instinct_register", name:"killer_instinct_register", component:killer_instinct_register},
 
 
 	/*{path:"/carvaan/mumbai",name:"Mumbai",component:Mumbai},
