@@ -1,149 +1,320 @@
 <script>
 import Timer from './Timer.vue'
 import Carousel from './Carousel.vue'
-export default{
-  components:{Timer, Carousel},
-  data(){
-    return{slides: [
-      "/img/home/ramayan.png",
-      "/img/home/billboard_11zon.jpg",
-      "/img/home/gulmohar_11zon.jpg",
-      "/img/home/tablefootball_11zon.jpg",
-      "/img/home/aerial_view.jpg",
-    ]}
+export default {
+  components: { Timer, Carousel },
+  data() {
+    return {
+      slides: [
+        "/img/home/ramayan.png",
+        "/img/home/billboard_11zon.jpg",
+        "/img/home/gulmohar_11zon.jpg",
+        "/img/home/tablefootball_11zon.jpg",
+        "/img/home/aerial_view.jpg",
+      ],
+      cards: [
+        {
+          bgimg: "/img/scitech/Chemenigma.jpg",
+          logo: "/img/scitech/chemenigma logo (1).jpeg",
+          text: "df",
+          date: "20.02.2023",
+          urltext: "jkjk"
+        },
+        {
+          bgimg: "/img/scitech/Chemenigma.jpg",
+          logo: "/img/scitech/chemenigma logo (1).jpeg",
+          text: "df",
+          date: "20.02.2023",
+          urltext: "jkjk"
+        },
+        {
+          bgimg: "/img/scitech/Chemenigma.jpg",
+          logo: "/img/scitech/chemenigma logo (1).jpeg",
+          text: "df",
+          date: "20.02.2023",
+          urltext: "jkjk"
+        },
+        {
+          bgimg: "/img/scitech/Chemenigma.jpg",
+          logo: "/img/scitech/chemenigma logo (1).jpeg",
+          text: "df",
+          date: "20.02.2023",
+          urltext: "jkjk"
+        },
+        {
+          bgimg: "/img/scitech/Chemenigma.jpg",
+          logo: "/img/scitech/chemenigma logo (1).jpeg",
+          text: "df",
+          date: "20.02.2023",
+          urltext: "jkjk"
+        }//add more lists to add more cards
+      ]
+    }
   }
 }
 </script>
 
 <template>
-  <div :id = "`home`">
+  <div :id="`home`">
 
-        <div class = "landing">
+    <div class="landing">
+    </div>
+
+    <div class="landing-title">
+      <div class="logo">
+        <div class="desc">
+          India's <span class="grad">biggest</span> SciTech-Cultural Fest
         </div>
-       
-        <div class = "landing-title">
-          <div class = "logo">
-              <div class = "desc">
-                India's <span class = "grad">biggest</span> SciTech-Cultural Fest
-              </div>
-              <img src = "/img/logo/pravega.png" class = "pravega"/>
-              <img src = "/img/logo/x.png" class = "X"/>
-              
-              <div class = "location">
-               Indian Institute of Science, Bangalore
-              </div>
+        <img src="/img/logo/pravega.png" class="pravega" />
+        <img src="/img/logo/x.png" class="X" />
+
+        <div class="location">
+          Indian Institute of Science, Bangalore
+        </div>
+      </div>
+      <div class="circle"></div>
+      <div class="hollow-circle"></div>
+      <div class="rectangle"></div>
+      <div class="hollow-rectangle"></div>
+    </div>
+    <div class="pravega-title grad" style="text-align: center; width:100%;">
+      Announcements
+    </div>
+    <div v-for="x in cards" class="second hero">
+      <img class="hero-profile-img" v-bind:src="x.bgimg" alt="" />
+      <div class="hero-description-bk"></div>
+      <div class="hero-logo">
+        <img v-bind:src="x.logo" alt="">
+      </div>
+      <div class="hero-description">
+        <p>{{ x.text }}</p>
+      </div>
+      <div class="hero-date">
+        <p>{{ x.date }}</p>
+      </div>
+      <div class="hero-btn">
+        <a href="#">{{ x.urltext }}</a>
+      </div>
+    </div>
+
+    <div class="about-pravega">
+      <div class="pravega-flex">
+        <div class="pravega-text">
+          <div class="pravega-title grad">
+            About Pravega
           </div>
-          <div class = "circle"></div>
-          <div class = "hollow-circle"></div>
-          <div class = "rectangle"></div>
-          <div class = "hollow-rectangle"></div>
-        </div>
-        <div class = "about-pravega">
-          <div class = "pravega-flex">
-            <div class = "pravega-text">
-              <div class = "pravega-title grad">
-                About Pravega
-              </div>
-              <br>
-              <div class = "pravega-desc">
-                Pravega is the <span class = "grad">undergraduate fest</span> of IISc, featuring exemplary events in Science, Technology, and Culture. This year marks the 10th edition of Pravega, giving us all the more motivation to make this edition the most memorable Pravega ever. Pravega sees exemplary participation in its quizzes, stunning cultural competitions, and stellar concerts. 
-              </div>
-            </div>
-            
-            <div class = "pravega-img">
-              <img src = "/img/home/aboutpravega.png">
-            </div>
-          </div>
-        </div>
-
-
-        <div class = "about-iisc">
-          <div class = "iisc-flex">
-            
-            <div class = "iisc-img">
-              <img src = "/img/home/aerial_view.jpg">
-            </div>
-
-            <div class = "iisc-text">
-              <div class = "iisc-title grad">
-                About IISc
-              </div>
-              <br>
-              <div class = "iisc-desc">
-                The Indian Institute of Science is India's <span class = "grad">top ranked research institution</span> and a scientific force to be reckoned with on the global stage. With a focus on interdisciplinary research in the undergraduate program, supported by preeminent faculty from each major discipline and a flourishing environment of extracurricular activities - IISc provides a suitable setting for the holistic growth of bright young bright minds.
-              </div>
-            </div>
-
+          <br>
+          <div class="pravega-desc">
+            Pravega is the <span class="grad">undergraduate fest</span> of IISc, featuring exemplary events in Science,
+            Technology, and Culture. This year marks the 10th edition of Pravega, giving us all the more motivation to
+            make this edition the most memorable Pravega ever. Pravega sees exemplary participation in its quizzes,
+            stunning cultural competitions, and stellar concerts.
           </div>
         </div>
-       
-       <Carousel :slides="slides" :intervals="3000" controls indicators></Carousel>
+
+        <div class="pravega-img">
+          <img src="/img/home/aboutpravega.png">
+        </div>
+      </div>
+    </div>
+
+
+    <div class="about-iisc">
+      <div class="iisc-flex">
+
+        <div class="iisc-img">
+          <img src="/img/home/aerial_view.jpg">
+        </div>
+
+        <div class="iisc-text">
+          <div class="iisc-title grad">
+            About IISc
+          </div>
+          <br>
+          <div class="iisc-desc">
+            The Indian Institute of Science is India's <span class="grad">top ranked research institution</span> and a
+            scientific force to be reckoned with on the global stage. With a focus on interdisciplinary research in the
+            undergraduate program, supported by preeminent faculty from each major discipline and a flourishing
+            environment of extracurricular activities - IISc provides a suitable setting for the holistic growth of bright
+            young bright minds.
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <Carousel :slides="slides" :intervals="3000" controls indicators></Carousel>
   </div>
 </template>
 
 <style scoped>
+/*card design */
 
-    .landing{
-      position: absolute;
-      top: 0;
-      height: 100vh;
-      width: 100vw;
-      background-image: url("/img/home/landing.jpg");
-      background-size: 130%;
-      background-position: center;
-      background-color: #000000;
-      filter: brightness(0.3);
-      overflow: visible;
-    }
+/* BEGIN CARD DESIGN */
+.hero {
+  display: inline-block;
+  position: relative;
+  width: 400px;
+  min-width: 400px;
+  height: 400px;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+  margin: 30px;
+}
 
-    @keyframes move {
-	to { transform: translateY(calc(4vw - 100%)) }
+.hero-profile-img {
+  height: 70%;
+  width: 100%;
+}
+
+.hero-description-bk {
+  background-image: linear-gradient(0deg, #3f5efb, #fc466b);
+  border-radius: 30px;
+  position: absolute;
+  top: 55%;
+  left: -5px;
+  height: 65%;
+  width: 108%;
+  transform: skew(19deg, -9deg);
+}
+
+.second .hero-description-bk {
+  background-image: linear-gradient(-20deg, #bb7413, #e7d25c)
+}
+
+.hero-logo {
+  height: 80px;
+  width: 80px;
+  border-radius: 20px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 30%;
+  left: 30px;
+  overflow: hidden;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.7);
+}
+
+.hero-logo img {
+  height: 100%;
+}
+
+.hero-description {
+  position: absolute;
+  color: #fff;
+  font-weight: 900;
+  left: 150px;
+  bottom: 26%;
+}
+
+.hero-btn {
+  position: absolute;
+  color: #fff;
+  right: 30px;
+  bottom: 10%;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+}
+
+.hero-btn a {
+  color: #fff;
+}
+
+.hero-date {
+  position: absolute;
+  color: #fff;
+  left: 30px;
+  bottom: 10%;
+}
+
+/* END CARD DESIGN */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  background-color: #eee;
+  min-height: 100vh;
+}
+
+.btn i:before {
+  width: 14px;
+  height: 14px;
+  position: fixed;
+  color: #fff;
+  background: #0077B5;
+  padding: 10px;
+  border-radius: 50%;
+  top: 5px;
+  right: 5px;
+}
+
+/* card desogn ends */
+.landing {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("/img/home/landing.jpg");
+  background-size: 130%;
+  background-position: center;
+  background-color: #000000;
+  filter: brightness(0.3);
+  overflow: visible;
+}
+
+@keyframes move {
+  to {
+    transform: translateY(calc(4vw - 100%))
+  }
 }
 
 @keyframes move2 {
-	to { transform: translateX(calc(4vw - 100%)) }
+  to {
+    transform: translateX(calc(4vw - 100%))
+  }
 }
 
-    .hollow-rectangle{
-      position: absolute;
-      z-index: 1;
-      top: 25%;
-      left: 22%;
-      opacity: 0.5;
+.hollow-rectangle {
+  position: absolute;
+  z-index: 1;
+  top: 25%;
+  left: 22%;
+  opacity: 0.5;
 
-      height: 21vw;
-      width: 26.5vw;
-      border: 4px solid #f72585;
-      border-image-slice: 1;
-      border-image-source: linear-gradient(135deg, #f72585, #a92fde 100%);
-    }
-    .rectangle{
-      position: absolute;
-      top: 15%;
-      left: 10%;
-      height: 2.5vw;
-      width: 2.5vw;
-      transform: translateY(calc(-1*(4vw - 100%)));
-      border: 2px solid #dc2eaa;
-      animation: move 2s ease-in-out infinite alternate;
+  height: 21vw;
+  width: 26.5vw;
+  border: 4px solid #f72585;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(135deg, #f72585, #a92fde 100%);
 }
-    
-    .hollow-circle{
-      position: absolute;
-      top: 15%;
-      left: 90%;
-      height: 2.5vw;
-      width: 2.5vw;
-      transform: translateY(calc(-1*(4vw - 100%)));
-      border: 2px solid #086fbe;
-      border-radius: 50%;
-      animation: move 2s ease-in-out infinite alternate;
-    }
-    
-    .circle {
-      position: absolute;
-      top: 80%;
-      left: 10%;
+
+.rectangle {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  height: 2.5vw;
+  width: 2.5vw;
+  transform: translateY(calc(-1*(4vw - 100%)));
+  border: 2px solid #dc2eaa;
+  animation: move 2s ease-in-out infinite alternate;
+}
+
+.hollow-circle {
+  position: absolute;
+  top: 15%;
+  left: 90%;
+  height: 2.5vw;
+  width: 2.5vw;
+  transform: translateY(calc(-1*(4vw - 100%)));
+  border: 2px solid #086fbe;
+  border-radius: 50%;
+  animation: move 2s ease-in-out infinite alternate;
+}
+
+.circle {
+  position: absolute;
+  top: 80%;
+  left: 10%;
   height: 2.5vw;
   width: 2.5vw;
   border: 2px solid #bbd414;
@@ -153,206 +324,233 @@ export default{
 }
 
 
-    .landing-title{
-      height: 100vh;
-      background-color: rgba(0,0,0,0);
-      overflow: visible;
-    }
-  #home{
-    height: 90vh;
-    width: 100vw;
-    background-color: #3a0ca3;
+.landing-title {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0);
+  overflow: visible;
+}
+
+#home {
+  height: 90vh;
+  width: 100vw;
+  background-color: #3a0ca3;
+}
+
+.logo {
+  width: fit-content;
+  position: relative;
+  color: white;
+  padding-top: 10vh;
+  opacity: 1;
+  height: 5vw;
+  z-index: 2;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.logo img {
+  opacity: 1;
+  height: 6.75vw;
+  width: auto;
+
+}
+
+
+.desc {
+
+  width: fit-content;
+  position: relative;
+  top: 90px;
+  font-size: 25px;
+  z-index: 10;
+  padding-bottom: 0.75vw;
+}
+
+.grad {
+  background-image: -webkit-linear-gradient(0deg, #f72585, #a92fde 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.location {
+
+  width: fit-content;
+  position: relative;
+  z-index: 10;
+  padding-top: 0.75vw;
+}
+
+.timer {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: fit-content;
+}
+
+.pravega {
+  position: relative;
+  top: 90px;
+  animation: appearPravega 0.8s ease-out;
+}
+
+.X {
+  position: relative;
+  top: 90px;
+  animation: appearX 2s ease-out;
+}
+
+.location {
+  position: relative;
+  top: 90px;
+}
+
+@keyframes appearPravega {
+  0% {
+    opacity: 0%;
+    right: 1.5vw;
   }
 
-  .logo{
-    width: fit-content;
-    position: relative;
-    color: white;
-    padding-top: 10vh;
+  100% {
+    opacity: 100%;
+    right: 0vw;
+  }
+}
+
+@keyframes appearX {
+  0% {
+    opacity: 0%;
+    right: 1.5vw;
+  }
+
+  50% {
+    opacity: 0%;
+    right: 1.5vw;
+
+  }
+
+  100% {
     opacity: 1;
-    height:5vw;
-    z-index: 2;
-    left: 50%;
-    transform: translate(-50%,50%);
+    right: 0vw;
   }
-  .logo img{
-    opacity: 1;
-    height: 6.75vw;
-    width: auto;
-    
-  } 
-  
+}
 
-  .desc{
+.pravega-flex {
+  gap: 20px;
+  display: flex;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
 
-    width: fit-content;
-    position: relative;
-    top: 90px;
-    font-size: 25px;
-    z-index: 10;
-    padding-bottom: 0.75vw;
-  }
-  .grad{
-      background-image: -webkit-linear-gradient(0deg, #f72585, #a92fde 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
+.pravega-flex>div {
+  flex: 50%;
+}
 
-  .location{
+.about-pravega {
+  position: relative;
+  background-color: #000000;
+  padding: 15px;
+  overflow: visible;
+}
 
-    width: fit-content;
-    position: relative;
-    z-index: 10;
-    padding-top: 0.75vw;
-  }
-  .timer{
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    width: fit-content;
-  }
-  .pravega{
-    position: relative;
-    top: 90px;
-    animation: appearPravega 0.8s ease-out;
-  }
-  .X{
-    position: relative;
-    top: 90px;
-    animation: appearX 2s ease-out;
-  }
-  .location{
-    position: relative;
-    top: 90px;
-  }
+.pravega-title {
+  font-size: 50px;
+  width: fit-content;
+}
 
- @keyframes appearPravega{
-    0%{
-      opacity: 0%;
-      right: 1.5vw;
-    }
-    100%{
-      opacity: 100%;
-      right: 0vw;
-    }
-  }
+.pravega-desc {
+  font-size: 20px;
+  color: white;
+  text-align: justify;
+}
 
-  @keyframes appearX{
-    0%{
-      opacity: 0%;
-      right: 1.5vw;
-    }
-    50%{
-      opacity: 0%;
-      right: 1.5vw;
+.pravega-img img {
+  width: 30vw;
+  border-radius: 20px;
+  padding: 10px;
+}
 
-    }
-    100%{
-      opacity: 1;
-      right: 0vw;
-    }
+.iisc-flex {
+  gap: 20px;
+  display: flex;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.iisc-flex>div {
+  flex: 50%;
+}
+
+.about-iisc {
+  background-color: #000000;
+  padding: 15px;
+
+}
+
+.iisc-title {
+  font-size: 50px;
+  width: fit-content;
+}
+
+.iisc-desc {
+  font-size: 20px;
+  color: white;
+  text-align: justify;
+}
+
+.iisc-img img {
+  width: 40vw;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .logo img {
+    height: 10vw;
   }
 
-  .pravega-flex{
-    gap: 20px;
-    display: flex;
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+  .logo {
+    top: 1vh;
   }
 
-  .pravega-flex>div{
-    flex: 50%;
-  }
-  .about-pravega{
-    position:relative;
-    background-color: #000000;
-    padding:  15px;
-    overflow: visible;
-  }
-  .pravega-title{
-    font-size: 50px;
-    width: fit-content;
-  }
-  .pravega-desc{
-    font-size: 20px;
-    color: white;
-    text-align: justify;
-  }
-  .pravega-img img{
-    width: 30vw;
-    border-radius: 20px;
-    padding: 10px;
+  .desc {
+    font-size: 3vw;
   }
 
-  .iisc-flex{
-    gap: 20px;
-    display: flex;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-  .iisc-flex>div{
-    flex: 50%;
-  }
-  .about-iisc{
-    background-color: #000000;
-    padding: 15px;
-
-  }
-  .iisc-title{
-    font-size: 50px;
-    width: fit-content;
-  }
-  .iisc-desc{
-    font-size: 20px;
-    color: white;
-    text-align: justify;
-  }
-  .iisc-img img{
-    width: 40vw;
-    border-radius: 20px;
-    padding: 10px;
+  .location {
+    font-size: 3vw;
   }
 
-@media screen and (max-width: 1024px){
-  .logo img{
-      height: 10vw;
-    }
-    .logo{
-      top: 1vh;
-    }
-    .desc{
-      font-size: 3vw;
-    }
-    .location{
-      font-size: 3vw;
-    }
-    .hollow-rectangle{
-      display: none;
-      height: 45vw;
-      width: 35vw;
-      top: 30%;
-      border: 5px solid #10e685;
-    }
-    .hollow-circle{
-      left:80%;
-      height: 3vw;
-      width: 3vw;
-      transform: translateY(calc(1*(10vw - 100%)));
-    }
-    .circle{
-      top: 50%;
-      height: 3vw;
-      width: 3vw;
-      transform: translateX(calc(1*(8vw - 100%)));
-    }
-    .rectangle{
-      height: 3vw;
-      width: 3vw;
-      transform: translateY(calc(1*(10vw - 100%)));
-    }
+  .hollow-rectangle {
+    display: none;
+    height: 45vw;
+    width: 35vw;
+    top: 30%;
+    border: 5px solid #10e685;
+  }
 
-  .landing{
+  .hollow-circle {
+    left: 80%;
+    height: 3vw;
+    width: 3vw;
+    transform: translateY(calc(1*(10vw - 100%)));
+  }
+
+  .circle {
+    top: 50%;
+    height: 3vw;
+    width: 3vw;
+    transform: translateX(calc(1*(8vw - 100%)));
+  }
+
+  .rectangle {
+    height: 3vw;
+    width: 3vw;
+    transform: translateY(calc(1*(10vw - 100%)));
+  }
+
+  .landing {
     height: 100vh;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -360,54 +558,63 @@ export default{
   }
 
 
-  .about-pravega{
+  .about-pravega {
     align-items: center;
     height: auto;
   }
-  .pravega-title{
+
+  .pravega-title {
     text-align: center;
     font-size: 25px;
     margin-left: 93px;
   }
-  .pravega-desc{
+
+  .pravega-desc {
     font-size: 15px;
   }
-  .pravega-flex{
+
+  .pravega-flex {
     padding-top: 10px;
     padding-left: 15px;
     padding-right: 15px;
     flex-direction: column;
   }
-  .pravega-img{
+
+  .pravega-img {
     text-align: center;
   }
-  .pravega-img img{
+
+  .pravega-img img {
     width: 70vw;
   }
 
-  .iisc-flex{
+  .iisc-flex {
     padding-top: 10px;
     padding-left: 15px;
     padding-right: 15px;
     flex-direction: column-reverse;
   }
-  .about-iisc{
+
+  .about-iisc {
     align-items: center;
     height: auto;
   }
-  .iisc-title{
+
+  .iisc-title {
     align-items: center;
     font-size: 25px;
     margin-left: 115px;
   }
-  .iisc-desc{
+
+  .iisc-desc {
     font-size: 15px;
   }
-  .iisc-img{
+
+  .iisc-img {
     text-align: center;
   }
-  .iisc-img img{
+
+  .iisc-img img {
     width: 80vw;
   }
-}
-</style>
+}</style>
