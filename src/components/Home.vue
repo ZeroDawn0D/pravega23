@@ -87,7 +87,6 @@ export default {
     <div class="pravega-title grad announcements">
       Announcements
     </div>
-    <div class= "cards">
     <div v-for="x in cards" class="second hero">
       <img class="hero-profile-img" v-bind:src="x.bgimg" alt="" />
       <div class="hero-description-bk"></div>
@@ -107,7 +106,7 @@ export default {
 
       </div>
     </div>
-  </div>
+  
   </div>
 </div>
 
@@ -175,6 +174,19 @@ export default {
   overflow: hidden;
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
   margin: 30px;
+}
+
+@media (max-width: 1024px){
+  .hero{
+    width: 320px;
+    min-width: 320px;
+    height: 340px;
+    margin: 15px;
+  }
+
+  .hero-description{
+    font-size: 1rem;
+  }
 }
 
 .hero-profile-img {
