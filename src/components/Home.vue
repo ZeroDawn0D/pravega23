@@ -16,37 +16,42 @@ export default {
         {
           bgimg: "/img/scitech/Chemenigma.jpg",
           logo: "/img/scitech/chemenigma logo (1).jpeg",
-          text: "df",
+          text: "Registrations closing soon!",
           date: "20.02.2023",
-          urltext: "jkjk"
+          urltext: "Register Now",
+          urllink: "/scitech/chemenigma_register"
+          },
+        {
+          bgimg: "/img/scitech/BioBlitz.jpg",
+          logo: "/img/scitech/chemenigma logo (1).jpeg",
+          text: "Registrations extended till 13th July!",
+          date: "20.02.2023",
+          urltext: "Register Here",
+          urllink: "/scitech/bioblitz_register"
         },
         {
-          bgimg: "/img/scitech/Chemenigma.jpg",
+          bgimg: "/img/scitech/Decoherence.jpg",
           logo: "/img/scitech/chemenigma logo (1).jpeg",
-          text: "df",
+          text: "Registrations closing soon",
           date: "20.02.2023",
-          urltext: "jkjk"
+          urltext: "Regsiter now",
+          urllink: "/scitech/decoherence_register"
         },
         {
-          bgimg: "/img/scitech/Chemenigma.jpg",
+          bgimg: "/img/scitech/Quadsparks.jpg",
           logo: "/img/scitech/chemenigma logo (1).jpeg",
-          text: "df",
+          text: "Registrations open, come on in!",
           date: "20.02.2023",
-          urltext: "jkjk"
+          urltext: "Register here",
+          urllink: "/scitech/quadsparks"
         },
         {
-          bgimg: "/img/scitech/Chemenigma.jpg",
+          bgimg: "/img/recreationals/chess.jpg",
           logo: "/img/scitech/chemenigma logo (1).jpeg",
-          text: "df",
+          text: "Registrations live now!",
           date: "20.02.2023",
-          urltext: "jkjk"
-        },
-        {
-          bgimg: "/img/scitech/Chemenigma.jpg",
-          logo: "/img/scitech/chemenigma logo (1).jpeg",
-          text: "df",
-          date: "20.02.2023",
-          urltext: "jkjk"
+          urltext: "Register here",
+          urllink: "/recreationals/chess_register"
         }//add more lists to add more cards
       ]
     }
@@ -77,9 +82,12 @@ export default {
       <div class="rectangle"></div>
       <div class="hollow-rectangle"></div>
     </div>
-    <div class="pravega-title grad" style="text-align: center; width:100%;">
+    <div class="pravega-flex">
+        <div class="pravega-text">
+    <div class="pravega-title grad announcements">
       Announcements
     </div>
+    <div class= "cards">
     <div v-for="x in cards" class="second hero">
       <img class="hero-profile-img" v-bind:src="x.bgimg" alt="" />
       <div class="hero-description-bk"></div>
@@ -93,9 +101,15 @@ export default {
         <p>{{ x.date }}</p>
       </div>
       <div class="hero-btn">
-        <a href="#">{{ x.urltext }}</a>
+        <router-link v-bind:to = "x.urllink">
+                    {{x.urltext}}
+        </router-link>
+
       </div>
     </div>
+  </div>
+  </div>
+</div>
 
     <div class="about-pravega">
       <div class="pravega-flex">
@@ -180,8 +194,19 @@ export default {
 }
 
 .second .hero-description-bk {
-  background-image: linear-gradient(-20deg, #bb7413, #e7d25c)
+  background-image: linear-gradient(-20deg, #bb7413, #e7d25c);
+  align-items: center;
+  justify-content: center;
 }
+
+.cards{
+  /*display: flex;*/ /*change this to start making the card carousel. Check mobile responsiveness*/
+  width:fit-content;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
 
 .hero-logo {
   height: 80px;
@@ -457,6 +482,13 @@ body {
 .pravega-title {
   font-size: 50px;
   width: fit-content;
+}
+
+@media (min-width: 1024px){
+  .announcements{
+    width: 100%;
+    text-align: center;
+  }
 }
 
 .pravega-desc {

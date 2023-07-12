@@ -54,7 +54,7 @@ Register<script>
             <div class="text">
                 <div class="timeline">
                     <h1>Timeline</h1><br>
-                    <p> Prelims 1: July 15,2023. Prelims 2: Aug 12, 2023.<br>Last date of registration: 11:59 PM, 9<sup>th</sup> July, 2023.
+                    <p> Prelims 1: July 15,2023. Prelims 2: Aug 12, 2023.<br>Last date of registration: 11:59 PM, 13<sup>th</sup> July, 2023.
                     </p>
                 </div>
                 <div class="eligibility">
