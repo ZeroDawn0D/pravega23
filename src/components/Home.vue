@@ -2,13 +2,6 @@
 import Timer from './Timer.vue'
 import Carousel from './Carousel.vue'
 export default {
-  mounted(){
-            this.$swal.fire({
-  icon: 'info',
-  title: 'Contact us',
-  text: 'Please make sure to ping the correct ecvent coordinators for any queries.',
-})
-    },
   components: { Timer, Carousel },
   data() {
     return {
