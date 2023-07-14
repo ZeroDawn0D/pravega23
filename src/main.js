@@ -4,14 +4,14 @@ import './style.css'
 import App from './App.vue'
 import router from "./router/index.js"
 
-import vueSweetalert2 from '/vue-sweetalert2';
+/*import vueSweetalert2 from 'vue-sweetalert2';
 
-import './node_modules/sweetalert2/dist/sweetalert2.min.css';
+import 'sweetalert2/dist/sweetalert2.min.css';*/
 
 
 
 
 createApp(App)
-.use(vueSweetalert2)
+/*.use(vueSweetalert2)*/
 .use(router)
 .mount('#app')
