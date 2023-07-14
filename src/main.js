@@ -4,7 +4,7 @@ import './style.css'
 import App from './App.vue'
 import router from "./router/index.js"
 
-import vueSweetalert2 from 'vue-sweetalert2';
+import vueSweetalert2 from '/node_modules/vue-sweetalert2/dist/vue-sweetalert2.esm.js';
 
 import 'sweetalert2/dist/sweetalert2.min.css';
 
