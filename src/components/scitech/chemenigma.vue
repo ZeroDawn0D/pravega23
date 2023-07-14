@@ -2,21 +2,21 @@
 
     export default{
         mounted(){
-        let recaptchaScript = document.createElement('script')
-      recaptchaScript.setAttribute('src', 'https://unpkg.com/sweetalert/dist/sweetalert.min.js')
-      document.head.appendChild(recaptchaScript)
-     this.$nextTick(function(){
-        this.loading()
-     })
+            this.$swal.fire({
+  icon: 'info',
+  title: 'Important',
+  text: 'Registrations are closing in a week!',
+  footer: '<router-link to = "/scitech/chemenigma_register">Register now.</router-link>'
+})
     },
     /*created: function(){
         this.loading()
-    },*/
+    },
     methods:{
         loading: function(){
             swal("Alert","something something","info")
         }
-    }
+    }*/
     }
 </script>
 

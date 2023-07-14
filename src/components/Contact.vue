@@ -4,6 +4,13 @@ import Soon2 from './Soon2.vue'
 import Card3 from "./Card3.vue"
 
 export default{
+	mounted(){
+            this.$swal.fire({
+  icon: 'info',
+  title: 'Contact us',
+  text: 'Please make sure to ping the correct ecvent coordinators for any queries.',
+})
+    },
 	components:{Title, Soon2, Card3}
 }
 </script>

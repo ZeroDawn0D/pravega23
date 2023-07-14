@@ -14,7 +14,8 @@
     "http": "^0.0.1-security",
     "vite-plugin-require": "^1.1.10",
     "vue": "^3.2.45",
-    "vue-router": "^4.1.6"
+    "vue-router": "^4.1.6",
+    "vue-sweetalert2": "^5.0.5"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
