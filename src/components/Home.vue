@@ -16,40 +16,40 @@ export default {
         {
           bgimg: "/img/scitech/Chemenigma.jpg",
           logo: "/img/scitech/chemenigma logo (1).jpeg",
-          text: "Registrations closing soon!",
-          date: "20.02.2023",
+          text: "Registrations closing on 19.07.2023!",
+          date: "Prelims date: 23.07.2023",
           urltext: "Register Now",
           urllink: "/scitech/chemenigma_register"
           },
         {
           bgimg: "/img/scitech/BioBlitz.jpg",
-          logo: "/img/scitech/chemenigma logo (1).jpeg",
+          logo: "/img/logo/x.png",
           text: "Registrations extended till 13th July!",
-          date: "20.02.2023",
+          date: "Prelims 2: 12.08.2023",
           urltext: "Register Here",
           urllink: "/scitech/bioblitz_register"
         },
         {
           bgimg: "/img/scitech/Decoherence.jpg",
-          logo: "/img/scitech/chemenigma logo (1).jpeg",
+          logo: "/img/logo/x.png",
           text: "Registrations closing soon",
-          date: "20.02.2023",
+          date: "Prelims date: 05.08.2023",
           urltext: "Regsiter now",
           urllink: "/scitech/decoherence_register"
         },
         {
           bgimg: "/img/scitech/Quadsparks.jpg",
-          logo: "/img/scitech/chemenigma logo (1).jpeg",
+          logo: "/img/logo/x.png",
           text: "Registrations open, come on in!",
-          date: "20.02.2023",
+         // date: "20.02.2023",
           urltext: "Register here",
           urllink: "/scitech/quadsparks"
         },
         {
           bgimg: "/img/recreationals/chess.jpg",
-          logo: "/img/scitech/chemenigma logo (1).jpeg",
+          logo: "/img/logo/x.png",
           text: "Registrations live now!",
-          date: "20.02.2023",
+         // date: "20.02.2023",
           urltext: "Register here",
           urllink: "/recreationals/chess_register"
         }//add more lists to add more cards
@@ -91,7 +91,7 @@ export default {
       <img class="hero-profile-img" v-bind:src="x.bgimg" alt="" />
       <div class="hero-description-bk"></div>
       <div class="hero-logo">
-        <img v-bind:src="x.logo" alt="">
+        <img v-bind:src="x.logo" style="width:100%;" alt="">
       </div>
       <div class="hero-description">
         <p>{{ x.text }}</p>
