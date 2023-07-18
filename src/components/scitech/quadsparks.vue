@@ -108,7 +108,7 @@ export default {
                 </div>
                 <div class="eligibility">
                     <h1>Eligibility</h1><br>
-                    <p> High school students: Classes 9 to 12<br>
+                    <p> High school students: Classes 9 to 12<br>College students: 1<sup>st</sup> and 2<sup>nd</sup> year UG students.<br>
                         Participation is allowed as individual or teams of two
                     </p><br>
                 </div>
