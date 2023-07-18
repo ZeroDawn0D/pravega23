@@ -36,6 +36,7 @@
                 <br><br>
                 <h1>Chemenigma</h1><br>
                 <p>Some Explosive Brain-wracking Chemistry</p><br>
+                <p style="font-size: large;color: red;">Registration is closing on 19th July, 2023</p>
                 <router-link to = "/scitech/chemenigma_register">
                     <button type="button" class="reg_button">Register</button>
                 </router-link>
