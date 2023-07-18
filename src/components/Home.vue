@@ -40,7 +40,7 @@ export default {
         {
           bgimg: "/img/scitech/Quadsparks.jpg",
           logo: "/img/logo/x.png",
-          text: "Eligibility extended to 1st, 2nd year UGs",
+          text: "Registrations closing soon",
          // date: "20.02.2023",
           urltext: "Register here",
           urllink: "/scitech/quadsparks"
