@@ -16,7 +16,7 @@ export default {
         {
           bgimg: "/img/scitech/Chemenigma.jpg",
           logo: "/img/scitech/chemenigma logo (1).jpeg",
-          text: "Registrations closing soon!",
+          text: "Registration is closing on 19.07.2023!",
           date: "Prelims date: 23.07.2023",
           urltext: "Register Now",
           urllink: "/scitech/chemenigma_register"
