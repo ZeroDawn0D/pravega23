@@ -1,14 +1,14 @@
 <script >
 
     export default{
-        /*mounted(){
+        mounted(){
             this.$swal.fire({
   icon: 'info',
   title: 'Important',
   text: 'Registrations are closing in a week!',
   footer: '<router-link to = "/scitech/chemenigma_register">Register now.</router-link>'
 })
-    },*/
+    },
     /*created: function(){
         this.loading()
     },
