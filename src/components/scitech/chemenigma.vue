@@ -5,9 +5,8 @@
             this.$swal.fire({
   icon: 'info',
   title: 'Important',
-  text: 'Registrations are closing in a week!',
-  footer: '<router-link to = "/scitech/chemenigma_register">Register now.</router-link>'
-})
+  text: 'Registrations are closed. We have mailed instructions about Prelims and WhatsApp group for queries to all eligible participants. If you haven\'t receive the mail, kindly mail us at the earliest.',
+  })
     },
     /*created: function(){
         this.loading()
@@ -36,10 +35,7 @@
                 <br><br>
                 <h1>Chemenigma</h1><br>
                 <p>Some Explosive Brain-wracking Chemistry</p><br>
-                <p style="font-size: large;color: red;">Registration is closing on 19th July, 2023</p>
-                <router-link to = "/scitech/chemenigma_register">
-                    <button type="button" class="reg_button">Register</button>
-                </router-link>
+                <p style="font-size: large;color: red;">Registrations are closed.</p>
             </div>
             <div class="intro-image">
                 <img src="/img/scitech/sample1.png" alt="scitech">

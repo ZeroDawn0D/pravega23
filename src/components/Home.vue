@@ -14,14 +14,6 @@ export default {
       ],
       cards: [
         {
-          bgimg: "/img/scitech/Chemenigma.jpg",
-          logo: "/img/scitech/chemenigma logo (1).jpeg",
-          text: "Registration is closing on 19.07.2023!",
-          date: "Prelims date: 23.07.2023",
-          urltext: "Register Now",
-          urllink: "/scitech/chemenigma_register"
-          },
-        {
           bgimg: "/img/scitech/BioBlitz.jpg",
           logo: "/img/logo/x.png",
           text: "Registrations extended till 13th July!",
