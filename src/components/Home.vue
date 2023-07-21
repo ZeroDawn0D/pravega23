@@ -26,7 +26,7 @@ export default {
           logo: "/img/logo/x.png",
           text: "Registrations closing soon",
           date: "Prelims date: 05.08.2023",
-          urltext: "Regsiter now",
+          urltext: "Register Here",
           urllink: "/scitech/decoherence_register"
         },
         {
@@ -74,95 +74,114 @@ export default {
       <div class="rectangle"></div>
       <div class="hollow-rectangle"></div>
     </div>
-    <div class="pravega-flex">
-        <div class="pravega-text">
-    <div class="pravega-title grad announcements">
-      Announcements
-    </div>
-    <div v-for="x in cards" class="second hero">
-      <img class="hero-profile-img" v-bind:src="x.bgimg" alt="" />
-      <div class="hero-description-bk"></div>
-      <div class="hero-logo">
-        <img v-bind:src="x.logo" style="width:100%;" alt="">
-      </div>
-      <div class="hero-description">
-        <p>{{ x.text }}</p>
-      </div>
-      <div class="hero-date">
-        <p>{{ x.date }}</p>
-      </div>
-      <div class="hero-btn">
-        <router-link v-bind:to = "x.urllink">
-                    {{x.urltext}}
-        </router-link>
 
-      </div>
-    </div>
-  
-  </div>
-</div>
 
-    <div class="about-pravega">
-      <div class="pravega-flex">
-        <div class="pravega-text">
-          <div class="pravega-title grad">
-            About Pravega
+    <div class = "announcements-container">
+      <div class="grad announcements">
+        Announcements
+      </div>
+      <div class = "announcements-flex">
+        <div v-for="x in cards" class="second hero">
+          <img class="hero-profile-img" v-bind:src="x.bgimg" alt="" />
+          <div class="hero-description-bk"></div>
+          <div class="hero-logo">
+            <img v-bind:src="x.logo" style="width:100%;" alt="">
           </div>
-          <br>
-          <div class="pravega-desc">
-            Pravega is the <span class="grad">undergraduate fest</span> of IISc, featuring exemplary events in Science,
-            Technology, and Culture. This year marks the 10th edition of Pravega, giving us all the more motivation to
-            make this edition the most memorable Pravega ever. Pravega sees exemplary participation in its quizzes,
-            stunning cultural competitions, and stellar concerts.
+          <div class="hero-description">
+            <p>{{ x.text }}</p>
+          </div>
+          <div class="hero-date">
+            <p>{{ x.date }}</p>
+          </div>
+          <div class="hero-btn">
+            <router-link v-bind:to = "x.urllink">
+                        {{x.urltext}}
+            </router-link>
           </div>
         </div>
-
-        <div class="pravega-img">
-          <img src="/img/home/aboutpravega.png">
-        </div>
       </div>
     </div>
 
-
-    <div class="about-iisc">
-      <div class="iisc-flex">
-
-        <div class="iisc-img">
-          <img src="/img/home/aerial_view.jpg">
+    <div class = "faq-container">
+      <div class = "faq">
+        <div class = "faq-title grad">
+          FAQ
+        </div>
+        <div class = "faq-q grad">
+           About Pravega
         </div>
 
-        <div class="iisc-text">
-          <div class="iisc-title grad">
-            About IISc
-          </div>
-          <br>
-          <div class="iisc-desc">
-            The Indian Institute of Science is India's <span class="grad">top ranked research institution</span> and a
-            scientific force to be reckoned with on the global stage. With a focus on interdisciplinary research in the
-            undergraduate program, supported by preeminent faculty from each major discipline and a flourishing
-            environment of extracurricular activities - IISc provides a suitable setting for the holistic growth of bright
-            young bright minds.
-          </div>
+        <div class = "faq-a">
+          Pravega is the undergraduate fest of IISc, featuring exemplary events in Science, Technology, and Culture. This year marks the 10th edition of Pravega, giving us all the more motivation to make this edition the most memorable Pravega ever. Pravega sees exemplary participation in its quizzes, stunning cultural competitions, and stellar concerts. 
         </div>
 
+        <div class = "faq-q grad">
+          About IISc
+        </div>
+        <div class = "faq-a">
+          The Indian Institute of Science is India's top ranked research institution and a scientific force to be reckoned with on the global stage. With a focus on interdisciplinary research in the undergraduate program, supported by preeminent faculty from each major discipline and a flourishing environment of extracurricular activities - IISc provides a suitable setting for the holistic growth of bright young bright minds. 
+        </div>
+      </div>
+
+      <div class = "collage">
+        <img class = "img-1" src = "img/home/ramayan.png" width = "250px">
+        <img class = "img-2" src = "img/home/aerial_view.jpg" width = "300px">
+        <br />
+        <img class = "img-3" src = "img/home/gulmohar_11zon.jpg" width = "250px">
+        <img class = "img-4" src = "img/home/tablefootball_11zon.jpg" width = "250px">
       </div>
     </div>
-
-
-    <div class = "faq">
-      <div class = "faq-title grad">
-        F.A.Q.
-      </div>
-      <div class = "faq-text">
-         
-      </div>
-    </div>
-
-    <Carousel :slides="slides" :intervals="3000" controls indicators></Carousel>
+    <!-- <Carousel :slides="slides" :intervals="3000" controls indicators></Carousel> -->
   </div>
 </template>
 
 <style scoped>
+
+.faq-title {
+  font-size: 75px;
+  width: fit-content;
+}
+
+.announcements{
+  font-size: 75px;
+  width: fit-content;
+}
+
+.faq-q{
+  font-size: 35px;
+}
+.faq-a{
+  color: white;
+  text-align: justify;
+}
+.faq{
+  width: 50%;
+  position: relative;
+}
+.faq-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+.collage{
+  padding: 10px;
+}
+.img-1{
+  transform: rotate(-15deg);
+}
+.img-2{
+  transform: rotate(10deg);
+}
+.img-3{
+  position: relative;
+  transform: rotate(5deg);
+  top: 20%;
+}
+@media (min-width: 1024px){
+  .faq{
+    right: 0px;
+  }
+}
+
 /*card design */
 
 /* BEGIN CARD DESIGN */
@@ -474,85 +493,8 @@ body {
   }
 }
 
-.pravega-flex {
-  gap: 20px;
-  display: flex;
-  padding-top: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
-}
 
-.pravega-flex>div {
-  flex: 50%;
-}
 
-.about-pravega {
-  position: relative;
-  background-color: #000000;
-  padding: 15px;
-  overflow: visible;
-}
-
-.pravega-title {
-  font-size: 50px;
-  width: fit-content;
-}
-
-@media (min-width: 1024px){
-  .announcements{
-    width: 100%;
-    text-align: center;
-  }
-}
-
-.pravega-desc {
-  font-size: 20px;
-  color: white;
-  text-align: justify;
-}
-
-.pravega-img img {
-  width: 30vw;
-  border-radius: 20px;
-  padding: 10px;
-}
-
-.iisc-flex {
-  gap: 20px;
-  display: flex;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.iisc-flex>div {
-  flex: 50%;
-}
-
-.about-iisc {
-  background-color: #000000;
-  padding: 15px;
-
-}
-
-.iisc-title {
-  font-size: 50px;
-  width: fit-content;
-}
-.faq-title {
-  font-size: 50px;
-  width: fit-content;
-}
-.iisc-desc {
-  font-size: 20px;
-  color: white;
-  text-align: justify;
-}
-
-.iisc-img img {
-  width: 40vw;
-  border-radius: 20px;
-  padding: 10px;
-}
 
 @media screen and (max-width: 1024px) {
   .logo img {
@@ -567,16 +509,17 @@ body {
     font-size: 3vw;
   }
 
+    display: none;
   .location {
     font-size: 3vw;
   }
 
   .hollow-rectangle {
-    display: none;
     height: 45vw;
     width: 35vw;
     top: 30%;
     border: 5px solid #10e685;
+    display: none;
   }
 
   .hollow-circle {
@@ -607,67 +550,28 @@ body {
   }
 
 
-  .about-pravega {
-    align-items: center;
-    height: auto;
-  }
-
-  .pravega-title {
-    text-align: center;
-    font-size: 25px;
-    margin-left: 93px;
-  }
-
-  .pravega-desc {
-    font-size: 15px;
-  }
-
-  .pravega-flex {
-    padding-top: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    flex-direction: column;
-  }
-
-  .pravega-img {
-    text-align: center;
-  }
-
-  .pravega-img img {
-    width: 70vw;
-  }
-
-  .iisc-flex {
-    padding-top: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    flex-direction: column-reverse;
-  }
-
-  .about-iisc {
-    align-items: center;
-    height: auto;
-  }
-
-  .iisc-title {
-    align-items: center;
-    font-size: 25px;
-    margin-left: 115px;
-  }
   .faq-title {
     align-items: center;
-    font-size: 25px;
-    margin-left: 115px;
+    font-size: 50px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
   }
-  .iisc-desc {
-    font-size: 15px;
+  .announcements{
+    align-items: center;
+    font-size: 50px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
   }
-
-  .iisc-img {
-    text-align: center;
+  .faq{
+    padding: 10px;
+    width: 90%;
   }
-
-  .iisc-img img {
-    width: 80vw;
+  .faq-container{
+    flex-direction: column;
+  }
+  .collage{
+    padding-top: 40px;
   }
 }</style>
