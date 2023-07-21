@@ -4,6 +4,13 @@ export default {
     data() {
         return { code: "" }
     },
+    mounted(){
+            this.$swal.fire({
+  icon: 'info',
+  title: 'Important',
+  text: 'The online prelims for Quadsparks 2023 will be held from 6.30 PM to 7 PM on 22nd July, 2023. Please watch this page.',
+})
+    },
     methods: {
         enter: function () {
             this.code = prompt("Enter the code: ");
