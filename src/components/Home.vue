@@ -14,14 +14,6 @@ export default {
       ],
       cards: [
         {
-          bgimg: "/img/scitech/Chemenigma.jpg",
-          logo: "/img/scitech/chemenigma logo (1).jpeg",
-          text: "Registrations closing soon!",
-          date: "Prelims date: 23.07.2023",
-          urltext: "Register Now",
-          urllink: "/scitech/chemenigma_register"
-          },
-        {
           bgimg: "/img/scitech/BioBlitz.jpg",
           logo: "/img/logo/x.png",
           text: "Registrations extended till 13th July!",
@@ -40,7 +32,7 @@ export default {
         {
           bgimg: "/img/scitech/Quadsparks.jpg",
           logo: "/img/logo/x.png",
-          text: "Registrations open, come on in!",
+          text: "Registrations closing soon",
          // date: "20.02.2023",
           urltext: "Register here",
           urllink: "/scitech/quadsparks"

@@ -95,7 +95,7 @@ const routes = [
 	{path: "/aaghaz/aaghaaz_register", name:"Register2",component:Register2},
 	{path: "/scitech/template", name:"scitech_template",component:scitech_template},
 	{path: "/scitech/deco_register", name:"deco_register",component:deco_register},
-	{path: "/scitech/chemenigma_register", name:"chemenigma_register",component:chemenigma_register},
+	//{path: "/scitech/chemenigma_register", name:"chemenigma_register",component:chemenigma_register},
 	{path: "/scitech/bioblitz_register", name:"bioblitz_register",component:bioblitz_register},
 	{path: "/scitech/quadsparks_register", name:"quadsparks_register",component:quadsparks_register},
 	{path: "/scitech/quadsparks_discount_register", name:"quadsparks_discount_register",component:quadsparks_discount_register},

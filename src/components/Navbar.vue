@@ -173,7 +173,7 @@
     gap: 10vw;
     display:flex;
     align-items: center;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0,0,0,0.75);
 
     color: #eeeeee;
     padding-left: 5vw;

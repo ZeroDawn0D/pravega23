@@ -19,7 +19,9 @@ export default{
 				<router-link to = "/recreationals/valorant_register">
 					<Card link = "img/recreationals/valorant.jpg" size = "350px"/>
 				</router-link>
-				
+				<router-link to = "/recreationals/killer_instinct_register">
+					<Card link = "img/recreationals/killer instinct registration post page 2_1_2.jpg" size = "350px"/>
+				</router-link>
 			</div>
 		</div>
 	</div>
