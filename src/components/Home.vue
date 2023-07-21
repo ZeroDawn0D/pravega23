@@ -156,6 +156,16 @@ export default {
       </div>
     </div>
 
+
+    <div class = "faq">
+      <div class = "faq-title grad">
+        F.A.Q.
+      </div>
+      <div class = "faq-text">
+         
+      </div>
+    </div>
+
     <Carousel :slides="slides" :intervals="3000" controls indicators></Carousel>
   </div>
 </template>
@@ -536,7 +546,10 @@ body {
   font-size: 50px;
   width: fit-content;
 }
-
+.faq-title {
+  font-size: 50px;
+  width: fit-content;
+}
 .iisc-desc {
   font-size: 20px;
   color: white;
@@ -649,7 +662,11 @@ body {
     font-size: 25px;
     margin-left: 115px;
   }
-
+  .faq-title {
+    align-items: center;
+    font-size: 25px;
+    margin-left: 115px;
+  }
   .iisc-desc {
     font-size: 15px;
   }
