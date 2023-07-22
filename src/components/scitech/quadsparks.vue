@@ -70,11 +70,9 @@ export default {
                     <div class="float1">
                         <button type="button" onclick = "window.location.href = 'https://www.autoproctor.co/tests/start-test/dCGZCeSRwa';" class="reg_button_1">Click here for the exam</button>
                     </div>
-                    <!--<div class="float2">
-                        <router-link to="/scitech/quadsparks_register">
-                            <button type="button" class="reg_button">Register WITHOUT Registration code</button>
-                        </router-link>
-                    </div>-->
+                    <div class="float2">
+                        <button type="button"  onclick = "window.location.href = 'https://www.pravega.com/public/pdf/QS_answerkey.pdf';" class="reg_button">Click here for PDF with answer key</button>
+                    </div>
                 </div>
             </div>
             <div class="intro-image">
