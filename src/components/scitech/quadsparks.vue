@@ -71,7 +71,7 @@ export default {
                         <button type="button" onclick = "window.location.href = 'https://www.autoproctor.co/tests/start-test/dCGZCeSRwa';" class="reg_button_1">Click here for the exam</button>
                     </div>
                     <div class="float2">
-                        <button type="button"  onclick = "window.location.href = 'https://www.pravega.com/public/pdf/QS_answerkey.pdf';" class="reg_button">Click here for PDF with answer key</button>
+                        <a href = "/public/pdf/QS_answerkey.pdf" class = "reg_button">Click here for PDF with answer key</a>
                     </div>
                 </div>
             </div>
