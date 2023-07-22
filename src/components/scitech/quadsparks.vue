@@ -63,18 +63,18 @@ export default {
                 <p>Quizzical musings, and a dash of science</p><br>
                 <br />
                 <br />
-                <p style="font-size: 1.7rem;font-weight: 600;">Register here</p>
+                <p style="font-size: 1.7rem;font-weight: 600;">Registrations Closed</p>
                 <br/>
                 <div class="float">
+                    <p> </p>
                     <div class="float1">
-                        <button type="button" @click="enter" class="reg_button_1">Register WITH Registration
-                            code</button>
+                        <button type="button" onclick = "window.location.href = 'https://www.autoproctor.co/tests/start-test/dCGZCeSRwa';" class="reg_button_1">Click here for the exam</button>
                     </div>
-                    <div class="float2">
+                    <!--<div class="float2">
                         <router-link to="/scitech/quadsparks_register">
                             <button type="button" class="reg_button">Register WITHOUT Registration code</button>
                         </router-link>
-                    </div>
+                    </div>-->
                 </div>
             </div>
             <div class="intro-image">
