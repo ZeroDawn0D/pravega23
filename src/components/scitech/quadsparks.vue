@@ -67,11 +67,11 @@ export default {
                 <br/>
                 <div class="float">
                     <p> </p>
-                    <div class="float1">
+                    <!--<div class="float1">
                         <button type="button" onclick = "window.location.href = 'https://www.autoproctor.co/tests/start-test/dCGZCeSRwa';" class="reg_button_1">Click here for the exam</button>
-                    </div>
+                    </div>-->
                     <div class="float2">
-                        <a href = "/public/pdf/QS_answerkey.pdf" class = "reg_button">Click here for PDF with answer key</a>
+                        <a href = "/public/pdf/QS_answerkey.pdf" class = "reg_button">Updated answer key and rubric</a>
                     </div>
                 </div>
             </div>
@@ -208,6 +208,10 @@ export default {
 }
 .float1,.float2{
     width: 50%;
+}
+.float2{
+    position: relative;
+    left: 25%;
 }
 input[type=text] {
     width: 50%;

@@ -1,4 +1,13 @@
 <script>
+export default{
+        mounted(){
+            this.$swal.fire({
+  icon: 'info',
+  title: 'Important',
+  text: 'Registrations have closed on 25th July.',
+  })
+    },
+    }
 
 </script>
 
