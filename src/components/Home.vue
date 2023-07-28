@@ -124,11 +124,11 @@ export default {
       </div>
 
       <div class = "collage">
-        <img class = "img-1" src = "img/home/ramayan.png" width = "250px">
-        <img class = "img-2" src = "img/home/aerial_view.jpg" width = "300px">
+        <img class = "img-1" src = "/img/home/ramayan.png" width = "250px">
+        <img class = "img-2" src = "/img/home/aerial_view.jpg" width = "300px">
         <br />
-        <img class = "img-3" src = "img/home/gulmohar_11zon.jpg" width = "250px">
-        <img class = "img-4" src = "img/home/tablefootball_11zon.jpg" width = "250px">
+        <img class = "img-3" src = "/img/home/gulmohar_11zon.jpg" width = "250px">
+        <img class = "img-4" src = "/img/home/tablefootball_11zon.jpg" width = "250px">
       </div>
     </div>
     <!-- <Carousel :slides="slides" :intervals="3000" controls indicators></Carousel> -->
