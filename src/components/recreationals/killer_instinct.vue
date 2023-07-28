@@ -7,7 +7,7 @@
     <div class = "culturals_navbar">
         <ul class = "ul">
             <li class = 'li'><a href="#news">Gallery</a></li>
-            <li class = 'li'><a href="/pdf/bob.pdf">Rules</a></li>
+            <li class = 'li'><a href="#">Rules</a></li>
             <li class = 'li'><a href="#contact">Contact</a></li>
         </ul>
     </div>
@@ -28,7 +28,7 @@
         <div class = "desc">
             <h2>Killer Instinct</h2>
             <p>Killer instinct lets you step into the shoes of the sleuth and untangle the web of clues left behind by the culprit. Join us for a mind-bending and thrilling adventure!<br><br>
-            <router-link to="/carvaan/register" :style="`text-decoration: none; color: inherit;`">
+            <router-link to="/recreationals/killer_instinct_register" :style="`text-decoration: none; color: inherit;`">
 				<p class = 'learn'>Register here!</p>
 			</router-link>
 
@@ -75,8 +75,13 @@
         <h1>Our Coordinators</h1><br>
         <div class = "flex-images">
             <div class = "image_1"> <!--Render size: 844px-->
-                <h2>Harshit Dev Mathur</h2>
-                <p>+91 83819 41704<br>harshitmd@iisc.ac.in</p>
+                <h2>Aditi Arun</h2>
+                <p>+91 96320 38334<br>aditiarun@iisc.ac.in</p>
+            </div>
+
+            <div class = "image_2"> <!--Render size: 844px-->
+                <h2>Sourabh Peruri</h2>
+                <p>+91 91828 09934<br>sourabhp@iisc.ac.in</p>
             </div>
             <!--<div class = "image_2">
                 <h2>Coordinator 2</h2>
@@ -160,7 +165,7 @@ li a:hover {
 }
 
 .main_image{
-    background-image: url("/img/culturals/template main image.jpg");
+    background-image: url("/img/recreationals/bg2.png");
     background-size: 110% 130%;
     background-repeat: no-repeat;
     background-position: 10% -20%;
@@ -168,6 +173,7 @@ li a:hover {
     height: 75vh;
     width: 85vw;
     position: absolute;
+
 }
 
 .learn{
@@ -216,7 +222,7 @@ li a:hover {
 .img{
     height: 90vh;
     width: 40vw;
-    background-image: url("/img/culturals/template_guitar.jpg");
+    background-image: url("/img/recreationals/bg1.png");
     background-repeat: no-repeat;
     background-size: 45% 100%;
     background-attachment: fixed;
@@ -254,7 +260,7 @@ li a:hover {
 .image_1{
     height: 100vh;
     width: 32vw;
-    background-image: url("/img/people/harshit_bob.jpg");
+    background-image: url("/img/people/Aditi Arun.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -263,7 +269,7 @@ li a:hover {
 .image_2{
     height: 100vh;
     width: 32vw;
-    background-image: url("/img/culturals/random.jpg");
+    background-image: url("/img/people/sourabh.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
