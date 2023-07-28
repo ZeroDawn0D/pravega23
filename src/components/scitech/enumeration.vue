@@ -27,9 +27,7 @@ export default{
                 <br><br>
                 <h1>Enumeration</h1><br>
                 <p>To Infinity and beyond</p><br>
-                <router-link to = "/scitech/enumeration_register">
-                    <button type="button" class="reg_button">Register</button>
-                </router-link>
+                <div class = "new_info">Exam timings are from 10 AM to 3 PM IST.<br>Discord link has been sent out via mail to all teams. If you haven't received it, please mail us.</div>
             </div>
             <div class="intro-image">
                 <img src="/img/scitech/Enumeration.jpg" alt="scitech">
@@ -151,6 +149,8 @@ export default{
 </template>
 
 <style scoped>
+
+
 .reg_button{
     background-color: #5d83eb; /* Green */
   border: none;
@@ -259,6 +259,12 @@ li a {
 }
 .intro-content p{
     font-size: 3rem;
+}
+
+.new_info{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .intro-image {
@@ -424,6 +430,9 @@ li a {
 }
 
 @media screen and (max-width:1024px) {
+    
+
+    
 
     .intro,
     .details,
@@ -448,6 +457,7 @@ li a {
         height: auto;
         border-radius: 10px;
     }
+    
 
     .intro-image,
     .intro-content,
@@ -461,9 +471,13 @@ li a {
     .intro-content h1{
         font-size: 3rem;
     }
-    .intro-content p{
+    .intro-content p:first-child{
         font-size: 2rem;
     }
+    .intro-image{
+        display: none;
+    }
+   
 
     .big-text{
         margin-top: 2vh;
@@ -554,6 +568,10 @@ li a {
     .quote{
         position: relative;
         top:40%;
+    }
+    .new_info{
+        font-size: 1.5rem;
+        margin:35px 10px 10px 10px;
     }
 }
 </style>
