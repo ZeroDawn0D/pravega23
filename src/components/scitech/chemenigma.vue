@@ -5,7 +5,7 @@
             this.$swal.fire({
   icon: 'info',
   title: 'Important',
-  text: 'Registrations are closed. We have mailed instructions about Prelims and WhatsApp group for queries to all eligible participants. If you haven\'t receive the mail, kindly mail us at the earliest.',
+  text: 'Question Paper is uploaded on the website.',
   })
     },
     /*created: function(){
@@ -25,7 +25,7 @@
         <div class="scitech-navbar">
             <ul>
                 <li><a href="/pdf/Chemenigma_rules.docx">Rules</a></li>
-                <li><a href="/pdf/Chemenigma'22_Prelims.pdf">Sample Questions</a></li>
+                <li><a href="/pdf/Chem_QP_website.pdf">Chemenigma Prelims 2023 Question paper</a></li>
                 <li><a href="#hof">Hall of Fame</a></li>
             </ul>
         </div>
@@ -35,7 +35,6 @@
                 <br><br>
                 <h1>Chemenigma</h1><br>
                 <p>Some Explosive Brain-wracking Chemistry</p><br>
-                <p style="font-size: large;color: red;">Registrations are closed.</p>
             </div>
             <div class="intro-image">
                 <img src="/img/scitech/sample1.png" alt="scitech">
@@ -67,12 +66,10 @@
             <div class="text">
                 <div class="timeline">
                     <h1>Timeline</h1><br>
-                    <p> The online Prelims will be held on July 23 and it will be a 3-3.5-hours paper followed by
-                        the Mains on the weekend of Pravega at IISc.
+                    <p> The online Prelims held on July 23 and
+                        the Mains will be held in the weekend of Pravega at IISc.
                         The Top 4 teams during the prelims would be invited for Mains which include both theory and lab
                         components, thought-provoking challenges.
-                        The links for registration and the discord servers will be soon available on the website and there
-                        is no registration fees for the event.
                     </p>
                 </div>
                 <div class="eligibility">
