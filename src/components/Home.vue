@@ -509,7 +509,6 @@ body {
     font-size: 3vw;
   }
 
-    display: none;
   .location {
     font-size: 3vw;
   }
