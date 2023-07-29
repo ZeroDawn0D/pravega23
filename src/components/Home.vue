@@ -233,8 +233,8 @@ export default {
 }
 
 .cards{
-  /*display: flex;*/ /*change this to start making the card carousel. Check mobile responsiveness*/
-  width:fit-content;
+  /display: flex;  /*change this to start making the card carousel. Check mobile responsiveness*/
+  width: fit-content;
   align-items: center;
   justify-content: center;
  

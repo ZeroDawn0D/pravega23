@@ -60,6 +60,7 @@ import bgmi_register from "../components/recreationals/bgmi_register.vue"
 import valorant_register from "../components/recreationals/valorant_register.vue"
 import chess_register from "../components/recreationals/chess_register.vue"
 import killer_instinct_register from "../components/recreationals/killer_instinct_register.vue"
+import killer_instinct from "../components/recreationals/killer_instinct.vue"
 /*import Delhi from "../components/carvaan/Delhi.vue"
 
 
@@ -136,6 +137,7 @@ const routes = [
 	{path: "/recreationals/bgmi_register", name:"bgmi_register", component:bgmi_register},
 	{path: "/recreationals/valorant_register", name:"valorant_register", component:valorant_register},
 	{path: "/recreationals/killer_instinct_register", name:"killer_instinct_register", component:killer_instinct_register},
+	{path: "/recreationals/killer_instinct", name:"killer_instinct", component:killer_instinct},
 
 
 	/*{path:"/carvaan/mumbai",name:"Mumbai",component:Mumbai},
