@@ -7,7 +7,7 @@
     <div class = "culturals_navbar">
         <ul class = "ul">
             <li class = 'li'><a href="#news">Gallery</a></li>
-            <li class = 'li'><a href="#">Rules</a></li>
+            <li class = 'li'><a href="/pdf/Killer Instinct Rules pdf.pdf">Rules</a></li>
             <li class = 'li'><a href="#contact">Contact</a></li>
         </ul>
     </div>
@@ -64,7 +64,7 @@
             </div>
             <div class = "rules">
                 <h1>Rules</h1><br>
-                <p> Click <a href ='/pdf/bob.pdf'>here</a> for rules and regulations pdf.
+                <p> Click <a href ='/pdf/Killer Instinct Rules pdf.pdf'>here</a> for rules and regulations pdf.
                 </p>
             </div>
         </div>
@@ -306,10 +306,10 @@ li a:hover {
 .image_2 p{
     position: relative;
     top: 85%;
-    left: 92%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    text-align: left;
+    text-align: center;
     padding: 10px;
 }
 .image_3 p{
@@ -324,10 +324,10 @@ li a:hover {
 .image_2 h2{
     position: relative;
     top: 85%;
-    left: 85%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    text-align: left;
+    text-align: center;
     padding: 10px;
 }
 .image_3 h2{
