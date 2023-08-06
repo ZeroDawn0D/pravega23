@@ -108,12 +108,45 @@ export default {
           FAQ
         </div>
         <div class = "faq-q grad">
-           About Pravega
+           What is Pravega?
         </div>
 
         <div class = "faq-a">
           Pravega is the undergraduate fest of IISc, featuring exemplary events in Science, Technology, and Culture. This year marks the 10th edition of Pravega, giving us all the more motivation to make this edition the most memorable Pravega ever. Pravega sees exemplary participation in its quizzes, stunning cultural competitions, and stellar concerts. 
         </div>
+        <div class = "faq-q grad">
+          What are the different events Pravega organises?
+        </div>
+
+        <div class = "faq-a">
+          Pravega organizes a variety of events, ranging from quizzes to cultural performances and technical exhibitions. Information about individual events can be found on our Instagram page 
+        </div>
+
+
+        <div class = "faq-q grad">
+          Where will the offline finals be held?
+        </div>
+
+        <div class = "faq-a">
+          The offline finals for various events will be held at the IISc campus in Bengaluru. Finalists will be provided with accommodation and travel reimbursements subject to our rules.
+        </div>
+
+        <div class = "faq-q grad">
+          How will the winners be rewarded?
+        </div>
+
+        <div class = "faq-a">
+          The event winners and runners-up will be felicitated on stage in a grand ceremony at the end of Pravega. The awards include cash prizes, trophies and merchandise. 
+        </div>
+
+        <div class = "faq-q grad">
+          How can I participate in Pravega?
+        </div>
+
+        <div class = "faq-a">
+          To participate in our events, you can register for the ones you are eligible for on this website. To stay updated about the various new events and announcements, follow us on Instagram (//add link//) and Twitter (//add link//)
+        </div>
+
 
         <div class = "faq-q grad">
           About IISc
@@ -121,6 +154,7 @@ export default {
         <div class = "faq-a">
           The Indian Institute of Science is India's top ranked research institution and a scientific force to be reckoned with on the global stage. With a focus on interdisciplinary research in the undergraduate program, supported by preeminent faculty from each major discipline and a flourishing environment of extracurricular activities - IISc provides a suitable setting for the holistic growth of bright young bright minds. 
         </div>
+
       </div>
 
       <div class = "collage">
@@ -148,11 +182,12 @@ export default {
 }
 
 .faq-q{
-  font-size: 35px;
+  font-size: 25px;
 }
 .faq-a{
   color: white;
   text-align: justify;
+  padding-bottom: 10px;
 }
 .faq{
   width: 50%;
@@ -573,4 +608,29 @@ body {
   .collage{
     padding-top: 40px;
   }
+  .img-1{
+    width: 200px;
+
+  padding: 4px;
+  transform: rotate(0deg);
+}
+.img-2{
+  width: 200px;
+  padding: 4px;
+  transform: rotate(0deg);
+}
+.img-3{
+  width: 200px;
+
+  padding: 4px;
+  transform: rotate(0deg);
+}
+.img-4{
+
+  padding: 4px;
+  width: 200px;
+}
+.collage{
+  margin: auto;
+}
 }</style>
