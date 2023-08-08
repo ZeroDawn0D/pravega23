@@ -178,7 +178,10 @@ export default {
 
 .announcements{
   font-size: 75px;
-  width: fit-content;
+  text-align: center;
+}
+.announcements-flex{
+ margin: 0px 0px 0px 50px;
 }
 
 .faq-q{
@@ -199,6 +202,7 @@ export default {
 }
 .collage{
   padding: 10px;
+  align-items: center;
 }
 .img-1{
   transform: rotate(-15deg);
@@ -243,6 +247,13 @@ export default {
   .hero-description{
     font-size: 1rem;
   }
+  .announcements-flex{
+    margin: 0rem 0rem 0rem 4.5vw;
+  }
+  .announcements-container{
+    position: relative;
+    top:-145px;
+  }
 }
 
 .hero-profile-img {
@@ -268,7 +279,7 @@ export default {
 }
 
 .cards{
-  /display: flex;  /*change this to start making the card carousel. Check mobile responsiveness*/
+  display: flex;  /*change this to start making the card carousel. Check mobile responsiveness*/
   width: fit-content;
   align-items: center;
   justify-content: center;
