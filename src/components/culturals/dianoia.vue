@@ -19,9 +19,8 @@
             <p>A battle of words, the debutante oratory and debate event, Dianoia, tests your ability to think on your toes and presents a plethora of opportunities to showcase your versatility as a speaker. 
                 From fiery debates to resolution-oriented discussions, from evocative extempore speeches to amusing just-a-minute quips, the contest beckons you to sway the crowd with your eloquence. Buckle up, and join us on the ride!
             </p><br>
-            <router-link to = "/culturals/dianoia_register">
-                    <button type="button" class="reg_button">Register here!</button>
-            </router-link>
+            
+                    <button type="button" class="reg_button">Registrations have closed</button>
     </dic>
 
     <div class = "main_image">
@@ -29,9 +28,8 @@
             <h2>Dianoia</h2>
             <p>A battle of words, the debutante oratory and debate event, Dianoia, tests your ability to think on your toes and presents a plethora of opportunities to showcase your versatility as a speaker. 
                 From fiery debates to resolution-oriented discussions, from evocative extempore speeches to amusing just-a-minute quips, the contest beckons you to sway the crowd with your eloquence. Buckle up, and join us on the ride!<br><br>
-                <router-link to="/culturals/dianoia_register" :style="`text-decoration: none; color: inherit;`">
-				<p class = 'learn'>Register here!</p>
-			</router-link>
+                
+				<p class = 'learn'>Registrations have closed</p>
             </p>
         </div>
     </div>

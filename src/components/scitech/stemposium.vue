@@ -17,9 +17,19 @@
                 <br><br>
                 <h1>STEMposium</h1><br>
                 <p>Story Tellers of Science</p><br>
-                <router-link to = "/scitech/ideathon_register">
-                    <button type="button" class="reg_button">Register</button>
-                </router-link>
+                <div class="float">
+                    <p> </p>
+                    <div class="float1">
+                        <router-link to="/scitech/ideathon_register">
+                            <button type="button" class="reg_button">Register</button>
+                        </router-link>
+                    </div>
+                    <div class="float2">
+                        <router-link to="/scitech/stemposium_files">
+                            <button type="button" class="reg_button_1">Submit files here</button>
+                        </router-link>
+                    </div>
+                </div>
             </div>
             <div class="intro-image">
                 <img src="/img/scitech/Stemposium_Website.jpg" alt="scitech">
@@ -146,6 +156,19 @@
 </template>
 
 <style scoped>
+
+.float{
+    display: flex;
+    flex-direction: row;
+
+}
+.float1,.float2{
+    width: 50%;
+}
+.float2{
+    position: relative;
+    left: -7%;
+}
 .reg_button{
     background-color: #5d83eb; /* Green */
   border: none;
@@ -160,6 +183,24 @@
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   border-radius:30px;
+}
+
+.reg_button_1 {
+    background-color: #48c78e;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 30px;
 }
 .reg_button:hover{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);

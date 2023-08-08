@@ -25,6 +25,7 @@ import bah_register from "../components/scitech/bah_register.vue"
 import enumeration_register from "../components/scitech/enumeration_register.vue"
 import exhibitions_register from "../components/scitech/exhibitions_register.vue"
 import ideathon_register from "../components/scitech/ideathon_register.vue"
+import stemposium_files from "../components/scitech/stemposium_files.vue"
 import pis_register from "../components/scitech/pis_register.vue"
 import decoherence from "../components/scitech/decoherence.vue"
 import chemenigma from "../components/scitech/chemenigma.vue"
@@ -104,6 +105,7 @@ const routes = [
 	{path: "/scitech/enumeration_register", name:"enumeration_register",component:enumeration_register},
 	{path: "/scitech/exhibitions_register", name:"exhibitions_register",component:exhibitions_register},
 	{path: "/scitech/ideathon_register", name:"ideathon_register",component:ideathon_register},
+	{path: "/scitech/stemposium_files", name:"stemposium_files",component:stemposium_files},
 	{path: "/scitech/pis_register", name:"pis_register",component:pis_register},
 	{path: "/scitech/decoherence", name:"decoherence",component:decoherence},
 	{path: "/scitech/chemenigma", name:"chemenigma",component:chemenigma},
