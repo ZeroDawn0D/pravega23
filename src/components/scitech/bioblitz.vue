@@ -68,7 +68,7 @@ Register<script>
                 </div>
                 <div class="prizes">
                     <h1>Prizes</h1><br>
-                    <p> Prize pool of INR 50K.
+                    <p> Prize pool of INR 40K.
                     </p>
                 </div>
             </div>

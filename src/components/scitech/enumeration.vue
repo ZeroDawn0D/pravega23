@@ -69,7 +69,7 @@ export default{
                 </div>
                 <div class="prizes">
                     <h1>Prizes</h1><br>
-                    <p> Prizes upto 30k
+                    <p> Prizes upto 40k
                     </p>
                 </div>
             </div>

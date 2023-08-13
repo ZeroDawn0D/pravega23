@@ -62,7 +62,7 @@ In the prelims, contestants have to submit a concise alpha presentation, a rough
                 </div>
                 <div class="prizes">
                     <h1>Prizes</h1><br>
-                    <p> The event will have Prizes of up to 15k.
+                    <p> The event will have Prizes of up to 20k.
                     </p>
                 </div>
 
