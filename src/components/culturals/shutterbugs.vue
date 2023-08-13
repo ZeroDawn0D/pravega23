@@ -30,7 +30,7 @@ Don't miss this exciting opportunity to showcase your talent and love for photog
 
     <div class = "main_image"> <!--Render size: 2612px-->
         <div class = "desc">
-            <h2>Shutterbugs</h2>
+            <h2>Shutterbugs</h2><br>
             <p>Photography can get lonely. Not under our watch! Introducing SHUTTERBUGS 2023, where students from all over India come together to share their mutual passion for photography. Is it just another competition? Hell no!
 You'll get to experience photography workshops and events throughout the competition, helping you learn and level up your shutter skills.
 Don't miss this exciting opportunity to showcase your talent and love for photography! Grab your camera, set free your imagination and let your pictures do the talking.
@@ -193,7 +193,7 @@ li a:hover {
 
 .desc{
     position: relative;
-    top: 40%;
+    top: 50%;
     left: 25%;
     transform: translate(-50%, -50%);
     color: yellow;
