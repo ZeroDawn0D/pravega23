@@ -82,7 +82,7 @@
                 </div>
                 <div class="prizes">
                     <h1>Prizes</h1>
-                    <p>The event will have Prizes of up to 60k.
+                    <p>The event will have Prizes of up to 50k.
                     </p>
                 </div>
             </div>

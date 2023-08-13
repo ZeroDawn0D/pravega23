@@ -144,7 +144,7 @@ export default {
         </div>
 
         <div class = "faq-a">
-          To participate in our events, you can register for the ones you are eligible for on this website. To stay updated about the various new events and announcements, follow us on Instagram (//add link//) and Twitter (//add link//)
+          To participate in our events, you can register for the ones you are eligible for on this website. To stay updated about the various new events and announcements, follow us on Instagram (<a href = "https://www.instagram.com/pravega.iisc/?hl=en" class = "grad" target="_blank">https://www.instagram.com/pravega.iisc/?hl=en</a>) and Twitter/X (<a href = "https://twitter.com/pravegaiisc?lang=en" class = "grad" target="_blank">https://twitter.com/pravegaiisc?lang=en</a>)
         </div>
 
 
