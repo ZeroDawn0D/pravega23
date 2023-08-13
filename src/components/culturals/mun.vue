@@ -115,6 +115,7 @@ html {
 	border-top-left-radius: 25px;
 	border-top-right-radius: 30px;
 	overflow-y: scroll;
+    font-size: 14pt;
 }
 .culturals_navbar{
     width:80vw;

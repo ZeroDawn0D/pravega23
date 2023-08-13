@@ -108,6 +108,7 @@ html {
 	border-top-left-radius: 25px;
 	border-top-right-radius: 30px;
 	overflow-y: scroll;
+    font-size: larger;
 }
 .culturals_navbar{
     width:80vw;
