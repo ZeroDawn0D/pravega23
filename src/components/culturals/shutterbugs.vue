@@ -53,7 +53,7 @@ Don't miss this exciting opportunity to showcase your talent and love for photog
         <div class = "text">
             <div class = "timeline">
                 <h1>Timeline</h1><br>
-                <p> Registrations open from 1<sup>st</sup> July to 15<sup>th</sup> August</p>
+                <p> Registrations open from 1<sup>st</sup> July to 15<sup>th</sup> August<br>Prelims ending date: 30<sup>th</sup> August</p>
                 
             </div>
             <div class = "eligibility">
