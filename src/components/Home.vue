@@ -14,37 +14,37 @@ export default {
       ],
       cards: [
         {
-          bgimg: "/img/scitech/BioBlitz.jpg",
+          bgimg: "/img/recreationals/chess.jpg",
           logo: "/img/logo/x.png",
-          text: "Registrations extended till 13th July!",
-          date: "Prelims 2: 12.08.2023",
+          text: "Event postponed to 2nd September",
+          date: "Prelims 1: 02.09.2023",
           urltext: "Register Here",
-          urllink: "/scitech/bioblitz_register"
+          urllink: "/recreationals/chess_register"
         },
         {
           bgimg: "/img/scitech/Decoherence.jpg",
           logo: "/img/logo/x.png",
-          text: "Registrations closing soon",
+          text: "Registrations have closed!",
           date: "Prelims date: 05.08.2023",
-          urltext: "Register Here",
+          //urltext: "Register Here",
           urllink: "/scitech/decoherence_register"
         },
         {
           bgimg: "/img/scitech/Quadsparks.jpg",
           logo: "/img/logo/x.png",
-          text: "Registrations closing soon",
+          text: "Registrations have closed! Offline prelims coming soon!",
          // date: "20.02.2023",
-          urltext: "Register here",
+          //urltext: "Register here",
           urllink: "/scitech/quadsparks"
         },
-        {
+        /*{
           bgimg: "/img/recreationals/chess.jpg",
           logo: "/img/logo/x.png",
           text: "Registrations live now!",
          // date: "20.02.2023",
           urltext: "Register here",
           urllink: "/recreationals/chess_register"
-        }//add more lists to add more cards
+        }//add more lists to add more cards*/
       ]
     }
   }
