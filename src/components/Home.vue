@@ -201,6 +201,8 @@ export default {
   justify-content: space-evenly;
 }
 .collage{
+  position: relative;
+  top: 100px;
   padding: 10px;
   align-items: center;
 }
@@ -253,6 +255,13 @@ export default {
   .announcements-container{
     position: relative;
     top:-145px;
+  }
+  .collage{
+    position: relative;
+    align-items: center;
+    margin-left: 25%;
+    top: -10%;
+    width: 100vw;
   }
 }
 
@@ -601,6 +610,7 @@ body {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+    
   }
   .announcements{
     align-items: center;
@@ -608,9 +618,12 @@ body {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+    margin-bottom: 10px;
   }
   .faq{
-    padding: 10px;
+    position: relative;
+    top: -60px;
+    padding: 20px;
     width: 90%;
   }
   .faq-container{
@@ -620,26 +633,29 @@ body {
     padding-top: 40px;
   }
   .img-1{
-    width: 200px;
+    width: 300px;
+    margin-left: 30px;
 
   padding: 4px;
   transform: rotate(0deg);
 }
 .img-2{
-  width: 200px;
+  width: 300px;
   padding: 4px;
+  margin-left: 30px;
   transform: rotate(0deg);
 }
 .img-3{
-  width: 200px;
+  width: 300px;
 
   padding: 4px;
+  margin-left: 30px;
   transform: rotate(0deg);
 }
 .img-4{
-
+  margin-left: 30px;
   padding: 4px;
-  width: 200px;
+  width: 300px;
 }
 .collage{
   margin: auto;
