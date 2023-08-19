@@ -167,6 +167,12 @@ export default {
     </div>
     <!-- <Carousel :slides="slides" :intervals="3000" controls indicators></Carousel> -->
   </div>
+
+
+
+  <div id = "footer">
+    
+  </div>
 </template>
 
 <style scoped>
