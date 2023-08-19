@@ -10,6 +10,12 @@ export default{
         let recaptchaScript = document.createElement('script')
       recaptchaScript.setAttribute('src', '//embed.typeform.com/next/embed.js')
       document.head.appendChild(recaptchaScript)
+
+	  this.$swal.fire({
+  icon: 'info',
+  title: 'Important',
+  text: 'The competition has been postponed to 2nd September. Please see the updated rulebook for more information',
+  })
     }
 }
 </script>
