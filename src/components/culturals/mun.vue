@@ -115,6 +115,7 @@ html {
 	border-top-left-radius: 25px;
 	border-top-right-radius: 30px;
 	overflow-y: scroll;
+    font-size: 14pt;
 }
 .culturals_navbar{
     width:80vw;
@@ -195,7 +196,7 @@ li a:hover {
 
 .desc{
     position: relative;
-    top: 40%;
+    top: 50%;
     left: 25%;
     transform: translate(-50%, -50%);
     color: yellow;

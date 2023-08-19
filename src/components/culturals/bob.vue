@@ -114,6 +114,7 @@ html {
 	border-top-left-radius: 25px;
 	border-top-right-radius: 30px;
 	overflow-y: scroll;
+    font-size: x-large;
 }
 .culturals_navbar{
     width:80vw;
@@ -194,7 +195,7 @@ li a:hover {
 
 .desc{
     position: relative;
-    top: 40%;
+    top: 50%;
     left: 25%;
     transform: translate(-50%, -50%);
     color: yellow;
@@ -341,7 +342,7 @@ li a:hover {
 }
 
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1200px) {
 
     .content-stuff{
         height: 100vh;

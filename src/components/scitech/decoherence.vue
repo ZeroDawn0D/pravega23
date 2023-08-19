@@ -24,9 +24,8 @@
                     Students from grade 11th and 12th as well as 1st year undergraduates can apply. Expect fresh and
                     exciting physics, astronomy, stellar competition, and an opportunity to learn something while having
                     fun. The winners are rewarded with merchandise, trophies and (big) cash prizes. </p><br>
-                <router-link to = "/scitech/deco_register">
-                    <button type="button" class="reg_button">Register</button>
-                </router-link>
+    
+                    <button type="button" class="reg_button">Registrations have been closed</button>
             </div>
 
 
@@ -83,7 +82,7 @@
                 </div>
                 <div class="prizes">
                     <h1>Prizes</h1>
-                    <p>The event will have Prizes of up to 60k.
+                    <p>The event will have Prizes of up to 50k.
                     </p>
                 </div>
             </div>

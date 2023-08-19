@@ -11,20 +11,15 @@ export default{
       recaptchaScript.setAttribute('src', '//embed.typeform.com/next/embed.js')
       document.head.appendChild(recaptchaScript)
 
-	  this.$swal.fire({
-  icon: 'info',
-  title: 'Important',
-  text: 'The competition has been postponed to 2nd September. Please see the updated rulebook for more information',
-  })
     }
 }
 </script>
 
 <template>
 <div :class = "`title-flex`">
-		<Title text = "REGISTER" color = "#f72585"/>
+		<Title text = "UPLOAD" color = "#f72585"/>
 		<div :class = "`content`">
-			<div data-tf-widget="TegWteGC" data-tf-opacity="100" data-tf-iframe-props="title=Chess" data-tf-transitive-search-params data-tf-medium="snippet" style="width:100%;height:100%;"></div>
+			<div data-tf-live="01H7ATKX5J1XJYD6ZB61S8ZMVM"></div>
 		</div>
 	</div>
 </template>

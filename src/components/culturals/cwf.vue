@@ -17,7 +17,7 @@
     <dic class = 'desc_mobile'>
         <h2>Cooking Without Fire</h2><br>
             <p>The Cooking Without Fire event is a unique and novel cooking competition that challenges partici-pants to create delicious and visually appealing dishes without using fire. 
-                The competition winners will receive lucrative prize money, making it a fun and rewarding event for all participants.This event is a great way to showcase creativity and culinary skills and to learn new techniques and ap-proaches from other participants.
+                The competition winners will receive lucrative prize money, making it a fun and rewarding event for all participants.This event is a great way to showcase creativity and culinary skills and to learn new techniques and approaches from other participants.
             </p><br>
             <!--<router-link to = "/carvaan/register">
                     <button type="button" class="reg_button">Register here!</button>
@@ -28,7 +28,7 @@
         <div class = "desc">
             <h2>Cooking Without Fire</h2>
             <p>The Cooking Without Fire event is a unique and novel cooking competition that challenges partici-pants to create delicious and visually appealing dishes without using fire. 
-                The competition winners will receive lucrative prize money, making it a fun and rewarding event for all participants.This event is a great way to showcase creativity and culinary skills and to learn new techniques and ap-proaches from other participants.<br><br>
+                The competition winners will receive lucrative prize money, making it a fun and rewarding event for all participants.This event is a great way to showcase creativity and culinary skills and to learn new techniques and approaches from other participants.<br><br>
                 <!--<router-link to="/carvaan/register" :style="`text-decoration: none; color: inherit;`">
 				<p class = 'learn'>Register here!</p>
 			</router-link>-->
@@ -100,6 +100,7 @@ html {
 	border-top-left-radius: 25px;
 	border-top-right-radius: 30px;
 	overflow-y: scroll;
+    font-size: larger;
 }
 .culturals_navbar{
     width:80vw;

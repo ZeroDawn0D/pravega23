@@ -119,7 +119,7 @@ export default {
                 </div>
                 <div class="prizes">
                     <h1>Prizes</h1><br>
-                    <p> The event will have Prizes of up to 1 lakh.
+                    <p> The event will have Prizes of up to 80k.
                     </p>
                 </div>
             </div>

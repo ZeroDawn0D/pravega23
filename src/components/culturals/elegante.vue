@@ -61,7 +61,7 @@
             </div>
             <div class = "prizes">
                 <h1>Prizes</h1><br>
-                <p> Prize pool of 80k+.
+                <p> Prize pool of 50k+.
                 </p>
             </div>
             <div class = "rules">
@@ -79,7 +79,7 @@
             <div class = "image_1">
                 <h2>Vivedha Poorna P S</h2>
                 <p>+91 6385 491 905<br>vivedhap@iisc.ac.in</p>
-            </div>.in
+            </div>
             <div class = "image_2">
                 <h2>Arushi Kaul</h2>
                 <p>+91 84315 00980<br>arushikaul@iisc.ac.in</p>
@@ -108,6 +108,7 @@ html {
 	border-top-left-radius: 25px;
 	border-top-right-radius: 30px;
 	overflow-y: scroll;
+    font-size: larger;
 }
 .culturals_navbar{
     width:80vw;
@@ -188,7 +189,7 @@ li a:hover {
 
 .desc{
     position: relative;
-    top: 40%;
+    top: 50%;
     left: 25%;
     transform: translate(-50%, -50%);
     color: yellow;

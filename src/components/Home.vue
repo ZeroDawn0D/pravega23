@@ -14,37 +14,37 @@ export default {
       ],
       cards: [
         {
-          bgimg: "/img/scitech/BioBlitz.jpg",
+          bgimg: "/img/recreationals/chess.jpg",
           logo: "/img/logo/x.png",
-          text: "Registrations extended till 13th July!",
-          date: "Prelims 2: 12.08.2023",
+          text: "Event postponed to 2nd September",
+          date: "Prelims 1: 02.09.2023",
           urltext: "Register Here",
-          urllink: "/scitech/bioblitz_register"
+          urllink: "/recreationals/chess_register"
         },
         {
           bgimg: "/img/scitech/Decoherence.jpg",
           logo: "/img/logo/x.png",
-          text: "Registrations closing soon",
+          text: "Registrations have closed!",
           date: "Prelims date: 05.08.2023",
-          urltext: "Register Here",
+          //urltext: "Register Here",
           urllink: "/scitech/decoherence_register"
         },
         {
           bgimg: "/img/scitech/Quadsparks.jpg",
           logo: "/img/logo/x.png",
-          text: "Registrations closing soon",
+          text: "Registrations have closed! Offline prelims coming soon!",
          // date: "20.02.2023",
-          urltext: "Register here",
+          //urltext: "Register here",
           urllink: "/scitech/quadsparks"
         },
-        {
+        /*{
           bgimg: "/img/recreationals/chess.jpg",
           logo: "/img/logo/x.png",
           text: "Registrations live now!",
          // date: "20.02.2023",
           urltext: "Register here",
           urllink: "/recreationals/chess_register"
-        }//add more lists to add more cards
+        }//add more lists to add more cards*/
       ]
     }
   }
@@ -144,7 +144,7 @@ export default {
         </div>
 
         <div class = "faq-a">
-          To participate in our events, you can register for the ones you are eligible for on this website. To stay updated about the various new events and announcements, follow us on Instagram (//add link//) and Twitter (//add link//)
+          To participate in our events, you can register for the ones you are eligible for on this website. To stay updated about the various new events and announcements, follow us on Instagram (<a href = "https://www.instagram.com/pravega.iisc/?hl=en" class = "grad" target="_blank">https://www.instagram.com/pravega.iisc/?hl=en</a>) and Twitter/X (<a href = "https://twitter.com/pravegaiisc?lang=en" class = "grad" target="_blank">https://twitter.com/pravegaiisc?lang=en</a>)
         </div>
 
 
@@ -184,7 +184,10 @@ export default {
 
 .announcements{
   font-size: 75px;
-  width: fit-content;
+  text-align: center;
+}
+.announcements-flex{
+ margin: 0px 0px 0px 50px;
 }
 
 .faq-q{
@@ -204,7 +207,10 @@ export default {
   justify-content: space-evenly;
 }
 .collage{
+  position: relative;
+  top: 100px;
   padding: 10px;
+  align-items: center;
 }
 .img-1{
   transform: rotate(-15deg);
@@ -249,6 +255,20 @@ export default {
   .hero-description{
     font-size: 1rem;
   }
+  .announcements-flex{
+    margin: 0rem 0rem 0rem 4.5vw;
+  }
+  .announcements-container{
+    position: relative;
+    top:-145px;
+  }
+  .collage{
+    position: relative;
+    align-items: center;
+    margin-left: 25%;
+    top: -10%;
+    width: 100vw;
+  }
 }
 
 .hero-profile-img {
@@ -274,7 +294,7 @@ export default {
 }
 
 .cards{
-  /display: flex;  /*change this to start making the card carousel. Check mobile responsiveness*/
+  display: flex;  /*change this to start making the card carousel. Check mobile responsiveness*/
   width: fit-content;
   align-items: center;
   justify-content: center;
@@ -596,6 +616,7 @@ body {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+    
   }
   .announcements{
     align-items: center;
@@ -603,9 +624,12 @@ body {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+    margin-bottom: 10px;
   }
   .faq{
-    padding: 10px;
+    position: relative;
+    top: -60px;
+    padding: 20px;
     width: 90%;
   }
   .faq-container{
@@ -615,26 +639,29 @@ body {
     padding-top: 40px;
   }
   .img-1{
-    width: 200px;
+    width: 300px;
+    margin-left: 30px;
 
   padding: 4px;
   transform: rotate(0deg);
 }
 .img-2{
-  width: 200px;
+  width: 300px;
   padding: 4px;
+  margin-left: 30px;
   transform: rotate(0deg);
 }
 .img-3{
-  width: 200px;
+  width: 300px;
 
   padding: 4px;
+  margin-left: 30px;
   transform: rotate(0deg);
 }
 .img-4{
-
+  margin-left: 30px;
   padding: 4px;
-  width: 200px;
+  width: 300px;
 }
 .collage{
   margin: auto;
