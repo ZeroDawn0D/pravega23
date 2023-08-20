@@ -193,7 +193,7 @@ export default {
 <style scoped>
 #footer{
   color: white;
-  min-height: 200px;
+  min-height: 80px;
   display: flex;
   justify-content: space-evenly;
   width: 100vw;
@@ -201,7 +201,7 @@ export default {
 }
 .footer-line{
   margin-top: 20px;
-  width: 70%;
+  width: 100%;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
@@ -209,6 +209,7 @@ export default {
 .footer-desc{
   text-align: center;
   font-size: 20px;
+  margin-top: 3vh;
 }  
 .footer-socials img{
   filter: invert(98%) sepia(100%) saturate(0%) hue-rotate(248deg) brightness(103%) contrast(102%);
@@ -223,6 +224,7 @@ export default {
 @media (max-width: 1024px){
   #footer{
     flex-direction: column;
+    min-height: 200px;
   }
   #footer hr{
     display: none;
