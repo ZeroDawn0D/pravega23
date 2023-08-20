@@ -314,7 +314,7 @@ export default {
     font-size: 1rem;
   }
   .announcements-flex{
-    margin: 0rem 0rem 0rem 4.5vw;
+    margin: 0rem 0rem 0rem 3.5vw;
   }
   .announcements-container{
     position: relative;
@@ -698,7 +698,7 @@ body {
   }
   .img-1{
     width: 300px;
-    margin-left: 30px;
+    margin-left: 24px;
 
   padding: 4px;
   transform: rotate(0deg);
@@ -706,18 +706,18 @@ body {
 .img-2{
   width: 300px;
   padding: 4px;
-  margin-left: 30px;
+  margin-left: 24px;
   transform: rotate(0deg);
 }
 .img-3{
   width: 300px;
 
   padding: 4px;
-  margin-left: 30px;
+  margin-left: 24px;
   transform: rotate(0deg);
 }
 .img-4{
-  margin-left: 30px;
+  margin-left: 24px;
   padding: 4px;
   width: 300px;
 }
