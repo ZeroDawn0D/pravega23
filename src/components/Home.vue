@@ -144,7 +144,7 @@ export default {
         </div>
 
         <div class = "faq-a">
-          To participate in our events, you can register for the ones you are eligible for on this website. To stay updated about the various new events and announcements, follow us on Instagram (<a href = "https://www.instagram.com/pravega.iisc/?hl=en" class = "grad" target="_blank">https://www.instagram.com/pravega.iisc/?hl=en</a>) and Twitter/X (<a href = "https://twitter.com/pravegaiisc?lang=en" class = "grad" target="_blank">https://twitter.com/pravegaiisc?lang=en</a>)
+          To participate in our events, you can register for the ones you are eligible for on this website. To stay updated about the various new events and announcements, follow us on <a href = "https://www.instagram.com/pravega.iisc/?hl=en" class = "grad" target="_blank"> Instagram</a> and  <a href = "https://twitter.com/pravegaiisc?lang=en" class = "grad" target="_blank">Twitter/X</a>
         </div>
 
 
@@ -166,10 +166,71 @@ export default {
       </div>
     </div>
     <!-- <Carousel :slides="slides" :intervals="3000" controls indicators></Carousel> -->
+      <hr class = "footer-line"/>
+      <div id = "footer">
+        
+        <div class = "footer-desc">
+          Copyright © Pravega 2023
+        </div>
+        <hr />
+        <div class = "footer-socials">
+            <a href = "https://www.instagram.com/pravega.iisc">
+              <img src = "/img/home/icons8-instagram.svg">
+            </a>
+            <a href = "https://twitter.com/pravegaiisc">
+              <img src = "/img/home/icons8-twitter.svg">
+            </a>
+        </div>
+      </div>
+
   </div>
+
+
+
+
 </template>
 
 <style scoped>
+#footer{
+  color: white;
+  min-height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+  box-sizing: border-box;
+}
+.footer-line{
+  margin-top: 20px;
+  width: 70%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.footer-desc{
+  text-align: center;
+  font-size: 20px;
+}  
+.footer-socials img{
+  filter: invert(98%) sepia(100%) saturate(0%) hue-rotate(248deg) brightness(103%) contrast(102%);
+  padding: 8px;
+  transition: filter 100ms;
+
+}
+.footer-socials img:hover{
+  filter: invert(18%) sepia(89%) saturate(5829%) hue-rotate(312deg) brightness(89%) contrast(102%);
+  cursor: pointer;
+}
+@media (max-width: 1024px){
+  #footer{
+    flex-direction: column;
+  }
+  #footer hr{
+    display: none;
+  }
+  .footer-socials{
+    text-align: center;
+  }
+}
 
 .faq-title {
   font-size: 75px;
@@ -205,6 +266,7 @@ export default {
   top: 100px;
   padding: 10px;
   align-items: center;
+  box-sizing: border-box;
 }
 .img-1{
   transform: rotate(-15deg);
