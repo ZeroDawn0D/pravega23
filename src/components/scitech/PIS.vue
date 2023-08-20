@@ -1,4 +1,13 @@
 <script>
+export default{
+        mounted(){
+            this.$swal.fire({
+  icon: 'info',
+  title: 'Important',
+  text: 'Submission deadline has been extended to September 10th',
+  })
+    },
+}
 </script>
 
 <template>
@@ -49,7 +58,7 @@ Pravega Innovation Summit (PIS) is the flagship event of the Science and Cultura
                     <p> The event has two stages- a Prelims and a Mains.<br>
 The submission end date of prelims is August 20, the prelims entry would be a Pitch-Desk and a video with a 5-minute limit.<br>
 The top 10 teams (subject to change) will be called for the Mains at IISc Bangalore for the final round during the weekend of Pravega IISc. <br>
-There is no registration fees for the event
+There is no registration fees for the event<br> Note: Submissions for PIS have been extended to Septermber 10<sup>th</sup>.
                     </p>
                 </div>
                 <div class="eligibility">

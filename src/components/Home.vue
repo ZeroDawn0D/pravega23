@@ -37,14 +37,14 @@ export default {
           //urltext: "Register here",
           urllink: "/scitech/quadsparks"
         },
-        /*{
-          bgimg: "/img/recreationals/chess.jpg",
+        {
+          bgimg: "/img/scitech/PIS.jpg",
           logo: "/img/logo/x.png",
-          text: "Registrations live now!",
-         // date: "20.02.2023",
+          text: "Submission deadline extended to 10th September!",
+          date: "20.08.2023",
           urltext: "Register here",
-          urllink: "/recreationals/chess_register"
-        }//add more lists to add more cards*/
+          urllink: "/scitech/pis_register"
+        }//add more lists to add more cards
       ]
     }
   }
