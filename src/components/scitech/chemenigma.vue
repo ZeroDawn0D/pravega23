@@ -5,7 +5,7 @@
             this.$swal.fire({
   icon: 'info',
   title: 'Important',
-  text: 'Question Paper is uploaded on the website.',
+  text: 'Prelims Result is announced on the website.',
   })
     },
     /*created: function(){
@@ -35,9 +35,10 @@
                 <br><br>
                 <h1>Chemenigma</h1><br>
                 <p>Some Explosive Brain-wracking Chemistry</p><br>
+                <h3 style="color: red;">Congratulations to Winners of Prelims 2023!!!</h3>
             </div>
             <div class="intro-image">
-                <img src="/img/scitech/sample1.png" alt="scitech">
+                <img src="/img/scitech/Chemenigma Prelims Results.jpg" alt="scitech">
             </div>
         </div>
 
