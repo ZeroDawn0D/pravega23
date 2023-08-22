@@ -25,7 +25,9 @@
                     exciting physics, astronomy, stellar competition, and an opportunity to learn something while having
                     fun. The winners are rewarded with merchandise, trophies and (big) cash prizes. </p><br>
     
-                    <button type="button" class="reg_button">Registrations have been closed</button>
+                    <div class="float2">
+                        <a href = "/pdf/deco_solutions.pdf" class = "reg_button" target="_blank">Solutions for Decoherence prelims</a>
+                    </div>
             </div>
 
 
@@ -201,6 +203,14 @@ Parth Agarwal: Periwal Global School</td>
 </template>
 
 <style scoped>
+
+.float1,.float2{
+    width: 50%;
+}
+.float2{
+    position: relative;
+    left: 25%;
+}
 .reg_button{
     background-color: #5d83eb; /* Green */
   border: none;
