@@ -62,6 +62,7 @@ export default {
         <div class="desc">
           India's <span class="grad">biggest</span> SciTech-Cultural Fest
         </div>
+        
         <img src="/img/logo/pravega.png" class="pravega" />
         <img src="/img/logo/x.png" class="X" />
 
@@ -69,10 +70,12 @@ export default {
           Indian Institute of Science, Bangalore
         </div>
       </div>
+      <Timer/>
       <div class="circle"></div>
       <div class="hollow-circle"></div>
       <div class="rectangle"></div>
       <div class="hollow-rectangle"></div>
+      
     </div>
 
 
@@ -239,6 +242,10 @@ export default {
   width: fit-content;
 }
 
+.logo{
+  position: relative;
+  top: 30px;
+}
 .announcements{
   font-size: 75px;
   text-align: center;
@@ -454,7 +461,7 @@ body {
 .hollow-rectangle {
   position: absolute;
   z-index: 1;
-  top: 25%;
+  top: 30%;
   left: 22%;
   opacity: 0.5;
 
@@ -466,6 +473,7 @@ body {
 }
 
 .rectangle {
+  display: none;
   position: absolute;
   top: 15%;
   left: 10%;
@@ -478,7 +486,7 @@ body {
 
 .hollow-circle {
   position: absolute;
-  top: 15%;
+  top: 85%;
   left: 90%;
   height: 2.5vw;
   width: 2.5vw;
@@ -490,7 +498,7 @@ body {
 
 .circle {
   position: absolute;
-  top: 80%;
+  top: 85%;
   left: 10%;
   height: 2.5vw;
   width: 2.5vw;
@@ -642,6 +650,7 @@ body {
 
   .hollow-circle {
     left: 80%;
+    top: 48%;
     height: 3vw;
     width: 3vw;
     transform: translateY(calc(1*(10vw - 100%)));
@@ -655,6 +664,8 @@ body {
   }
 
   .rectangle {
+    display: block;
+    left: 10%;
     height: 3vw;
     width: 3vw;
     transform: translateY(calc(1*(10vw - 100%)));
