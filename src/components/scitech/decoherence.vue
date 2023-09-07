@@ -67,16 +67,16 @@
 
             <div class="details-2">
                 <div class="timeline">
-                    <h1>Timeline</h1>
+                    <h1>Timeline</h1><br>
                     <p> <b>First round of prelims: </b> online on August 5 (first week of August)
                         <br>
-                        <b>Second round of prelims: </b> online on September 2 (first week of September)
+                        <b>Second round of prelims: </b> online on 8<sup>th</sup>October (second weekend of October)
                         <br>
                         <b>Finals:</b> offline at IISc Campus on the weekend of Pravega
                     </p><br>
                 </div>
                 <div class="eligibility">
-                    <h1>Eligibility</h1>
+                    <h1>Eligibility</h1><br>
                     <p>Presently in 11th or 12th as of May 2023 or must be in 1st year of college/ university as of  January 2023. People who have completed their 12th and have not taken admission in a college/university are allowed to participate. Participation upto 2022 batch is allowed, i.e., the peers of our junior batch are allowed to give the exam.
  <a href="/pdf/DECOHERENCE RULES.docx">Rules and Eligibility
                             criteria.</a>
