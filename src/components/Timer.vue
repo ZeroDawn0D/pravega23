@@ -21,7 +21,7 @@ export default{
     }
   },
   created(){
-    this.countdownDate = new Date("Nov 3, 2023, 12:00:00").getTime();
+    this.countdownDate = new Date("Jan 26, 2024, 12:00:00").getTime();
     this.timer = setInterval(()=>{this.countdown()},1000)
   },
   beforeUnmount(){
