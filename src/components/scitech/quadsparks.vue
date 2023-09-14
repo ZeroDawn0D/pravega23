@@ -108,7 +108,7 @@ export default {
                         3. The Grand Finale: for 5 teams selected from interview round.
                     </p>
                     <p> For students from Bengaluru, Quadsparks hosts an offline prelims. 3 teams will be selected for the
-                        Grand Finale from this round.<br> A total of 8 teams will participate in the stage finale.<br>Bangalore prelims to be held on Novermber 10<sup>th</sup></p>
+                        Grand Finale from this round.<br> A total of 8 teams will participate in the stage finale.<br>Bangalore prelims to be held on Novermber 4<sup>th</sup></p>
                     <br>
                 </div>
                 <div class="eligibility">
