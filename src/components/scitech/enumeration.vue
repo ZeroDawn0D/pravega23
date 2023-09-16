@@ -26,13 +26,22 @@ export default{
             <div class="intro-content">
                 <br><br>
                 <h1>Enumeration</h1><br>
-                <p>To Infinity and beyond</p><br>
-                <div class = "new_info">Exam timings are from 10 AM to 3 PM IST.<br>Discord link has been sent out via mail to all teams. If you haven't received it, please mail us.</div>
+                <p>To Infinity and beyond</p><br><br>
+                <div class="float">
+                    <p> </p>
+                    <div class="float1">
+                        <a href = "/public/pdf/Enumeration_2023_Prelims (1).pdf" class = "reg_button">Prelims Question Paper</a>
+                    </div>
+                    <div class="float2">
+                        <a href = "/public/pdf/Enumeration_2023_Prelims_sol.pdf" class = "reg_button">Prelims Solutions</a>
+                    </div>
+                </div>
             </div>
             <div class="intro-image">
                 <img src="/img/scitech/Enumeration.jpg" alt="scitech">
             </div>
         </div>
+    
 
         <div class="declaration">
             <div class="big-text" style="background-color: #ebf234;">
@@ -145,10 +154,23 @@ export default{
                 </table>
             </div>
         </div>
-    </div>
+        </div>
 </template>
 
 <style scoped>
+
+.float{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+
+}
+.float1,.float2{
+    width: 40%;
+}
+.float1{
+    padding-left: 50px;
+}
 
 
 .reg_button{
@@ -430,6 +452,18 @@ li a {
 }
 
 @media screen and (max-width:1024px) {
+    .float{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .float1{
+        padding-left: 0px;
+    }
+    .float1,.float2{
+        width: 100%;
+    }
     
 
     
@@ -475,7 +509,7 @@ li a {
         font-size: 2rem;
     }
     .intro-image{
-        display: none;
+        height: fit-content;
     }
    
 
