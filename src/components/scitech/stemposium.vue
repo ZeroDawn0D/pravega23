@@ -58,7 +58,7 @@
             <div class="text">
                 <div class="timeline">
                     <h1>Timeline</h1><br>
-                    <p> The end date of submission is September 9 (first weekend of September)
+                    <p> The end date of submission is October 15<sup>th</sup> (second weekend of October)
                     </p>
                 </div>
                 <div class="eligibility">
