@@ -79,7 +79,7 @@ import Kolkata from "../components/carvaan/Kolkata.vue"
 
 import Kolkata from "../components/carvaan/Kolkata.vue"*/
 
-
+import Artpark from "../components/artpark.vue"
 const routes = [
 	{path: "/", name: "Home", component: Home},
 	{path: "/carvaan", name: "Carvaan", component: Carvaan},
@@ -153,6 +153,7 @@ const routes = [
 
 
 	{path:"/carvaan/kolkata",name:"Kolkata",component:Kolkata}*/
+	{path:"/artpark_event",name:"Artpark-Pravega Robotics",component:Artpark},
 ]
 
 const router = createRouter({
