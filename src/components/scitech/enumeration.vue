@@ -30,10 +30,10 @@ export default{
                 <div class="float">
                     <p> </p>
                     <div class="float1">
-                        <a href = "/public/pdf/Enumeration_2023_Prelims (1).pdf" class = "reg_button">Prelims Question Paper</a>
+                        <a href = "/pdf/Enumeration_2023_Prelims (1).pdf" class = "reg_button">Prelims Question Paper</a>
                     </div>
                     <div class="float2">
-                        <a href = "/public/pdf/Enumeration_2023_Prelims_sol.pdf" class = "reg_button">Prelims Solutions</a>
+                        <a href = "/pdf/Enumeration_2023_Prelims_sol.pdf" class = "reg_button">Prelims Solutions</a>
                     </div>
                 </div>
             </div>

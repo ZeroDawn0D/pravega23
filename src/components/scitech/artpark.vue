@@ -37,17 +37,20 @@ text: 'Prelims Result is announced on the website.',
                     Dynamic, Unstructured Environments
 
                 </p><br>
+               <router-link to="/scitech/artpark_reg">
+                <button class="button123">Register NOW</button>
+               </router-link> 
             </div>
             <div class="intro-image">
-                <img src="/img/ROBOTICS CHALLENGE.png" alt="scitech">
+                <img src="/img/scitech/ROBOTICS CHALLENGE.png" alt="scitech">
             </div>
         </div>
 
         <div class="declaration">
-            <div class="big-text" style="background-color: #ebf234;">
+            <div class="big-text" style="background-color: #121084;">
                 <h1>Don't miss out on<br /> IISc's Premier Robotics Event<br /><br /><br /> Problem Statement</h1>
             </div>
-            <div class="small-text" style="background-color: #ebf234;">
+            <div class="small-text" style="background-color: #121084;">
                 <p>
                     Autonomous navigation has come a long way, from basic floor tape tracking to advanced sensors like
                     laser, sonar, and VSLAM. Today's Autonomous Mobile Robots (AMRs) are vital in manufacturing and
@@ -61,7 +64,7 @@ text: 'Prelims Result is announced on the website.',
 
         <div class="details">
             <div class="img">
-                <img src="/img/aph text.png" alt="scitech" style="width: 90%;">
+                <img src="/img/scitech/bots.jpg" alt="scitech" class='poster'>
             </div>
             <div class="text">
                 <div class="timeline">
@@ -116,6 +119,30 @@ text: 'Prelims Result is announced on the website.',
 </template>
 
 <style scoped>
+.button123 {
+  background-color: #f72585; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 60px;
+  margin: 4px 2px 30px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  font-size: x-large;
+  border-radius: 20px;
+}
+.button123:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.poster{
+    width:90%;
+
+}
+
 .reg_button {
     background-color: #5d83eb;
     /* Green */
@@ -259,9 +286,10 @@ li a {
     top: 10vh;
     height: 80vh;
     width: 100vw;
-    background-color: #ebf234;
+    background-color: #121084;
     align-items: center;
     text-align: center;
+    color: white;
 }
 
 .quote {
@@ -338,8 +366,9 @@ li a {
 .eligibility,
 .prizes,
 .desc {
-    margin-bottom: 7vh;
+    margin-bottom: 3vh;
     padding-right: 2vw;
+    font-size: 1.1rem;
 }
 
 .details img {
@@ -402,7 +431,9 @@ li a {
 }
 
 @media screen and (max-width:1024px) {
-
+.poster{
+    width: 90vw;
+}
     .intro,
     .details,
     .declaration,
