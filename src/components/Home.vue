@@ -32,9 +32,9 @@ export default {
         {
           bgimg: "/img/scitech/Quadsparks.jpg",
           logo: "/img/logo/x.png",
-          text: "Registrations have closed! Offline prelims coming soon!",
-         // date: "20.02.2023",
-          //urltext: "Register here",
+          text: "Offline registrations for Institutes have started!",
+          date: "09.10.2023",
+          urltext: "Register here",
           urllink: "/scitech/quadsparks"
         },
         {

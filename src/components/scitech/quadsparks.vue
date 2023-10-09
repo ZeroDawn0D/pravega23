@@ -4,13 +4,13 @@ export default {
     data() {
         return { code: "" }
     },
-    /*mounted(){
+    mounted(){
             this.$swal.fire({
   icon: 'info',
   title: 'Important',
-  text: 'The online prelims for Quadsparks 2023 will be held from 6.30 PM to 7 PM on 22nd July, 2023. Please watch this page.',
+  text: 'The offline prelims for Quadsparks 2023 has started now.',
 })
-    },*/
+    },
     methods: {
         enter: function () {
             this.code = prompt("Enter the code: ");
@@ -62,9 +62,9 @@ export default {
                 <h1>Quadsparks</h1><br>
                 <p>Quizzical musings, and a dash of science</p><br>
                 <br />
-                <br />
-                <p style="font-size: 1.7rem;font-weight: 600;">Registrations Closed</p>
-                <br/>
+                <router-link to="/scitech/quadsparks_register">
+                            <button type="button" class="reg_button">Offline registrations</button>
+                    </router-link>
                 <div class="float">
                     <p> </p>
                     <!--<div class="float1">
@@ -107,8 +107,9 @@ export default {
                         2. An interview/discussion round: for 15 teams selected from prelims.<br>
                         3. The Grand Finale: for 5 teams selected from interview round.
                     </p>
+                    <br>
                     <p> For students from Bengaluru, Quadsparks hosts an offline prelims. 3 teams will be selected for the
-                        Grand Finale from this round.<br> A total of 8 teams will participate in the stage finale.<br>Bangalore prelims to be held on Novermber 4<sup>th</sup></p>
+                        Grand Finale from this round. A total of 8 teams will participate in the stage finale.<br><br>Bangalore prelims to be held on <b>Novermber 4<sup>th</sup>.</b></p>
                     <br>
                 </div>
                 <div class="eligibility">
