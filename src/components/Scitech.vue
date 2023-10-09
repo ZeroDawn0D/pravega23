@@ -16,6 +16,9 @@ export default {
 				the prelims! For any queries, mail us at scitech.pravega@iisc.ac.in
 			</div>
 			<div :class="'links'">
+				<router-link to="/scitech/artpark">
+					<Card link="/img/scitech/aph text.png" size="300px" />
+				</router-link>
 				<router-link to="/scitech/decoherence">
 					<Card link="/img/scitech/Decoherence.jpg" size="300px" />
 				</router-link>
@@ -46,6 +49,7 @@ export default {
 				<router-link to="/scitech/stemposium">
 					<Card link="/img/scitech/Stemposium.jpg" size="300px" />
 				</router-link>
+				
 			</div>
 		</div>
 	</div>

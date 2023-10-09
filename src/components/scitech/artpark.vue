@@ -1,14 +1,22 @@
-<script>
-export default{
-        mounted(){
-            this.$swal.fire({
-  icon: 'info',
-  title: 'Important',
-  text: 'Registrations have closed on 25th July.',
-  })
-    },
-    }
+<script >
 
+/* export default{
+     mounted(){
+         this.$swal.fire({
+icon: 'info',
+title: 'Important',
+text: 'Prelims Result is announced on the website.',
+})
+ },
+ /*created: function(){
+     this.loading()
+ },
+ methods:{
+     loading: function(){
+         swal("Alert","something something","info")
+     }
+ }
+ }*/
 </script>
 
 <template>
@@ -16,182 +24,148 @@ export default{
 
         <div class="scitech-navbar">
             <ul>
-                <li><a href="/pdf/Enumeration_2023_Rules_Reg.pdf">Rules</a></li>
-                <li><a href="/pdf/Enumeration_Prelims_2022_rectified.pdf">Sample Questions</a></li>
-                <li><a href="#hof">Hall of Fame</a></li>
+                <li><a id="link" style="font-size: 1.2rem;" href="/pdf/Rules Document for the ARTPARK Event.docx">Rules</a>
+                </li>
             </ul>
         </div>
 
         <div class="intro">
             <div class="intro-content">
                 <br><br>
-                <h1>Enumeration</h1><br>
-                <p>To Infinity and beyond</p><br><br>
-                <div class="float">
-                    <p> </p>
-                    <div class="float1">
-                        <a href = "/pdf/Enumeration_2023_Prelims (1).pdf" class = "reg_button">Prelims Question Paper</a>
-                    </div>
-                    <div class="float2">
-                        <a href = "/pdf/Enumeration_2023_Prelims_sol.pdf" class = "reg_button">Prelims Solutions</a>
-                    </div>
-                </div>
+                <h2>ARTPARK-Pravega Robotics Challenge</h2><br>
+                <p style="font-size:x-large">ARTPARK-Pravega Robotics Challenge: Pioneering Autonomous Navigation in
+                    Dynamic, Unstructured Environments
+
+                </p><br>
+               <router-link to="/scitech/artpark_reg">
+                <button class="button123">Register NOW</button>
+               </router-link> 
             </div>
             <div class="intro-image">
-                <img src="/img/scitech/Enumeration.jpg" alt="scitech">
+                <img src="/img/scitech/ROBOTICS CHALLENGE.png" alt="scitech">
             </div>
         </div>
-    
 
         <div class="declaration">
-            <div class="big-text" style="background-color: #ebf234;">
-                <h1>Don't miss out on <br> IISc's Premier Mathematics Event</h1>
+            <div class="big-text" style="background-color: #121084;">
+                <h1>Don't miss out on<br /> IISc's Premier Robotics Event<br /><br /><br /> Problem Statement</h1>
             </div>
-            <div class="small-text" style="background-color: #ebf234;">
-                <p>This is a unique opportunity for any mathematics enthusiast to showcase their problem-solving ability and
-                    insight in the subject. Go through the PDFs for correct informations. <br /> <a
-                        href="/pdf/Enumeration_2023_Rules_Reg.pdf">Rules</a><br /><a
-                        href="/pdf/Enumeration_Prelims_2022_rectified.pdf">Questions</a>
+            <div class="small-text" style="background-color: #121084;">
+                <p>
+                    Autonomous navigation has come a long way, from basic floor tape tracking to advanced sensors like
+                    laser, sonar, and VSLAM. Today's Autonomous Mobile Robots (AMRs) are vital in manufacturing and
+                    logistics, but a major challenge remains: creating reliable navigation for unmapped, dynamic spaces.
+                    Join the ARTPARK-Pravega Robotics Challenge to innovate in autonomous navigation for such environments.
+                    Redefine robotics' future and help shape the next-gen navigation systems. Calling all enthusiasts and
+                    problem solvers!
                 </p>
             </div>
         </div>
 
         <div class="details">
             <div class="img">
-                <img src="/img/scitech/sample2.png" alt="scitech">
+                <img src="/img/scitech/bots.jpg" alt="scitech" class='poster'>
             </div>
             <div class="text">
                 <div class="timeline">
                     <h1>Timeline</h1><br>
-                    <p>Event has two rounds: Prelims and Finals<br>Prelims (online): 29th July, 2023 (4th weekend of July)
-                    </p><p>Prelims will have computational as well as subjective problems, roughly olympiad style</p>
-                <p>Finals will be held offline during the Pravega weekend in the IISc campus. Online finals will be held for non-Indian applicants.  </p>
+                    <p> The event registration and prelims response submission form will be open till November 10th, 2023.
+                        Participants are supposed to submit their code stack along with a video of their simulation on the
+                        submission Google form by that date. The prelims results will be announced on 15th December 2023.
+                        The finals will be held offline in the IISc campus on the days of Pravega.
+                    </p>
                 </div>
                 <div class="eligibility">
                     <h1>Eligibility</h1><br>
-                    <p> Grade 8-12 school students and UG 1st-4th year
+                    <p> The event is open to all, with team sizes of up to 4 people.
                     </p>
                 </div>
                 <div class="rules">
-                <h1>Rules</h1>
-                <p>You can find the rules <a href = "/pdf/Enumeration_2023_Rules_Reg.pdf">here</a></p>
+                    <h1>Rules</h1>
+                    <p>You can find the rules <a href="/pdf/Rules Document for the ARTPARK Event.docx">here</a></p>
                 </div>
                 <div class="prizes">
-                    <h1>Prizes</h1><br>
-                    <p> Prizes upto 40k
+                    <h1>Prizes</h1>
+                    <p> The event has a prize pool of up to 1.5 lakh rupees along with a travel and accommodation grant for
+                        the finalists.
                     </p>
                 </div>
-            </div>
-        </div>
-        <div class="coord-intro">
-            <h1>Our Coordinators</h1><br>
-            <p> Meet our amazing coordinators. For any query regarding the event, they are your first point of contact!
-                Don't hesistate to mail them at any time of the day, and they will try to reply as soon as possible. For any general 
-                queries, mail us at scitech[dot]pravega[at]iisc[dot]ac[dot]in.
-            </p>
-        </div>
-        <div class="coords">
-
-
-
-            <div class="coord">
-                <div class="coord-img">
-                    <img src="/img/scitech/rahul_enum_photo.jpeg" alt="scitech">
-                </div><br>
-                <div class="coord-text">
-                    <h1>Rahul Adhikari</h1>
-                    <p>rahuladhikar[dot]iisc[dot]ac[dot]in</p>
+                <div class="desc">
+                    <h1>Prelims problem Statement</h1>
+                    Design an efficient AMR fleet management algorithm and demonstrate it in a simulated environment (using
+                    Gazebo etc.).
                 </div>
-            </div>
-            <div class="coord">
-                <div class="coord-img">
-                    <img src="/img/scitech/aryan_photo_enum.jpg" alt="scitech">
-                </div><br>
-                <div class="coord-text">
-                    <h1>Kazi Aryan Amin</h1>
-                    <p>aryanamin[at]iisc[dot]ac[dot]in</p>
+                <div class="desc">
+                    <h1>Finals Problem Statement</h1>
+                    Demonstrate a ROS-compliant AMR fleet management algorithm with robots in environments with dynamic
+                    obstacles (humans) and narrow corners.
                 </div>
             </div>
         </div>
 
-        <div class="quote">
+
+
+
+        <!--   <div class="quote">
             <div class="quote-text" style="font-family: 'Times New Roman', Times, serif;">
-                <p> People that are useful to clarify any queries you have regarding Enumeration event. Obviously, they
-                    won't solve
-                    questions for you!
-                </p><br />
+                <p> Stay tuned for further details and announcements as we gear up for this exciting event!"
+                </p>
             </div>
-        </div>
+        </div>-->
 
-        <div class="hof" id="hof">
-            <br><br>
-            <div class="big-text-2" style="width:100vw">
-                <h1>Hall of Fame</h1>
-            </div>
-            <h2>Year 2022</h2><br>
-            <div class="small-text" style="width:100vw">
-                <table>
-                    <tr>
-                        <th>Position</th>
-                        <th>Names of the winners</th>
-                        <th>College</th>
-                    </tr>
-                    <tr>
-                        <td>1st</td>
-                        <td>Shantanu Nene and Madhur Agarwal</td>
-                        <td>IIT Bombay</td>
-                    </tr>
-                    <tr>
-                        <td>2nd</td>
-                        <td>Rohan Goyal and Atul Shatavart Nadig  </td>
-                        <td>Chennai Mathematical Institute (CMI)</td>
-                    </tr>
-                    <tr>
-                        <td>3rd</td>
-                        <td>Arindam Bhattacharya and Hrishikesh Saikia </td>
-                        <td>Chennai Mathematical Institute (CMI)</td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-        </div>
+
+
+    </div>
 </template>
 
 <style scoped>
-
-.float{
-    display: flex;
-    flex-direction: row;
-    margin-left: 50px;
-
-}
-.float1,.float2{
-    width: 40%;
-}
-.float1{
-    padding-left: 50px;
-}
-
-
-.reg_button{
-    background-color: #5d83eb; /* Green */
+.button123 {
+  background-color: #f72585; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+  height: 60px;
+  margin: 4px 2px 30px 2px;
   cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
-  border-radius:30px;
+  font-size: x-large;
+  border-radius: 20px;
 }
-.reg_button:hover{
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+.button123:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.poster{
+    width:90%;
+
+}
+
+.reg_button {
+    background-color: #5d83eb;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 30px;
+}
+
+.reg_button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
     background-color: crimson;
 }
+
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
@@ -212,6 +186,7 @@ tr:nth-child(even) {
 
 .scitech-navbar {
     width: 70vw;
+
 }
 
 ul {
@@ -241,7 +216,6 @@ li a {
     background-color: #ffffff;
     color: black;
     text-align: center;
-    font-size: larger;
 }
 
 .content-stuff {
@@ -276,17 +250,17 @@ li a {
     text-align: center;
 }
 
-.intro-content h1{
+.intro-content h1,
+.intro-content h2 {
     font-size: 5rem;
 }
-.intro-content p{
-    font-size: 3rem;
+
+.intro-content h2 {
+    font-size: 3.5rem;
 }
 
-.new_info{
-    font-size: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.intro-content p {
+    font-size: 3rem;
 }
 
 .intro-image {
@@ -297,8 +271,12 @@ li a {
     align-items: center;
     text-align: center;
 }
-.intro-image img{
-    width:80%;
+
+.intro-image img {
+    width: 80%;
+    background-color: #ffffff;
+    align-items: center;
+    text-align: center;
 }
 
 .declaration {
@@ -308,30 +286,23 @@ li a {
     top: 10vh;
     height: 80vh;
     width: 100vw;
-    background-color: #ebf234;
+    background-color: #121084;
     align-items: center;
     text-align: center;
+    color: white;
 }
 
 .quote {
     height: auto;
     margin: auto;
     width: 80vw;
+    margin: 0 auto;
     background-color: #ffffff;
     align-items: center;
     text-align: center;
+    z-index: 9999;
 }
 
-.quote-text {
-    position: relative;
-    height: auto;
-    width: 80vw;
-    font-size: 2rem;
-    color: coral;
-    background-color: #ffffff;
-    align-items: center;
-    text-align: center;
-}
 
 .big-text {
     position: relative;
@@ -389,11 +360,15 @@ li a {
     text-align: left;
 }
 
-.timeline, .rules,
+.timeline,
+.rules,
+.rules,
 .eligibility,
-.prizes {
-    margin-bottom: 7vh;
+.prizes,
+.desc {
+    margin-bottom: 3vh;
     padding-right: 2vw;
+    font-size: 1.1rem;
 }
 
 .details img {
@@ -422,9 +397,13 @@ li a {
     text-align: center;
 }
 
-.coord-img img{
-    width:250px;
-    height:300px;
+.coord-intro {
+    font-size: larger;
+}
+
+.coord-img img {
+    width: 250px;
+    height: 300px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px grey;
     object-fit: cover;
@@ -452,22 +431,9 @@ li a {
 }
 
 @media screen and (max-width:1024px) {
-    .float{
-        display: flex;
-        flex-direction: column;
-        margin-left: 0px;
-    }
-
-    .float1{
-        padding-left: 0px;
-    }
-    .float1,.float2{
-        width: 100%;
-    }
-    
-
-    
-
+.poster{
+    width: 90vw;
+}
     .intro,
     .details,
     .declaration,
@@ -477,7 +443,7 @@ li a {
     }
 
     .scitech-navbar {
-        width: 101vw;
+        width: 100vw;
         justify-content: center;
     }
 
@@ -491,7 +457,6 @@ li a {
         height: auto;
         border-radius: 10px;
     }
-    
 
     .intro-image,
     .intro-content,
@@ -499,21 +464,23 @@ li a {
         width: 100vw;
     }
 
-    .intro-content {
-        width: 100vw;
+    .intro-image img {
+        width: 100%;
     }
-    .intro-content h1{
+
+    .intro-content {
+        width: 90vw;
+    }
+
+    .intro-content h1 {
         font-size: 3rem;
     }
-    .intro-content p:first-child{
+
+    .intro-content p {
         font-size: 2rem;
     }
-    .intro-image{
-        height: fit-content;
-    }
-   
 
-    .big-text{
+    .big-text {
         margin-top: 2vh;
         margin-bottom: 5vh;
         margin-left: 8vw;
@@ -521,6 +488,7 @@ li a {
         width: 90vw;
         height: auto;
     }
+
     .big-text-2 {
         margin-top: 2vh;
         margin-bottom: 5vh;
@@ -534,7 +502,7 @@ li a {
         margin-bottom: 9vh;
         width: 90vw;
         height: auto;
-        font-size: 5vw;
+        font-size: 1.7rem;
     }
 
     .details img {
@@ -544,12 +512,13 @@ li a {
     }
 
     .text,
-    .timeline, .rules,
+    .timeline,
+    .rules,
     .eligibility,
     .prizes {
         padding: 30px;
         text-align: center;
-        margin: 0%;
+        margin: -1%;
     }
 
     .text {
@@ -570,7 +539,7 @@ li a {
 
     .coords {
         position: relative;
-        top: 24%;
+        top: 20%;
         flex-direction: column;
         justify-content: center;
     }
@@ -588,7 +557,7 @@ li a {
 
     .hof {
         position: relative;
-        top: 36%;
+        top: 40%;
         height: auto;
         text-align: center;
         width: 100vw;
@@ -599,13 +568,11 @@ li a {
         padding-top: 30px;
         margin: auto;
     }
-    .quote{
+
+    .quote {
         position: relative;
-        top:40%;
+        top: 40%;
+        height: auto;
+        margin: auto;
     }
-    .new_info{
-        font-size: 1.5rem;
-        margin:35px 10px 10px 10px;
-    }
-}
-</style>
+}</style>

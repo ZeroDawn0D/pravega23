@@ -14,37 +14,21 @@ export default {
       ],
       cards: [
         {
-          bgimg: "/img/recreationals/chess.jpg",
+          bgimg: "/img/scitech/aph text.png",
           logo: "/img/logo/x.png",
-          text: "Event postponed to 2nd September",
-          date: "Prelims 1: 02.09.2023",
+          text: "Registration will be started soon!!!",
+          date: "",
           urltext: "Register Here",
-          urllink: "/recreationals/chess_register"
-        },
-        {
-          bgimg: "/img/scitech/Decoherence.jpg",
-          logo: "/img/logo/x.png",
-          text: "Registrations have closed!",
-          date: "Prelims date: 05.08.2023",
-          //urltext: "Register Here",
-          urllink: "/scitech/decoherence_register"
+          urllink: "/scitech/artpark_reg"
         },
         {
           bgimg: "/img/scitech/Quadsparks.jpg",
           logo: "/img/logo/x.png",
-          text: "Offline registrations for Institutes have started!",
+          text: "Offline registrations have begun!!!",
           date: "09.10.2023",
-          urltext: "Register here",
-          urllink: "/scitech/quadsparks"
-        },
-        {
-          bgimg: "/img/scitech/PIS.jpg",
-          logo: "/img/logo/x.png",
-          text: "Submission deadline extended to 10th September!",
-          date: "20.08.2023",
-          urltext: "Register here",
-          urllink: "/scitech/pis_register"
-        }//add more lists to add more cards
+          urltext: "Register Here",
+          urllink: "/scitech/artpark_reg"
+        },//add more lists to add more cards
       ]
     }
   }
@@ -251,7 +235,10 @@ export default {
   text-align: center;
 }
 .announcements-flex{
- margin: 0px 0px 0px 50px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+ 
 }
 
 .faq-q{
