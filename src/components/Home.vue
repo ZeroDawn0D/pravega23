@@ -21,7 +21,14 @@ export default {
           urltext: "Register Here",
           urllink: "/scitech/artpark_reg"
         },
-        //add more lists to add more cards
+        {
+          bgimg: "/img/scitech/Quadsparks.jpg",
+          logo: "/img/logo/x.png",
+          text: "Offline registrations have begun!!!",
+          date: "09.10.2023",
+          urltext: "Register Here",
+          urllink: "/scitech/artpark_reg"
+        },//add more lists to add more cards
       ]
     }
   }
@@ -228,7 +235,10 @@ export default {
   text-align: center;
 }
 .announcements-flex{
- margin: 0px 0px 0px 50px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+ 
 }
 
 .faq-q{
