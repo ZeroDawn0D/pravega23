@@ -194,7 +194,7 @@ components:{Title, Soon2, Card3}
 					dataImage="/img/people/Krishna.jpg"
 					size = "250px"
 					title = "Krishna"
-					hover = "88796 29440
+					hover = "
 					 krishnasb@iisc.ac.in" />
 					<Card3
 					dataImage="/img/people/Dhruba.jpg"
