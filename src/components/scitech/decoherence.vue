@@ -127,8 +127,17 @@
                     <img src="/img/scitech/Gaurav_Deco.jpeg" alt="scitech" height="300px" width="250px">
                 </div><br>
                 <div class="coord-text">
-                    <h1>Gaurav Rachh</h1>
+                    <h1>Gaurav Ranchh</h1>
                     <p>gauravrachh[at]iisc[dot]ac[dot]in</p>
+                </div>
+            </div>
+            <div class="coord">
+                <div class="coord-img">
+                    <img src="/img/scitech/Anubhav_Sir.jpeg" alt="scitech" height="300px" width="250px">
+                </div><br>
+                <div class="coord-text">
+                    <h1>Anubhav Srivastava</h1>
+                    <p>Mail: pravega2023deco[at]gmail[dot]com</p>
                 </div>
             </div>
         </div><br><br>
@@ -150,15 +159,7 @@
                 </div>
             </div>
 
-            <div class="coord">
-                <div class="coord-img">
-                    <img src="/img/scitech/Anubhav_Sir.jpeg" alt="scitech" height="300px" width="250px">
-                </div><br>
-                <div class="coord-text">
-                    <h1>Anubhav Srivastava</h1>
-                    <p>Mail: pravega2023deco[at]gmail[dot]com</p>
-                </div>
-            </div>
+            
         </div>
 
         <div class="hof" id="hof">
