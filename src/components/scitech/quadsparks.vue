@@ -8,7 +8,7 @@ export default {
             this.$swal.fire({
   icon: 'info',
   title: 'Important',
-  text: 'The offline prelims for Quadsparks 2023 has started now.',
+  text: 'The registrations for offline prelims of Quadsparks 2023 has started now.',
 })
     },
     methods: {
