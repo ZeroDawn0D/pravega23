@@ -24,10 +24,10 @@ export default {
         {
           bgimg: "/img/scitech/Quadsparks.jpg",
           logo: "/img/logo/x.png",
-          text: "Offline registrations have begun!!!",
+          text: "Registrations for offline prelims!!!",
           date: "09.10.2023",
           urltext: "Register Here",
-          urllink: "/scitech/artpark_reg"
+          urllink: "/scitech/quadsparks_register"
         },//add more lists to add more cards
       ]
     }
