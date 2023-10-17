@@ -86,7 +86,7 @@ text: 'Prelims Result is announced on the website.',
                 </div>
                 <div class="prizes">
                     <h1>Prizes</h1>
-                    <p> The event has a prize pool of up to 1.5 lakh rupees along with a travel and accommodation grant for
+                    <p> The event has a prize pool of up to 30K rupees along with a travel and accommodation grant for
                         the finalists.
                     </p>
                 </div>
